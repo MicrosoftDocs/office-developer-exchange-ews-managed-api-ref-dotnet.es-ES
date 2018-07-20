@@ -1,0 +1,89 @@
+<Type Name="DeleteMode" FullName="Microsoft.Exchange.WebServices.Data.DeleteMode">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="e957ca807d52993db7a17f7f2146841e4469df62" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="es-ES" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20628067" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum DeleteMode" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed DeleteMode extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.DeleteMode" />
+  <TypeSignature Language="VB.NET" Value="Public Enum DeleteMode" />
+  <TypeSignature Language="C++ CLI" Value="public enum class DeleteMode" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Representa los modos de eliminación.</summary>
+    <remarks>
+      <para>Las opciones de la MoveToDeletedItems y HardDelete son transaccionales, lo que significa que, en el momento en que finaliza una llamada de servicio web, la base de datos ha movido el elemento a la carpeta Elementos eliminados o quita permanentemente el elemento de la base de datos de Exchange.</para>
+      <para>SoftDelete la opción funciona de manera diferente para las versiones de destino diferente del servidor de Exchange. SoftDelete para Exchange 2007 establece un bit en el elemento que se indica a la base de datos de Exchange que se moverá el elemento para el volcado de archivos carpeta en un momento indeterminado en el futuro. SoftDelete para las versiones de Exchange a partir de Exchange 2010, incluido Exchange Online, mueve inmediatamente el elemento para el volcado de archivos. SoftDelete no es una opción de eliminación de la carpeta. SoftDelete búsquedas de recorrido de elementos y carpetas no devolverá ningún resultado.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="HardDelete">
+      <MemberSignature Language="C#" Value="HardDelete" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.DeleteMode HardDelete = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.DeleteMode.HardDelete" />
+      <MemberSignature Language="VB.NET" Value="HardDelete" />
+      <MemberSignature Language="C++ CLI" Value="HardDelete" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.DeleteMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>El elemento o la carpeta se eliminarán permanentemente.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="MoveToDeletedItems">
+      <MemberSignature Language="C#" Value="MoveToDeletedItems" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.DeleteMode MoveToDeletedItems = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.DeleteMode.MoveToDeletedItems" />
+      <MemberSignature Language="VB.NET" Value="MoveToDeletedItems" />
+      <MemberSignature Language="C++ CLI" Value="MoveToDeletedItems" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.DeleteMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>El elemento o la carpeta se moverán a la carpeta de elementos eliminados del buzón.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SoftDelete">
+      <MemberSignature Language="C#" Value="SoftDelete" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.DeleteMode SoftDelete = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.DeleteMode.SoftDelete" />
+      <MemberSignature Language="VB.NET" Value="SoftDelete" />
+      <MemberSignature Language="C++ CLI" Value="SoftDelete" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.DeleteMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>El elemento o la carpeta se moverán al volcado de archivos. Los elementos y carpetas en el volcado de archivos se pueden recuperar.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

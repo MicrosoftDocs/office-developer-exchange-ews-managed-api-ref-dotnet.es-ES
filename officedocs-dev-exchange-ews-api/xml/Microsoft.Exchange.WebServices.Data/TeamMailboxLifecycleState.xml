@@ -1,0 +1,104 @@
+<Type Name="TeamMailboxLifecycleState" FullName="Microsoft.Exchange.WebServices.Data.TeamMailboxLifecycleState">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="f75bdda2a84501f2b715804cad8a0725e163c395" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="es-ES" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20627696" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum TeamMailboxLifecycleState" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed TeamMailboxLifecycleState extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.TeamMailboxLifecycleState" />
+  <TypeSignature Language="VB.NET" Value="Public Enum TeamMailboxLifecycleState" />
+  <TypeSignature Language="C++ CLI" Value="public enum class TeamMailboxLifecycleState" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Define el estado de ciclo de vida de un buzón del sitio.             El <see cref="T:Microsoft.Exchange.WebServices.Data.TeamMailboxLifecycleState" /> (enumeración) es aplicable para los clientes que estén destinados a Exchange Online y versiones de Exchange a partir de Exchange Server 2013.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Active">
+      <MemberSignature Language="C#" Value="Active" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.TeamMailboxLifecycleState Active = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.TeamMailboxLifecycleState.Active" />
+      <MemberSignature Language="VB.NET" Value="Active" />
+      <MemberSignature Language="C++ CLI" Value="Active" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.TeamMailboxLifecycleState</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>El buzón de sitio está en uso.             El <see cref="F:Microsoft.Exchange.WebServices.Data.TeamMailboxLifecycleState.Active" /> campo es aplicable para los clientes que estén destinados a Exchange Online y versiones de Exchange a partir de Exchange Server 2013.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Closed">
+      <MemberSignature Language="C#" Value="Closed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.TeamMailboxLifecycleState Closed = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.TeamMailboxLifecycleState.Closed" />
+      <MemberSignature Language="VB.NET" Value="Closed" />
+      <MemberSignature Language="C++ CLI" Value="Closed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.TeamMailboxLifecycleState</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>El buzón de sitio es se ha cerrado y ya no está activa.             El <see cref="F:Microsoft.Exchange.WebServices.Data.TeamMailboxLifecycleState.Closed" /> campo es aplicable para los clientes que estén destinados a Exchange Online y versiones de Exchange a partir de Exchange Server 2013.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="PendingDelete">
+      <MemberSignature Language="C#" Value="PendingDelete" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.TeamMailboxLifecycleState PendingDelete = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.TeamMailboxLifecycleState.PendingDelete" />
+      <MemberSignature Language="VB.NET" Value="PendingDelete" />
+      <MemberSignature Language="C++ CLI" Value="PendingDelete" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.TeamMailboxLifecycleState</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>Se cierra el buzón de sitio y eliminación pendiente.             El <see cref="F:Microsoft.Exchange.WebServices.Data.TeamMailboxLifecycleState.PendingDelete" /> campo es aplicable para los clientes que estén destinados a Exchange Online y versiones de Exchange a partir de Exchange Server 2013.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Unlinked">
+      <MemberSignature Language="C#" Value="Unlinked" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.TeamMailboxLifecycleState Unlinked = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.TeamMailboxLifecycleState.Unlinked" />
+      <MemberSignature Language="VB.NET" Value="Unlinked" />
+      <MemberSignature Language="C++ CLI" Value="Unlinked" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.TeamMailboxLifecycleState</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>El buzón de sitio no está vinculado a un entorno de colaboración basado en web.             El <see cref="F:Microsoft.Exchange.WebServices.Data.TeamMailboxLifecycleState.Unlinked" /> campo es aplicable para los clientes que estén destinados a Exchange Online y versiones de Exchange a partir de Exchange Server 2013.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

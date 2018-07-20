@@ -1,0 +1,1019 @@
+<Type Name="Folder" FullName="Microsoft.Exchange.WebServices.Data.Folder">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="8f7ee894ed9b06eab788afe3a41dd63b6a30d3ba" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="es-ES" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20627874" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class Folder : Microsoft.Exchange.WebServices.Data.ServiceObject" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Folder extends Microsoft.Exchange.WebServices.Data.ServiceObject" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.Folder" />
+  <TypeSignature Language="VB.NET" Value="Public Class Folder&#xA;Inherits ServiceObject" />
+  <TypeSignature Language="C++ CLI" Value="public ref class Folder : Microsoft::Exchange::WebServices::Data::ServiceObject" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ServiceObject</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Representa una carpeta genérica.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Folder (Microsoft.Exchange.WebServices.Data.ExchangeService service);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Exchange.WebServices.Data.ExchangeService service) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Folder.#ctor(Microsoft.Exchange.WebServices.Data.ExchangeService)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (service As ExchangeService)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Folder(Microsoft::Exchange::WebServices::Data::ExchangeService ^ service);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
+      </Parameters>
+      <Docs>
+        <param name="service">El servicio de Exchange Web Services (EWS) al que pertenece este objeto.</param>
+        <summary>Inicializa una instancia local no guardada de la clase de la carpeta.</summary>
+        <remarks>
+          <para>Para enlazar a una carpeta existente, use la <see cref="M:Microsoft.Exchange.WebServices.Data.Folder.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.FolderId)" /> método en su lugar.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ArchiveTag">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ArchiveTag ArchiveTag { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.ArchiveTag ArchiveTag" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Folder.ArchiveTag" />
+      <MemberSignature Language="VB.NET" Value="Public Property ArchiveTag As ArchiveTag" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ArchiveTag ^ ArchiveTag { Microsoft::Exchange::WebServices::Data::ArchiveTag ^ get(); void set(Microsoft::Exchange::WebServices::Data::ArchiveTag ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ArchiveTag</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtiene o establece la etiqueta de archivo.             El <see cref="P:Microsoft.Exchange.WebServices.Data.Folder.ArchiveTag" /> (propiedad) es aplicable para los clientes que estén destinados a Exchange Online y versiones de Exchange a partir de Exchange Server 2013.</summary>
+        <value>Etiqueta de archivo de la carpeta.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Bind">
+      <MemberSignature Language="C#" Value="public static Microsoft.Exchange.WebServices.Data.Folder Bind (Microsoft.Exchange.WebServices.Data.ExchangeService service, Microsoft.Exchange.WebServices.Data.FolderId id);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Exchange.WebServices.Data.Folder Bind(class Microsoft.Exchange.WebServices.Data.ExchangeService service, class Microsoft.Exchange.WebServices.Data.FolderId id) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Folder.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.FolderId)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Bind (service As ExchangeService, id As FolderId) As Folder" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Exchange::WebServices::Data::Folder ^ Bind(Microsoft::Exchange::WebServices::Data::ExchangeService ^ service, Microsoft::Exchange::WebServices::Data::FolderId ^ id);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Folder</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
+        <Parameter Name="id" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
+      </Parameters>
+      <Docs>
+        <param name="service">El servicio a usar para enlazar a la carpeta.</param>
+        <param name="id">El identificador de la carpeta a la que enlazar.</param>
+        <summary>Enlaza con una carpeta existente, con independencia de su real tipo es y carga de sus propiedades de primera clases.</summary>
+        <returns>La carpeta que se corresponde con el identificador especificado.</returns>
+        <remarks>
+          <para>Llamar a este método se genera en una llamada a servicios Web de Exchange (EWS).</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Bind">
+      <MemberSignature Language="C#" Value="public static Microsoft.Exchange.WebServices.Data.Folder Bind (Microsoft.Exchange.WebServices.Data.ExchangeService service, Microsoft.Exchange.WebServices.Data.WellKnownFolderName name);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Exchange.WebServices.Data.Folder Bind(class Microsoft.Exchange.WebServices.Data.ExchangeService service, valuetype Microsoft.Exchange.WebServices.Data.WellKnownFolderName name) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Folder.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.WellKnownFolderName)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Bind (service As ExchangeService, name As WellKnownFolderName) As Folder" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Exchange::WebServices::Data::Folder ^ Bind(Microsoft::Exchange::WebServices::Data::ExchangeService ^ service, Microsoft::Exchange::WebServices::Data::WellKnownFolderName name);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Folder</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
+        <Parameter Name="name" Type="Microsoft.Exchange.WebServices.Data.WellKnownFolderName" />
+      </Parameters>
+      <Docs>
+        <param name="service">El servicio a usar para enlazar a la carpeta.</param>
+        <param name="name">El nombre de la carpeta a la que enlazar.</param>
+        <summary>Enlaza con una carpeta existente, con independencia de su real tipo es y carga de sus propiedades de primera clases.</summary>
+        <returns>La carpeta con los valores especificados <paramref name="name" />.</returns>
+        <remarks>
+          <para>Llamar a este método se genera en una llamada a servicios Web de Exchange (EWS).</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Bind">
+      <MemberSignature Language="C#" Value="public static Microsoft.Exchange.WebServices.Data.Folder Bind (Microsoft.Exchange.WebServices.Data.ExchangeService service, Microsoft.Exchange.WebServices.Data.FolderId id, Microsoft.Exchange.WebServices.Data.PropertySet propertySet);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Exchange.WebServices.Data.Folder Bind(class Microsoft.Exchange.WebServices.Data.ExchangeService service, class Microsoft.Exchange.WebServices.Data.FolderId id, class Microsoft.Exchange.WebServices.Data.PropertySet propertySet) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Folder.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.FolderId,Microsoft.Exchange.WebServices.Data.PropertySet)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Exchange::WebServices::Data::Folder ^ Bind(Microsoft::Exchange::WebServices::Data::ExchangeService ^ service, Microsoft::Exchange::WebServices::Data::FolderId ^ id, Microsoft::Exchange::WebServices::Data::PropertySet ^ propertySet);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Folder</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
+        <Parameter Name="id" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
+        <Parameter Name="propertySet" Type="Microsoft.Exchange.WebServices.Data.PropertySet" />
+      </Parameters>
+      <Docs>
+        <param name="service">El servicio a usar para enlazar a la carpeta.</param>
+        <param name="id">El identificador de la carpeta a la que enlazar.</param>
+        <param name="propertySet">El conjunto de propiedades para cargar.</param>
+        <summary>Enlaza con una carpeta existente, con independencia de su real tipo es y carga el conjunto de propiedades especificado.</summary>
+        <returns>La carpeta que se corresponde con el identificador especificado.</returns>
+        <remarks>
+          <para>Llamar a este método se genera en una llamada a servicios Web de Exchange (EWS).</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Bind">
+      <MemberSignature Language="C#" Value="public static Microsoft.Exchange.WebServices.Data.Folder Bind (Microsoft.Exchange.WebServices.Data.ExchangeService service, Microsoft.Exchange.WebServices.Data.WellKnownFolderName name, Microsoft.Exchange.WebServices.Data.PropertySet propertySet);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Exchange.WebServices.Data.Folder Bind(class Microsoft.Exchange.WebServices.Data.ExchangeService service, valuetype Microsoft.Exchange.WebServices.Data.WellKnownFolderName name, class Microsoft.Exchange.WebServices.Data.PropertySet propertySet) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Folder.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.WellKnownFolderName,Microsoft.Exchange.WebServices.Data.PropertySet)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Exchange::WebServices::Data::Folder ^ Bind(Microsoft::Exchange::WebServices::Data::ExchangeService ^ service, Microsoft::Exchange::WebServices::Data::WellKnownFolderName name, Microsoft::Exchange::WebServices::Data::PropertySet ^ propertySet);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Folder</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
+        <Parameter Name="name" Type="Microsoft.Exchange.WebServices.Data.WellKnownFolderName" />
+        <Parameter Name="propertySet" Type="Microsoft.Exchange.WebServices.Data.PropertySet" />
+      </Parameters>
+      <Docs>
+        <param name="service">El servicio a usar para enlazar a la carpeta.</param>
+        <param name="name">El nombre de la carpeta a la que enlazar.</param>
+        <param name="propertySet">El conjunto de propiedades para cargar.</param>
+        <summary>Enlaza con una carpeta existente, con independencia de su real tipo es y carga el conjunto de propiedades especificado.</summary>
+        <returns>La carpeta con los valores especificados <paramref name="name" />.</returns>
+        <remarks>
+          <para>Llamar a este método se genera en una llamada a servicios Web de Exchange (EWS).</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ChildFolderCount">
+      <MemberSignature Language="C#" Value="public int ChildFolderCount { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 ChildFolderCount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Folder.ChildFolderCount" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ChildFolderCount As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int ChildFolderCount { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtiene al número de carpetas secundarias en esta esta carpeta.</summary>
+        <value>El número de carpetas secundarias.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Copy">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.Folder Copy (Microsoft.Exchange.WebServices.Data.FolderId destinationFolderId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Exchange.WebServices.Data.Folder Copy(class Microsoft.Exchange.WebServices.Data.FolderId destinationFolderId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Folder.Copy(Microsoft.Exchange.WebServices.Data.FolderId)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Copy (destinationFolderId As FolderId) As Folder" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Exchange::WebServices::Data::Folder ^ Copy(Microsoft::Exchange::WebServices::Data::FolderId ^ destinationFolderId);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Folder</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="destinationFolderId" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
+      </Parameters>
+      <Docs>
+        <param name="destinationFolderId">El identificador de la carpeta en la que se va a copiar esta carpeta.</param>
+        <summary>Copia esta carpeta en una carpeta específica.</summary>
+        <returns>La carpeta que es la copia de la carpeta original.</returns>
+        <remarks>
+          <para>Llamar a este método se genera en una llamada a servicios Web de Exchange (EWS).</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Copy">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.Folder Copy (Microsoft.Exchange.WebServices.Data.WellKnownFolderName destinationFolderName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Exchange.WebServices.Data.Folder Copy(valuetype Microsoft.Exchange.WebServices.Data.WellKnownFolderName destinationFolderName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Folder.Copy(Microsoft.Exchange.WebServices.Data.WellKnownFolderName)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Copy (destinationFolderName As WellKnownFolderName) As Folder" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Exchange::WebServices::Data::Folder ^ Copy(Microsoft::Exchange::WebServices::Data::WellKnownFolderName destinationFolderName);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Folder</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="destinationFolderName" Type="Microsoft.Exchange.WebServices.Data.WellKnownFolderName" />
+      </Parameters>
+      <Docs>
+        <param name="destinationFolderName">El nombre de la carpeta en la que se va a copiar esta carpeta.</param>
+        <summary>Copia esta carpeta en la carpeta especificada.</summary>
+        <returns>La carpeta que es la copia de la carpeta original.</returns>
+        <remarks>
+          <para>Llamar a este método se genera en una llamada a servicios Web de Exchange (EWS).</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Delete">
+      <MemberSignature Language="C#" Value="public void Delete (Microsoft.Exchange.WebServices.Data.DeleteMode deleteMode);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Delete(valuetype Microsoft.Exchange.WebServices.Data.DeleteMode deleteMode) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Folder.Delete(Microsoft.Exchange.WebServices.Data.DeleteMode)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Delete(Microsoft::Exchange::WebServices::Data::DeleteMode deleteMode);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="deleteMode" Type="Microsoft.Exchange.WebServices.Data.DeleteMode" />
+      </Parameters>
+      <Docs>
+        <param name="deleteMode">El modo de eliminación.</param>
+        <summary>Elimina la carpeta.</summary>
+        <remarks>
+          <para>Llamar a este método se genera en una llamada a servicios Web de Exchange (EWS).</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayName">
+      <MemberSignature Language="C#" Value="public string DisplayName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DisplayName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Folder.DisplayName" />
+      <MemberSignature Language="VB.NET" Value="Public Property DisplayName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ DisplayName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtiene o establece el nombre para mostrar de la carpeta.</summary>
+        <value>El nombre para mostrar.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EffectiveRights">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.EffectiveRights EffectiveRights { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.EffectiveRights EffectiveRights" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Folder.EffectiveRights" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EffectiveRights As EffectiveRights" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::EffectiveRights EffectiveRights { Microsoft::Exchange::WebServices::Data::EffectiveRights get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.EffectiveRights</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtiene un valor que indica los derechos efectivos que tiene el usuario autenticado actual en la carpeta.</summary>
+        <value>El valor de enumeración que especifica los derechos efectivos.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Empty">
+      <MemberSignature Language="C#" Value="public void Empty (Microsoft.Exchange.WebServices.Data.DeleteMode deleteMode, bool deleteSubFolders);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Empty(valuetype Microsoft.Exchange.WebServices.Data.DeleteMode deleteMode, bool deleteSubFolders) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Folder.Empty(Microsoft.Exchange.WebServices.Data.DeleteMode,System.Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Empty(Microsoft::Exchange::WebServices::Data::DeleteMode deleteMode, bool deleteSubFolders);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="deleteMode" Type="Microsoft.Exchange.WebServices.Data.DeleteMode" />
+        <Parameter Name="deleteSubFolders" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="deleteMode">El modo de eliminación.</param>
+        <param name="deleteSubFolders">
+          <b>true</b> para indicar que también se deben eliminar las subcarpetas; en caso contrario, <b>false</b>.</param>
+        <summary>Vacía la carpeta. De forma opcional, permite a las subcarpetas vacías.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExtendedProperties">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ExtendedPropertyCollection ExtendedProperties { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.ExtendedPropertyCollection ExtendedProperties" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Folder.ExtendedProperties" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ExtendedProperties As ExtendedPropertyCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ExtendedPropertyCollection ^ ExtendedProperties { Microsoft::Exchange::WebServices::Data::ExtendedPropertyCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ExtendedPropertyCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtiene una lista de las propiedades extendidas asociadas con la carpeta.</summary>
+        <value>Un objeto de la colección con las propiedades extendidas.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FindFolders">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.FindFoldersResults FindFolders (Microsoft.Exchange.WebServices.Data.FolderView view);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Exchange.WebServices.Data.FindFoldersResults FindFolders(class Microsoft.Exchange.WebServices.Data.FolderView view) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Folder.FindFolders(Microsoft.Exchange.WebServices.Data.FolderView)" />
+      <MemberSignature Language="VB.NET" Value="Public Function FindFolders (view As FolderView) As FindFoldersResults" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Exchange::WebServices::Data::FindFoldersResults ^ FindFolders(Microsoft::Exchange::WebServices::Data::FolderView ^ view);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FindFoldersResults</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="view" Type="Microsoft.Exchange.WebServices.Data.FolderView" />
+      </Parameters>
+      <Docs>
+        <param name="view">La vista que controla el número de carpetas que se devuelven.</param>
+        <summary>Obtiene una lista de carpetas, busque las subcarpetas de esta carpeta.</summary>
+        <returns>Los resultados de la operación de búsqueda.</returns>
+        <remarks>
+          <para>Llamar a este método se genera en una llamada a servicios Web de Exchange (EWS).</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FindFolders">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.FindFoldersResults FindFolders (Microsoft.Exchange.WebServices.Data.SearchFilter searchFilter, Microsoft.Exchange.WebServices.Data.FolderView view);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Exchange.WebServices.Data.FindFoldersResults FindFolders(class Microsoft.Exchange.WebServices.Data.SearchFilter searchFilter, class Microsoft.Exchange.WebServices.Data.FolderView view) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Folder.FindFolders(Microsoft.Exchange.WebServices.Data.SearchFilter,Microsoft.Exchange.WebServices.Data.FolderView)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Exchange::WebServices::Data::FindFoldersResults ^ FindFolders(Microsoft::Exchange::WebServices::Data::SearchFilter ^ searchFilter, Microsoft::Exchange::WebServices::Data::FolderView ^ view);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FindFoldersResults</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="searchFilter" Type="Microsoft.Exchange.WebServices.Data.SearchFilter" />
+        <Parameter Name="view" Type="Microsoft.Exchange.WebServices.Data.FolderView" />
+      </Parameters>
+      <Docs>
+        <param name="searchFilter">El filtro de búsqueda.</param>
+        <param name="view">La vista que controla el número de carpetas que se devuelven.</param>
+        <summary>Devuelve una lista de carpetas, busque las subcarpetas en la vista especificada que cumplen los criterios de filtro de búsqueda especificada.</summary>
+        <returns>Los resultados de la búsqueda.</returns>
+        <remarks>
+          <para>Llamar a este método se genera en una llamada a servicios Web de Exchange (EWS).</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FindItems">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.FindItemsResults&lt;Microsoft.Exchange.WebServices.Data.Item&gt; FindItems (Microsoft.Exchange.WebServices.Data.ItemView view);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Exchange.WebServices.Data.FindItemsResults`1&lt;class Microsoft.Exchange.WebServices.Data.Item&gt; FindItems(class Microsoft.Exchange.WebServices.Data.ItemView view) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Folder.FindItems(Microsoft.Exchange.WebServices.Data.ItemView)" />
+      <MemberSignature Language="VB.NET" Value="Public Function FindItems (view As ItemView) As FindItemsResults(Of Item)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Exchange::WebServices::Data::FindItemsResults&lt;Microsoft::Exchange::WebServices::Data::Item ^&gt; ^ FindItems(Microsoft::Exchange::WebServices::Data::ItemView ^ view);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FindItemsResults&lt;Microsoft.Exchange.WebServices.Data.Item&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="view" Type="Microsoft.Exchange.WebServices.Data.ItemView" />
+      </Parameters>
+      <Docs>
+        <param name="view">La vista que controla el número de elementos que se devuelven.</param>
+        <summary>Obtiene una lista de elementos, busque el contenido de esta carpeta.</summary>
+        <returns>Los resultados de la operación de búsqueda.</returns>
+        <remarks>
+          <para>Llamar a este método se genera en una llamada a servicios Web de Exchange (EWS).</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FindItems">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.GroupedFindItemsResults&lt;Microsoft.Exchange.WebServices.Data.Item&gt; FindItems (Microsoft.Exchange.WebServices.Data.ItemView view, Microsoft.Exchange.WebServices.Data.Grouping groupBy);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Exchange.WebServices.Data.GroupedFindItemsResults`1&lt;class Microsoft.Exchange.WebServices.Data.Item&gt; FindItems(class Microsoft.Exchange.WebServices.Data.ItemView view, class Microsoft.Exchange.WebServices.Data.Grouping groupBy) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Folder.FindItems(Microsoft.Exchange.WebServices.Data.ItemView,Microsoft.Exchange.WebServices.Data.Grouping)" />
+      <MemberSignature Language="VB.NET" Value="Public Function FindItems (view As ItemView, groupBy As Grouping) As GroupedFindItemsResults(Of Item)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Exchange::WebServices::Data::GroupedFindItemsResults&lt;Microsoft::Exchange::WebServices::Data::Item ^&gt; ^ FindItems(Microsoft::Exchange::WebServices::Data::ItemView ^ view, Microsoft::Exchange::WebServices::Data::Grouping ^ groupBy);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.GroupedFindItemsResults&lt;Microsoft.Exchange.WebServices.Data.Item&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="view" Type="Microsoft.Exchange.WebServices.Data.ItemView" />
+        <Parameter Name="groupBy" Type="Microsoft.Exchange.WebServices.Data.Grouping" />
+      </Parameters>
+      <Docs>
+        <param name="view">La vista que controla el número de elementos que se devuelven.</param>
+        <param name="groupBy">Los criterios de agrupación.</param>
+        <summary>Obtiene una lista de elementos, busque el contenido de esta carpeta en la vista especificada y agrupadas por la propiedad especificada.</summary>
+        <returns>Los resultados de la búsqueda.</returns>
+        <remarks>
+          <para>Llamar a este método se genera en una llamada a servicios Web de Exchange (EWS).</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FindItems">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.FindItemsResults&lt;Microsoft.Exchange.WebServices.Data.Item&gt; FindItems (Microsoft.Exchange.WebServices.Data.SearchFilter searchFilter, Microsoft.Exchange.WebServices.Data.ItemView view);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Exchange.WebServices.Data.FindItemsResults`1&lt;class Microsoft.Exchange.WebServices.Data.Item&gt; FindItems(class Microsoft.Exchange.WebServices.Data.SearchFilter searchFilter, class Microsoft.Exchange.WebServices.Data.ItemView view) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Folder.FindItems(Microsoft.Exchange.WebServices.Data.SearchFilter,Microsoft.Exchange.WebServices.Data.ItemView)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Exchange::WebServices::Data::FindItemsResults&lt;Microsoft::Exchange::WebServices::Data::Item ^&gt; ^ FindItems(Microsoft::Exchange::WebServices::Data::SearchFilter ^ searchFilter, Microsoft::Exchange::WebServices::Data::ItemView ^ view);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FindItemsResults&lt;Microsoft.Exchange.WebServices.Data.Item&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="searchFilter" Type="Microsoft.Exchange.WebServices.Data.SearchFilter" />
+        <Parameter Name="view" Type="Microsoft.Exchange.WebServices.Data.ItemView" />
+      </Parameters>
+      <Docs>
+        <param name="searchFilter">El filtro de búsqueda.</param>
+        <param name="view">La vista que controla el número de elementos que se devuelven.</param>
+        <summary>Obtiene una lista de elementos, busque el contenido de esta carpeta.</summary>
+        <returns>Los resultados de la búsqueda.</returns>
+        <remarks>
+          <para>Llamar a este método se genera en una llamada a servicios Web de Exchange (EWS).</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FindItems">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.FindItemsResults&lt;Microsoft.Exchange.WebServices.Data.Item&gt; FindItems (string queryString, Microsoft.Exchange.WebServices.Data.ItemView view);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Exchange.WebServices.Data.FindItemsResults`1&lt;class Microsoft.Exchange.WebServices.Data.Item&gt; FindItems(string queryString, class Microsoft.Exchange.WebServices.Data.ItemView view) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Folder.FindItems(System.String,Microsoft.Exchange.WebServices.Data.ItemView)" />
+      <MemberSignature Language="VB.NET" Value="Public Function FindItems (queryString As String, view As ItemView) As FindItemsResults(Of Item)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Exchange::WebServices::Data::FindItemsResults&lt;Microsoft::Exchange::WebServices::Data::Item ^&gt; ^ FindItems(System::String ^ queryString, Microsoft::Exchange::WebServices::Data::ItemView ^ view);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FindItemsResults&lt;Microsoft.Exchange.WebServices.Data.Item&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="queryString" Type="System.String" />
+        <Parameter Name="view" Type="Microsoft.Exchange.WebServices.Data.ItemView" />
+      </Parameters>
+      <Docs>
+        <param name="queryString">La cadena de consulta que especifica los elementos para devolver.</param>
+        <param name="view">La vista que controla el número de elementos que se devuelven.</param>
+        <summary>Devuelve una lista de elementos, busque el contenido de esta carpeta con la cadena de consulta especificada.</summary>
+        <returns>Los resultados de la búsqueda.</returns>
+        <remarks>
+          <para>Llamar a este método se genera en una llamada a servicios Web de Exchange (EWS).</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FindItems">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.GroupedFindItemsResults&lt;Microsoft.Exchange.WebServices.Data.Item&gt; FindItems (Microsoft.Exchange.WebServices.Data.SearchFilter searchFilter, Microsoft.Exchange.WebServices.Data.ItemView view, Microsoft.Exchange.WebServices.Data.Grouping groupBy);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Exchange.WebServices.Data.GroupedFindItemsResults`1&lt;class Microsoft.Exchange.WebServices.Data.Item&gt; FindItems(class Microsoft.Exchange.WebServices.Data.SearchFilter searchFilter, class Microsoft.Exchange.WebServices.Data.ItemView view, class Microsoft.Exchange.WebServices.Data.Grouping groupBy) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Folder.FindItems(Microsoft.Exchange.WebServices.Data.SearchFilter,Microsoft.Exchange.WebServices.Data.ItemView,Microsoft.Exchange.WebServices.Data.Grouping)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Exchange::WebServices::Data::GroupedFindItemsResults&lt;Microsoft::Exchange::WebServices::Data::Item ^&gt; ^ FindItems(Microsoft::Exchange::WebServices::Data::SearchFilter ^ searchFilter, Microsoft::Exchange::WebServices::Data::ItemView ^ view, Microsoft::Exchange::WebServices::Data::Grouping ^ groupBy);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.GroupedFindItemsResults&lt;Microsoft.Exchange.WebServices.Data.Item&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="searchFilter" Type="Microsoft.Exchange.WebServices.Data.SearchFilter" />
+        <Parameter Name="view" Type="Microsoft.Exchange.WebServices.Data.ItemView" />
+        <Parameter Name="groupBy" Type="Microsoft.Exchange.WebServices.Data.Grouping" />
+      </Parameters>
+      <Docs>
+        <param name="searchFilter">El filtro de búsqueda.</param>
+        <param name="view">La vista que controla el número de elementos que se devuelven.</param>
+        <param name="groupBy">Los criterios de agrupación.</param>
+        <summary>Devuelve una lista de elementos, busque el contenido de esta carpeta, con el filtro de búsqueda especificado.</summary>
+        <returns>Los resultados de la búsqueda.</returns>
+        <remarks>
+          <para>Llamar a este método se genera en una llamada a servicios Web de Exchange (EWS).</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FindItems">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.GroupedFindItemsResults&lt;Microsoft.Exchange.WebServices.Data.Item&gt; FindItems (string queryString, Microsoft.Exchange.WebServices.Data.ItemView view, Microsoft.Exchange.WebServices.Data.Grouping groupBy);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Exchange.WebServices.Data.GroupedFindItemsResults`1&lt;class Microsoft.Exchange.WebServices.Data.Item&gt; FindItems(string queryString, class Microsoft.Exchange.WebServices.Data.ItemView view, class Microsoft.Exchange.WebServices.Data.Grouping groupBy) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Folder.FindItems(System.String,Microsoft.Exchange.WebServices.Data.ItemView,Microsoft.Exchange.WebServices.Data.Grouping)" />
+      <MemberSignature Language="VB.NET" Value="Public Function FindItems (queryString As String, view As ItemView, groupBy As Grouping) As GroupedFindItemsResults(Of Item)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Exchange::WebServices::Data::GroupedFindItemsResults&lt;Microsoft::Exchange::WebServices::Data::Item ^&gt; ^ FindItems(System::String ^ queryString, Microsoft::Exchange::WebServices::Data::ItemView ^ view, Microsoft::Exchange::WebServices::Data::Grouping ^ groupBy);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.GroupedFindItemsResults&lt;Microsoft.Exchange.WebServices.Data.Item&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="queryString" Type="System.String" />
+        <Parameter Name="view" Type="Microsoft.Exchange.WebServices.Data.ItemView" />
+        <Parameter Name="groupBy" Type="Microsoft.Exchange.WebServices.Data.Grouping" />
+      </Parameters>
+      <Docs>
+        <param name="queryString">La cadena de consulta que especifica el filtro de búsqueda.</param>
+        <param name="view">La vista que controla el número de elementos que se devuelven.</param>
+        <param name="groupBy">Los criterios de agrupación.</param>
+        <summary>Devuelve una lista de elementos, busque el contenido de esta carpeta.</summary>
+        <returns>Los resultados de la búsqueda.</returns>
+        <remarks>
+          <para>Llamar a este método se genera en una llamada a servicios Web de Exchange (EWS).</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FolderClass">
+      <MemberSignature Language="C#" Value="public string FolderClass { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string FolderClass" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Folder.FolderClass" />
+      <MemberSignature Language="VB.NET" Value="Public Property FolderClass As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ FolderClass { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtiene o establece el nombre de clase personalizada de esta carpeta.</summary>
+        <value>El nombre de clase de la carpeta.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Id">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.FolderId Id { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.FolderId Id" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Folder.Id" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Id As FolderId" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::FolderId ^ Id { Microsoft::Exchange::WebServices::Data::FolderId ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FolderId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtiene el identificador de la carpeta.</summary>
+        <value>El valor de identificador de la carpeta.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ManagedFolderInformation">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ManagedFolderInformation ManagedFolderInformation { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.ManagedFolderInformation ManagedFolderInformation" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Folder.ManagedFolderInformation" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ManagedFolderInformation As ManagedFolderInformation" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ManagedFolderInformation ^ ManagedFolderInformation { Microsoft::Exchange::WebServices::Data::ManagedFolderInformation ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ManagedFolderInformation</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtiene la información de administración de registros de mensajería (MRM) que está asociada a la carpeta.</summary>
+        <value>La información de MRM.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MarkAllItemsAsRead">
+      <MemberSignature Language="C#" Value="public void MarkAllItemsAsRead (bool suppressReadReceipts);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void MarkAllItemsAsRead(bool suppressReadReceipts) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Folder.MarkAllItemsAsRead(System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub MarkAllItemsAsRead (suppressReadReceipts As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void MarkAllItemsAsRead(bool suppressReadReceipts);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="suppressReadReceipts" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="suppressReadReceipts">
+          <b>true</b> para suprimir enviar confirmaciones de lectura para los elementos; en caso contrario, <b>false</b>.</param>
+        <summary>Marca todos los elementos de carpeta como leídos.             El <see cref="M:Microsoft.Exchange.WebServices.Data.Folder.MarkAllItemsAsRead(System.Boolean)" /> método es aplicable para los clientes que estén destinados a Exchange Online y versiones de Exchange a partir de Exchange Server 2013.</summary>
+        <remarks>
+          <para>Llamar a este método se genera en una llamada a servicios Web de Exchange (EWS).</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MarkAllItemsAsUnread">
+      <MemberSignature Language="C#" Value="public void MarkAllItemsAsUnread (bool suppressReadReceipts);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void MarkAllItemsAsUnread(bool suppressReadReceipts) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Folder.MarkAllItemsAsUnread(System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub MarkAllItemsAsUnread (suppressReadReceipts As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void MarkAllItemsAsUnread(bool suppressReadReceipts);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="suppressReadReceipts" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="suppressReadReceipts">
+          <b>true</b> para suprimir enviar confirmaciones de lectura para los elementos; en caso contrario, <b>false</b>.</param>
+        <summary>Marca todos los elementos de carpeta como no leídos.             El <see cref="M:Microsoft.Exchange.WebServices.Data.Folder.MarkAllItemsAsUnread(System.Boolean)" /> método es aplicable para los clientes que estén destinados a Exchange Online y versiones de Exchange a partir de Exchange Server 2013.</summary>
+        <remarks>
+          <para>Llamar a este método se genera en una llamada a servicios Web de Exchange (EWS).</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Move">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.Folder Move (Microsoft.Exchange.WebServices.Data.FolderId destinationFolderId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Exchange.WebServices.Data.Folder Move(class Microsoft.Exchange.WebServices.Data.FolderId destinationFolderId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Folder.Move(Microsoft.Exchange.WebServices.Data.FolderId)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Move (destinationFolderId As FolderId) As Folder" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Exchange::WebServices::Data::Folder ^ Move(Microsoft::Exchange::WebServices::Data::FolderId ^ destinationFolderId);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Folder</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="destinationFolderId" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
+      </Parameters>
+      <Docs>
+        <param name="destinationFolderId">El identificador de la carpeta en la que se va a mover esta carpeta.</param>
+        <summary>Mueve esta carpeta a una carpeta específica.</summary>
+        <returns>Una nueva carpeta que representa esta carpeta en su nueva ubicación.</returns>
+        <remarks>
+          <para>Al llamar a este método da como resultado una llamada a servicios Web de Exchange (EWS).</para>
+          <para>Después <see cref="M:Microsoft.Exchange.WebServices.Data.Folder.Move(Microsoft.Exchange.WebServices.Data.FolderId)" /> finaliza, el original no existe la carpeta.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Move">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.Folder Move (Microsoft.Exchange.WebServices.Data.WellKnownFolderName destinationFolderName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Exchange.WebServices.Data.Folder Move(valuetype Microsoft.Exchange.WebServices.Data.WellKnownFolderName destinationFolderName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Folder.Move(Microsoft.Exchange.WebServices.Data.WellKnownFolderName)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Move (destinationFolderName As WellKnownFolderName) As Folder" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Exchange::WebServices::Data::Folder ^ Move(Microsoft::Exchange::WebServices::Data::WellKnownFolderName destinationFolderName);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Folder</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="destinationFolderName" Type="Microsoft.Exchange.WebServices.Data.WellKnownFolderName" />
+      </Parameters>
+      <Docs>
+        <param name="destinationFolderName">El nombre de la carpeta en la que se va a mover esta carpeta.</param>
+        <summary>Esta carpeta se mueve a la carpeta especificada.</summary>
+        <returns>Una nueva carpeta que representa esta carpeta en su nueva ubicación.</returns>
+        <remarks>
+          <para>Al llamar a este método da como resultado una llamada a servicios Web de Exchange (EWS).</para>
+          <para>Después <see cref="M:Microsoft.Exchange.WebServices.Data.Folder.Move(Microsoft.Exchange.WebServices.Data.WellKnownFolderName)" /> finaliza, el original no existe la carpeta.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ParentFolderId">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.FolderId ParentFolderId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.FolderId ParentFolderId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Folder.ParentFolderId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ParentFolderId As FolderId" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::FolderId ^ ParentFolderId { Microsoft::Exchange::WebServices::Data::FolderId ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FolderId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtiene el identificador de esta carpeta principal.</summary>
+        <value>El valor de identificador de la carpeta principal.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Permissions">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.FolderPermissionCollection Permissions { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.FolderPermissionCollection Permissions" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Folder.Permissions" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Permissions As FolderPermissionCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::FolderPermissionCollection ^ Permissions { Microsoft::Exchange::WebServices::Data::FolderPermissionCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FolderPermissionCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtiene o establece una lista de permisos para la carpeta.</summary>
+        <value>Una colección que incluye la lista de permisos.</value>
+        <remarks>
+          <para>Cuando el destino es Exchange Online, Exchange Online como parte de Office 365 y las versiones locales de Exchange a partir de Exchange 2013, los permisos de carpetas no se devuelven en el <see cref="F:Microsoft.Exchange.WebServices.Data.PropertySet.FirstClassProperties" /> conjunto de propiedades. Con el fin de recuperar los permisos de carpeta, agregue el <see cref="F:Microsoft.Exchange.WebServices.Data.FolderSchema.Permissions" /> (propiedad) a la propiedad establece cuando se enlaza a la carpeta.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PolicyTag">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.PolicyTag PolicyTag { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.PolicyTag PolicyTag" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Folder.PolicyTag" />
+      <MemberSignature Language="VB.NET" Value="Public Property PolicyTag As PolicyTag" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::PolicyTag ^ PolicyTag { Microsoft::Exchange::WebServices::Data::PolicyTag ^ get(); void set(Microsoft::Exchange::WebServices::Data::PolicyTag ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PolicyTag</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtiene o establece la etiqueta de directiva.             El <see cref="P:Microsoft.Exchange.WebServices.Data.Folder.PolicyTag" /> (propiedad) es aplicable para los clientes que estén destinados a Exchange Online y versiones de Exchange a partir de Exchange Server 2013.</summary>
+        <value>Etiqueta de directiva de la carpeta.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RemoveExtendedProperty">
+      <MemberSignature Language="C#" Value="public bool RemoveExtendedProperty (Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition extendedPropertyDefinition);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool RemoveExtendedProperty(class Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition extendedPropertyDefinition) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Folder.RemoveExtendedProperty(Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool RemoveExtendedProperty(Microsoft::Exchange::WebServices::Data::ExtendedPropertyDefinition ^ extendedPropertyDefinition);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="extendedPropertyDefinition" Type="Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition" />
+      </Parameters>
+      <Docs>
+        <param name="extendedPropertyDefinition">La definición de la propiedad extendida.</param>
+        <summary>Quita una propiedad extendida de la carpeta.</summary>
+        <returns>
+          <b>true</b> si se ha quitado la propiedad; en caso contrario, <b>false</b>.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Save">
+      <MemberSignature Language="C#" Value="public void Save (Microsoft.Exchange.WebServices.Data.FolderId parentFolderId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Save(class Microsoft.Exchange.WebServices.Data.FolderId parentFolderId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Folder.Save(Microsoft.Exchange.WebServices.Data.FolderId)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Save (parentFolderId As FolderId)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Save(Microsoft::Exchange::WebServices::Data::FolderId ^ parentFolderId);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="parentFolderId" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
+      </Parameters>
+      <Docs>
+        <param name="parentFolderId">El identificador de la carpeta en la que se va a guardar esta carpeta.</param>
+        <summary>Esta carpeta se guarda en una carpeta específica.</summary>
+        <remarks>
+          <para>Llamar a este método se genera en una llamada a servicios Web de Exchange (EWS).</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Save">
+      <MemberSignature Language="C#" Value="public void Save (Microsoft.Exchange.WebServices.Data.WellKnownFolderName parentFolderName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Save(valuetype Microsoft.Exchange.WebServices.Data.WellKnownFolderName parentFolderName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Folder.Save(Microsoft.Exchange.WebServices.Data.WellKnownFolderName)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Save (parentFolderName As WellKnownFolderName)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Save(Microsoft::Exchange::WebServices::Data::WellKnownFolderName parentFolderName);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="parentFolderName" Type="Microsoft.Exchange.WebServices.Data.WellKnownFolderName" />
+      </Parameters>
+      <Docs>
+        <param name="parentFolderName">El nombre de la carpeta en la que se va a guardar esta carpeta.</param>
+        <summary>Esta carpeta se guarda en una carpeta específica.</summary>
+        <remarks>
+          <para>Llamar a este método se genera en una llamada a servicios Web de Exchange (EWS).</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetExtendedProperty">
+      <MemberSignature Language="C#" Value="public void SetExtendedProperty (Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition extendedPropertyDefinition, object value);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetExtendedProperty(class Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition extendedPropertyDefinition, object value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Folder.SetExtendedProperty(Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition,System.Object)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetExtendedProperty(Microsoft::Exchange::WebServices::Data::ExtendedPropertyDefinition ^ extendedPropertyDefinition, System::Object ^ value);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="extendedPropertyDefinition" Type="Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition" />
+        <Parameter Name="value" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="extendedPropertyDefinition">La definición de la propiedad extendida.</param>
+        <param name="value">El valor que se va a establecer la propiedad extendida.</param>
+        <summary>Establece el especificado propiedad extendida.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TotalCount">
+      <MemberSignature Language="C#" Value="public int TotalCount { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 TotalCount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Folder.TotalCount" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TotalCount As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int TotalCount { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtiene el número total de elementos que están contenidos en la carpeta.</summary>
+        <value>El número de elementos de la carpeta.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UnreadCount">
+      <MemberSignature Language="C#" Value="public int UnreadCount { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 UnreadCount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Folder.UnreadCount" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property UnreadCount As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int UnreadCount { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtiene el número de elementos no leídos en la carpeta.</summary>
+        <value>Un valor entero que representa el número de elementos no leídos en la carpeta.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Update">
+      <MemberSignature Language="C#" Value="public void Update ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Update() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Folder.Update" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Update ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Update();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Aplica los cambios locales que se han realizado en esta carpeta.</summary>
+        <remarks>
+          <para>Llamar a este método se genera en una llamada a servicios Web de Exchange (EWS).</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WellKnownFolderName">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Exchange.WebServices.Data.WellKnownFolderName&gt; WellKnownFolderName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Exchange.WebServices.Data.WellKnownFolderName&gt; WellKnownFolderName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Folder.WellKnownFolderName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property WellKnownFolderName As Nullable(Of WellKnownFolderName)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;Microsoft::Exchange::WebServices::Data::WellKnownFolderName&gt; WellKnownFolderName { Nullable&lt;Microsoft::Exchange::WebServices::Data::WellKnownFolderName&gt; get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.Exchange.WebServices.Data.WellKnownFolderName&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtiene uno de los nombres de carpeta comunes que aparecen en la <see cref="T:Microsoft.Exchange.WebServices.Data.WellKnownFolderName" /> (enumeración).             El <see cref="P:Microsoft.Exchange.WebServices.Data.Folder.WellKnownFolderName" /> (propiedad) es aplicable para los clientes que estén destinados a Exchange Online y versiones de Exchange a partir de Exchange Server 2013.</summary>
+        <value>El valor de enumeración de nombre de la carpeta conocida de esta carpeta.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

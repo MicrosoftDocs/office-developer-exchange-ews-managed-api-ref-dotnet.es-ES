@@ -1,0 +1,169 @@
+<Type Name="EntityExtractionResult" FullName="Microsoft.Exchange.WebServices.Data.EntityExtractionResult">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="e2fba76651261e9fbe9fe2a5cd06ad97f06271f1" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="es-ES" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20627721" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class EntityExtractionResult : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit EntityExtractionResult extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.EntityExtractionResult" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class EntityExtractionResult&#xA;Inherits ComplexProperty" />
+  <TypeSignature Language="C++ CLI" Value="public ref class EntityExtractionResult sealed : Microsoft::Exchange::WebServices::Data::ComplexProperty" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ComplexProperty</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Contiene información extraída de un mensaje, tarea o reunión.             El <see cref="T:Microsoft.Exchange.WebServices.Data.EntityExtractionResult" /> clase es aplicable para los clientes que estén destinados a Exchange Online y versiones de Exchange a partir de Exchange Server 2013.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Addresses">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.AddressEntityCollection Addresses { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.AddressEntityCollection Addresses" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.EntityExtractionResult.Addresses" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Addresses As AddressEntityCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::AddressEntityCollection ^ Addresses { Microsoft::Exchange::WebServices::Data::AddressEntityCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.AddressEntityCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtiene el conjunto de direcciones devueltas.             El <see cref="P:Microsoft.Exchange.WebServices.Data.EntityExtractionResult.Addresses" /> (propiedad) es aplicable para los clientes que estén destinados a Exchange Online y versiones de Exchange a partir de Exchange Server 2013.</summary>
+        <value>Las direcciones extraídas.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Contacts">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ContactEntityCollection Contacts { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.ContactEntityCollection Contacts" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.EntityExtractionResult.Contacts" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Contacts As ContactEntityCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ContactEntityCollection ^ Contacts { Microsoft::Exchange::WebServices::Data::ContactEntityCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ContactEntityCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtiene el conjunto de contactos que devuelve.             El <see cref="P:Microsoft.Exchange.WebServices.Data.EntityExtractionResult.Contacts" /> (propiedad) es aplicable para los clientes que estén destinados a Exchange Online y versiones de Exchange a partir de Exchange Server 2013.</summary>
+        <value>Los contactos extraídos.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EmailAddresses">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.EmailAddressEntityCollection EmailAddresses { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.EmailAddressEntityCollection EmailAddresses" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.EntityExtractionResult.EmailAddresses" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EmailAddresses As EmailAddressEntityCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::EmailAddressEntityCollection ^ EmailAddresses { Microsoft::Exchange::WebServices::Data::EmailAddressEntityCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.EmailAddressEntityCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtiene el conjunto de direcciones de correo electrónico devuelto.             El <see cref="P:Microsoft.Exchange.WebServices.Data.EntityExtractionResult.EmailAddresses" /> (propiedad) es aplicable para los clientes que estén destinados a Exchange Online y versiones de Exchange a partir de Exchange Server 2013.</summary>
+        <value>Las direcciones de correo electrónico extraídos.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MeetingSuggestions">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.MeetingSuggestionCollection MeetingSuggestions { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.MeetingSuggestionCollection MeetingSuggestions" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.EntityExtractionResult.MeetingSuggestions" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MeetingSuggestions As MeetingSuggestionCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::MeetingSuggestionCollection ^ MeetingSuggestions { Microsoft::Exchange::WebServices::Data::MeetingSuggestionCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.MeetingSuggestionCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtiene el conjunto de sugerencias de reunión devuelto.             El <see cref="P:Microsoft.Exchange.WebServices.Data.EntityExtractionResult.MeetingSuggestions" /> (propiedad) es aplicable para los clientes que estén destinados a Exchange Online y versiones de Exchange a partir de Exchange Server 2013.</summary>
+        <value>Las sugerencias de reunión extraídos.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PhoneNumbers">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.PhoneEntityCollection PhoneNumbers { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.PhoneEntityCollection PhoneNumbers" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.EntityExtractionResult.PhoneNumbers" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PhoneNumbers As PhoneEntityCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::PhoneEntityCollection ^ PhoneNumbers { Microsoft::Exchange::WebServices::Data::PhoneEntityCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PhoneEntityCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtiene el conjunto de números de teléfono que se devuelven.             El <see cref="P:Microsoft.Exchange.WebServices.Data.EntityExtractionResult.PhoneNumbers" /> (propiedad) es aplicable para los clientes que estén destinados a Exchange Online y versiones de Exchange a partir de Exchange Server 2013.</summary>
+        <value>Los números de teléfono extraídos.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TaskSuggestions">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.TaskSuggestionCollection TaskSuggestions { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.TaskSuggestionCollection TaskSuggestions" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.EntityExtractionResult.TaskSuggestions" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TaskSuggestions As TaskSuggestionCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::TaskSuggestionCollection ^ TaskSuggestions { Microsoft::Exchange::WebServices::Data::TaskSuggestionCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.TaskSuggestionCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtiene el conjunto de sugerencias de tarea devuelto.             El <see cref="P:Microsoft.Exchange.WebServices.Data.EntityExtractionResult.TaskSuggestions" /> (propiedad) es aplicable para los clientes que estén destinados a Exchange Online y versiones de Exchange a partir de Exchange Server 2013.</summary>
+        <value>Las sugerencias de tarea extraídos.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Urls">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.UrlEntityCollection Urls { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.UrlEntityCollection Urls" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.EntityExtractionResult.Urls" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Urls As UrlEntityCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::UrlEntityCollection ^ Urls { Microsoft::Exchange::WebServices::Data::UrlEntityCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.UrlEntityCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtiene el conjunto de direcciones URL devueltas.             El <see cref="P:Microsoft.Exchange.WebServices.Data.EntityExtractionResult.Urls" /> (propiedad) es aplicable para los clientes que estén destinados a Exchange Online y versiones de Exchange a partir de Exchange Server 2013.</summary>
+        <value>Las direcciones URL extraídas.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

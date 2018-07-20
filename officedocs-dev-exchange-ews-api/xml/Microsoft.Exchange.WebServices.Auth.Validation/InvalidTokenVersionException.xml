@@ -1,0 +1,49 @@
+<Type Name="InvalidTokenVersionException" FullName="Microsoft.Exchange.WebServices.Auth.Validation.InvalidTokenVersionException">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="71e6b1df43458a3e89e5acce1bcc51e8ee95d925" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="es-ES" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20627924" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class InvalidTokenVersionException : Microsoft.Exchange.WebServices.Auth.Validation.InvalidTokenFormatException" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit InvalidTokenVersionException extends Microsoft.Exchange.WebServices.Auth.Validation.InvalidTokenFormatException" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Auth.Validation.InvalidTokenVersionException" />
+  <TypeSignature Language="VB.NET" Value="Public Class InvalidTokenVersionException&#xA;Inherits InvalidTokenFormatException" />
+  <TypeSignature Language="C++ CLI" Value="public ref class InvalidTokenVersionException : Microsoft::Exchange::WebServices::Auth::Validation::InvalidTokenFormatException" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices.Auth</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Auth.Validation.InvalidTokenFormatException</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Contiene la excepción que se produce cuando la versión de un token de identidad de cliente no coincide con la versión esperada. El <see cref="T:Microsoft.Exchange.WebServices.Auth.Validation.InvalidTokenVersionException" /> clase es aplicable para los clientes que estén destinados a Exchange Online y versiones de Exchange a partir de Exchange Server 2013.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public InvalidTokenVersionException (string message);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string message) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Auth.Validation.InvalidTokenVersionException.#ctor(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (message As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; InvalidTokenVersionException(System::String ^ message);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices.Auth</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="message" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="message">El mensaje que describe la excepción.</param>
+        <summary>Inicializa una nueva instancia de la <see cref="T:Microsoft.Exchange.WebServices.Auth.Validation.InvalidTokenVersionException" /> clase con el mensaje especificado que describe el error. El <see cref="M:Microsoft.Exchange.WebServices.Auth.Validation.InvalidTokenVersionException.#ctor(System.String)" /> constructor es aplicable para los clientes que estén destinados a Exchange Online y versiones de Exchange a partir de Exchange Server 2013.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

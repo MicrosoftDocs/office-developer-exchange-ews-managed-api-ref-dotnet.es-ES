@@ -1,0 +1,109 @@
+<Type Name="CalendarActionResults" FullName="Microsoft.Exchange.WebServices.Data.CalendarActionResults">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="e4baede30c5f25e6f2a0a98ef508d35dd1693819" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="es-ES" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20627729" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class CalendarActionResults" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit CalendarActionResults extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.CalendarActionResults" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class CalendarActionResults" />
+  <TypeSignature Language="C++ CLI" Value="public ref class CalendarActionResults sealed" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Representa los resultados de una acción que se lleva a cabo en un elemento o reunión solicitud mensaje de calendario, como Aceptar, Aceptar provisionalmente o rechazar una convocatoria de reunión.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Appointment">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.Appointment Appointment { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.Appointment Appointment" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.CalendarActionResults.Appointment" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Appointment As Appointment" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::Appointment ^ Appointment { Microsoft::Exchange::WebServices::Data::Appointment ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Appointment</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtiene la reunión que se ha aceptado, aceptada provisionalmente o rechazado.</summary>
+        <value>Un objeto de la cita.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MeetingCancellation">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.MeetingCancellation MeetingCancellation { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.MeetingCancellation MeetingCancellation" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.CalendarActionResults.MeetingCancellation" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MeetingCancellation As MeetingCancellation" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::MeetingCancellation ^ MeetingCancellation { Microsoft::Exchange::WebServices::Data::MeetingCancellation ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.MeetingCancellation</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtiene una copia de la cancelación de reunión del mensaje que se envió el organizador a los asistentes de una reunión cuando se cancela la reunión.</summary>
+        <value>Un objeto MeetingCancellation.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MeetingRequest">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.MeetingRequest MeetingRequest { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.MeetingRequest MeetingRequest" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.CalendarActionResults.MeetingRequest" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MeetingRequest As MeetingRequest" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::MeetingRequest ^ MeetingRequest { Microsoft::Exchange::WebServices::Data::MeetingRequest ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.MeetingRequest</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtiene la convocatoria de reunión que se ha movido a la carpeta Elementos eliminados como consecuencia de un asistente Aceptar, Aceptar provisionalmente o rechazar una convocatoria de reunión. Si se acepta la convocatoria de reunión, provisionalmente aceptado o rechazado desde la carpeta Elementos eliminados, se eliminan permanentemente y la propiedad MeetingRequest es una referencia nula (Nothing en Visual Basic).</summary>
+        <value>Un objeto MeetingRequest.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MeetingResponse">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.MeetingResponse MeetingResponse { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.MeetingResponse MeetingResponse" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.CalendarActionResults.MeetingResponse" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MeetingResponse As MeetingResponse" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::MeetingResponse ^ MeetingResponse { Microsoft::Exchange::WebServices::Data::MeetingResponse ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.MeetingResponse</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtiene la copia de la respuesta que se envía al organizador de una reunión cuando la reunión es aceptada, aceptada provisionalmente o rechazada por un asistente. La propiedad MeetingResponse es una referencia nula (Nothing en Visual Basic) si el asistente no eligió enviar una respuesta.</summary>
+        <value>Un objeto MeetingResponse.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

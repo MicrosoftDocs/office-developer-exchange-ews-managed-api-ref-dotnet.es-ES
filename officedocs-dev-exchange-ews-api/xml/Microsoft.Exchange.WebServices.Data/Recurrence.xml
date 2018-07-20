@@ -1,0 +1,157 @@
+<Type Name="Recurrence" FullName="Microsoft.Exchange.WebServices.Data.Recurrence">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="b7707c6e0ecfadb96c5309e565c5412b4f559d42" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="es-ES" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20627678" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public abstract class Recurrence : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit Recurrence extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.Recurrence" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class Recurrence&#xA;Inherits ComplexProperty" />
+  <TypeSignature Language="C++ CLI" Value="public ref class Recurrence abstract : Microsoft::Exchange::WebServices::Data::ComplexProperty" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ComplexProperty</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Representa un patrón de periodicidad, como se utiliza por los elementos de cita y tarea.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="EndDate">
+      <MemberSignature Language="C#" Value="public Nullable&lt;DateTime&gt; EndDate { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; EndDate" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Recurrence.EndDate" />
+      <MemberSignature Language="VB.NET" Value="Public Property EndDate As Nullable(Of DateTime)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;DateTime&gt; EndDate { Nullable&lt;DateTime&gt; get(); void set(Nullable&lt;DateTime&gt; value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.DateTime&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtiene o establece la fecha después de que finaliza la periodicidad. Establecer EndDate restablece NumberOfOccurrences.</summary>
+        <value>Un valor de fecha y hora, o null.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HasEnd">
+      <MemberSignature Language="C#" Value="public bool HasEnd { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool HasEnd" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Recurrence.HasEnd" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HasEnd As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool HasEnd { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtiene un valor que indica si el modelo tiene un número fijo de repeticiones o una fecha de finalización.</summary>
+        <value>True si el patrón tiene un número fijo de repeticiones o una fecha de finalización; en caso contrario, false.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsSame">
+      <MemberSignature Language="C#" Value="public bool IsSame (Microsoft.Exchange.WebServices.Data.Recurrence otherRecurrence);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool IsSame(class Microsoft.Exchange.WebServices.Data.Recurrence otherRecurrence) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Recurrence.IsSame(Microsoft.Exchange.WebServices.Data.Recurrence)" />
+      <MemberSignature Language="VB.NET" Value="Public Function IsSame (otherRecurrence As Recurrence) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool IsSame(Microsoft::Exchange::WebServices::Data::Recurrence ^ otherRecurrence);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="otherRecurrence" Type="Microsoft.Exchange.WebServices.Data.Recurrence" />
+      </Parameters>
+      <Docs>
+        <param name="otherRecurrence">Un objeto de periodicidad de calendario con el que se va a comparar.</param>
+        <summary>Compara dos objetos mediante convertirlos a JavaScript Object Notation (JSON) y comparar sus valores de cadena.              El <see cref="M:Microsoft.Exchange.WebServices.Data.Recurrence.IsSame(Microsoft.Exchange.WebServices.Data.Recurrence)" /> método es aplicable para los clientes que estén destinados a Exchange Online y versiones de Exchange a partir de Exchange Server 2013.</summary>
+        <returns>
+          <b>true</b> si el JSON convertir objetos son iguales; en caso contrario, <b>false</b>.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NeverEnds">
+      <MemberSignature Language="C#" Value="public void NeverEnds ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void NeverEnds() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Recurrence.NeverEnds" />
+      <MemberSignature Language="VB.NET" Value="Public Sub NeverEnds ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void NeverEnds();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Configura esta periodicidad para que nunca termina.</summary>
+        <remarks>
+          <para>Al llamar a NeverEnds equivale a establecer NumberOfOccurrences y EndDate en null.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NumberOfOccurrences">
+      <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; NumberOfOccurrences { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; NumberOfOccurrences" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Recurrence.NumberOfOccurrences" />
+      <MemberSignature Language="VB.NET" Value="Public Property NumberOfOccurrences As Nullable(Of Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;int&gt; NumberOfOccurrences { Nullable&lt;int&gt; get(); void set(Nullable&lt;int&gt; value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtiene o establece el número de repeticiones después de que finaliza la periodicidad. Establecer NumberOfOccurrences restablece EndDate.</summary>
+        <value>Un valor entero, o null.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StartDate">
+      <MemberSignature Language="C#" Value="public DateTime StartDate { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime StartDate" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Recurrence.StartDate" />
+      <MemberSignature Language="VB.NET" Value="Public Property StartDate As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime StartDate { DateTime get(); void set(DateTime value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtiene o establece la fecha y hora cuando se inicia la periodicidad.</summary>
+        <value>Un valor de fecha y hora.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

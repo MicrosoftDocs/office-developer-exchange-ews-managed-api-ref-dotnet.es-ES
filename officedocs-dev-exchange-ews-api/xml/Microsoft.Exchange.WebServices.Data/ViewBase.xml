@@ -1,0 +1,57 @@
+<Type Name="ViewBase" FullName="Microsoft.Exchange.WebServices.Data.ViewBase">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="f152bbfa8d62bb48f8b1b2cf3489d7faa9714a9d" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="es-ES" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20627698" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public abstract class ViewBase" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit ViewBase extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ViewBase" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class ViewBase" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ViewBase abstract" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Representa la clase de vista base para las operaciones de búsqueda.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="PropertySet">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.PropertySet PropertySet { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.PropertySet PropertySet" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ViewBase.PropertySet" />
+      <MemberSignature Language="VB.NET" Value="Public Property PropertySet As PropertySet" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::PropertySet ^ PropertySet { Microsoft::Exchange::WebServices::Data::PropertySet ^ get(); void set(Microsoft::Exchange::WebServices::Data::PropertySet ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertySet</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtiene o establece el conjunto de propiedades. Esta propiedad determina qué propiedades se cargará en los elementos que se encuentran. Si esta propiedad es una referencia nula (Nothing en Visual Basic), todas las propiedades de primera clase se cargan en los elementos que se encuentran.</summary>
+        <value>El conjunto de propiedades que se va a cargar en los elementos que son devueltos por la búsqueda.</value>
+        <remarks>
+          <para>La propiedad PropertySet determina las propiedades del elemento que se devolverá con los elementos encontrados por la búsqueda. Si PropertySet es una referencia nula (Nothing en Visual Basic), se devuelven todas las propiedades de primera clase con los elementos que se encuentran.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

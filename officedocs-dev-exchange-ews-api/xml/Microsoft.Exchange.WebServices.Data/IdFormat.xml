@@ -1,0 +1,142 @@
+<Type Name="IdFormat" FullName="Microsoft.Exchange.WebServices.Data.IdFormat">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="f2d4e08bd076823154fb6be4119c94b0a8faf3b9" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="es-ES" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20627917" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum IdFormat" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed IdFormat extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.IdFormat" />
+  <TypeSignature Language="VB.NET" Value="Public Enum IdFormat" />
+  <TypeSignature Language="C++ CLI" Value="public enum class IdFormat" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Define los formatos de identificador compatibles para las operaciones de conversión de identificador.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="EntryId">
+      <MemberSignature Language="C#" Value="EntryId" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.IdFormat EntryId = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.IdFormat.EntryId" />
+      <MemberSignature Language="VB.NET" Value="EntryId" />
+      <MemberSignature Language="C++ CLI" Value="EntryId" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.IdFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>La propiedad de entrada del objeto con codificación base64.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="EwsId">
+      <MemberSignature Language="C#" Value="EwsId" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.IdFormat EwsId = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.IdFormat.EwsId" />
+      <MemberSignature Language="VB.NET" Value="EwsId" />
+      <MemberSignature Language="C++ CLI" Value="EwsId" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.IdFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>El formato de identificador de EWS que se usa en Exchange 2007 Service Pack 1 (SP1) y versiones posteriores de Exchange Server.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="EwsLegacyId">
+      <MemberSignature Language="C#" Value="EwsLegacyId" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.IdFormat EwsLegacyId = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.IdFormat.EwsLegacyId" />
+      <MemberSignature Language="VB.NET" Value="EwsLegacyId" />
+      <MemberSignature Language="C++ CLI" Value="EwsLegacyId" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.IdFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>El formato de identificador de Exchange Web Services (EWS) que se usa en la versión inicial de Exchange Server 2007.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="HexEntryId">
+      <MemberSignature Language="C#" Value="HexEntryId" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.IdFormat HexEntryId = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.IdFormat.HexEntryId" />
+      <MemberSignature Language="VB.NET" Value="HexEntryId" />
+      <MemberSignature Language="C++ CLI" Value="HexEntryId" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.IdFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>La representación hexadecimal de la propiedad de entrada del objeto.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="OwaId">
+      <MemberSignature Language="C#" Value="OwaId" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.IdFormat OwaId = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.IdFormat.OwaId" />
+      <MemberSignature Language="VB.NET" Value="OwaId" />
+      <MemberSignature Language="C++ CLI" Value="OwaId" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.IdFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>El formato de identificador de Outlook Web App. Este valor se aplica a Exchange 2007 y Exchange 2010.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="StoreId">
+      <MemberSignature Language="C#" Value="StoreId" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.IdFormat StoreId = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.IdFormat.StoreId" />
+      <MemberSignature Language="VB.NET" Value="StoreId" />
+      <MemberSignature Language="C++ CLI" Value="StoreId" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.IdFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>El formato de identificador de almacén de Exchange.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
