@@ -1,0 +1,188 @@
+<Type Name="SetRuleOperation" FullName="Microsoft.Exchange.WebServices.Data.SetRuleOperation">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="0d0e443d67b3d140804bb8b2ba78919c13491dd3" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="es-ES" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20627515" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class SetRuleOperation : Microsoft.Exchange.WebServices.Data.RuleOperation" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit SetRuleOperation extends Microsoft.Exchange.WebServices.Data.RuleOperation" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.SetRuleOperation" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class SetRuleOperation&#xA;Inherits RuleOperation" />
+  <TypeSignature Language="C++ CLI" Value="public ref class SetRuleOperation sealed : Microsoft::Exchange::WebServices::Data::RuleOperation" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.RuleOperation</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="249f5-101">Representa una operación para actualizar una regla de bandeja de entrada.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="249f5-101">Represents an operation to update an Inbox rule.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="249f5-102">
+        <para>Puede utilizar esta clase para actualizar las condiciones y acciones de una regla existente.</para>
+        <para>Esta clase se deriva de la <see cref="T:Microsoft.Exchange.WebServices.Data.RuleOperation" /> clase.</para>
+        <para>Cuando se crea una regla, se almacena en el servidor de Exchange. Cuando se recibe un mensaje, el servidor de Exchange da como resultado el mensaje y determina si se han cumplido las condiciones de regla. Esta clase permite cambiar las condiciones o acciones de una regla.</para>
+        <para />
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="249f5-102">
+          <para>You can use this class to update the conditions and actions of an existing rule. </para>
+          <para>This class derives from the <see cref="T:Microsoft.Exchange.WebServices.Data.RuleOperation" /> class.</para>
+          <para>When a rule is created, it is stored on the Exchange server. When a message arrives, the Exchange server evaluates the message and determines whether it has fulfilled any rule conditions. This class enables you to change the conditions or actions  of a rule.</para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+    <example>
+      <span data-ttu-id="249f5-103">
+        <para>El siguiente ejemplo se busca la <see cref="T:Microsoft.Exchange.WebServices.Data.RuleCollection" /> clase para buscar una regla existente con el nombre "MoveInterestingToJunk" desde el buzón del usuario. Si la regla no existe, el <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" /> se cambian las propiedades. El <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" /> (propiedad) quita el filtro de cadena de asunto existente y se aplica el nuevo <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" /> propiedad que especifica que cada vez que un mensaje de correo electrónico llega que tiene una cadena de "Este es correo no deseado" en el asunto, el servidor de Exchange es realizar las acciones existentes. La regla se cargará en el servidor cuando el servicio. Se ejecuta la línea de UpdateInboxRules (new RuleOperation [] {setRuleOperation}, true).</para>
+        <code>// Modify the "MoveInterestingToJunk" rule, if it exists.
+// Get the RuleCollection.
+RuleCollection ruleCollection = service.GetInboxRules("User1@Contoso.com");
+foreach (Rule ruleinCollection in ruleCollection)
+{
+    if (ruleinCollection.DisplayName == "MoveInterestingToJunk")
+    {
+        ruleinCollection.Conditions.ContainsSubjectStrings.Clear();
+        ruleinCollection.Conditions.ContainsSubjectStrings.Add("This is Junk");
+        SetRuleOperation setRuleOperation = new SetRuleOperation(ruleinCollection);
+        service.UpdateInboxRules(new RuleOperation[] { setRuleOperation }, true);
+    }
+}</code>
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="249f5-103">
+          <para>The following example searches the <see cref="T:Microsoft.Exchange.WebServices.Data.RuleCollection" /> class to find an existing rule with the name "MoveInterestingToJunk" from the user's mailbox. If the rule exists, the <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" /> properties are changed. The <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" /> property removes the existing subject string filter and applies the new <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" /> property that specifies that whenever an e-mail message arrives that has a string of "This is Junk" in the subject, the Exchange server is to take the existing actions. The rule is uploaded to the server when the service.UpdateInboxRules(new RuleOperation[] { setRuleOperation }, true) line is executed.</para>
+          <code>// Modify the "MoveInterestingToJunk" rule, if it exists.
+// Get the RuleCollection.
+RuleCollection ruleCollection = service.GetInboxRules("User1@Contoso.com");
+foreach (Rule ruleinCollection in ruleCollection)
+{
+    if (ruleinCollection.DisplayName == "MoveInterestingToJunk")
+    {
+        ruleinCollection.Conditions.ContainsSubjectStrings.Clear();
+        ruleinCollection.Conditions.ContainsSubjectStrings.Add("This is Junk");
+        SetRuleOperation setRuleOperation = new SetRuleOperation(ruleinCollection);
+        service.UpdateInboxRules(new RuleOperation[] { setRuleOperation }, true);
+    }
+}</code>
+        </span>
+      </span>
+    </example>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SetRuleOperation ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.SetRuleOperation.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; SetRuleOperation();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="249f5-104">Inicializa una nueva instancia de la clase SetRuleOperation.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="249f5-104">Initializes a new instance of the SetRuleOperation class.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="249f5-105">
+            <para>Actualiza una regla en un buzón específico.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="249f5-105">
+              <para>Updates a rule in a specific mailbox.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SetRuleOperation (Microsoft.Exchange.WebServices.Data.Rule rule);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Exchange.WebServices.Data.Rule rule) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.SetRuleOperation.#ctor(Microsoft.Exchange.WebServices.Data.Rule)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; SetRuleOperation(Microsoft::Exchange::WebServices::Data::Rule ^ rule);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="rule" Type="Microsoft.Exchange.WebServices.Data.Rule" />
+      </Parameters>
+      <Docs>
+        <param name="rule">
+          <span data-ttu-id="249f5-106">La regla se actualiza y se envía al servidor de mensajería.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="249f5-106">The rule to be updated and sent to the messaging server.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="249f5-107">Inicializa una nueva instancia de la clase SetRuleOperation con la regla especificada.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="249f5-107">Initializes a new instance of the SetRuleOperation class with the specified rule.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Rule">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.Rule Rule { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.Rule Rule" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SetRuleOperation.Rule" />
+      <MemberSignature Language="VB.NET" Value="Public Property Rule As Rule" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::Rule ^ Rule { Microsoft::Exchange::WebServices::Data::Rule ^ get(); void set(Microsoft::Exchange::WebServices::Data::Rule ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Rule</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="249f5-108">Obtiene o establece la regla que se van a actualizar.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="249f5-108">Gets or sets the rule to be updated.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="249f5-109">La regla que se van a actualizar.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="249f5-109">The rule to be updated.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="249f5-110">
+            <para>La regla contiene las condiciones y acciones que deben tomarse cuando se recibe un mensaje de correo electrónico en un buzón de correo.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="249f5-110">
+              <para>The rule contains the conditions and actions to be taken when an e-mail message arrives in a mailbox.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,105 @@
+<Type Name="ItemEvent" FullName="Microsoft.Exchange.WebServices.Data.ItemEvent">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="74ad1225bd9846e8db852c2c1af7ddded77a8d6c" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="es-ES" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20627661" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class ItemEvent : Microsoft.Exchange.WebServices.Data.NotificationEvent" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit ItemEvent extends Microsoft.Exchange.WebServices.Data.NotificationEvent" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ItemEvent" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class ItemEvent&#xA;Inherits NotificationEvent" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ItemEvent sealed : Microsoft::Exchange::WebServices::Data::NotificationEvent" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.NotificationEvent</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="2933c-101">Representa un evento que se aplica a un elemento.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="2933c-101">Represents an event that applies to an item.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ItemId">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ItemId ItemId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.ItemId ItemId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ItemEvent.ItemId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ItemId As ItemId" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ItemId ^ ItemId { Microsoft::Exchange::WebServices::Data::ItemId ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ItemId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="2933c-102">Obtiene o establece el identificador del elemento que se aplica este evento.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2933c-102">Gets or sets the identifier of the item that this event applies to.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="2933c-103">Un objeto ItemId que identifica el elemento que se aplica este evento.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2933c-103">An ItemId object that identifies the item that this event applies to.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OldItemId">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ItemId OldItemId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.ItemId OldItemId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ItemEvent.OldItemId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property OldItemId As ItemId" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ItemId ^ OldItemId { Microsoft::Exchange::WebServices::Data::ItemId ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ItemId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="2933c-104">Obtiene o establece el identificador del elemento original que se ha movido o copiado.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2933c-104">Gets or sets the identifier of the original item that was moved or copied.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="2933c-105">Un objeto ItemId que identifica el elemento original que se aplica este evento.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2933c-105">An ItemId object that identifies the original item that this event applies to.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="2933c-106">
+            <para>El <see cref="P:Microsoft.Exchange.WebServices.Data.ItemEvent.OldItemId" /> propiedad sólo es significativa cuando el <see cref="P:Microsoft.Exchange.WebServices.Data.NotificationEvent.EventType" /> (propiedad) es igual a <see cref="F:Microsoft.Exchange.WebServices.Data.EventType.Moved" /> o <see cref="F:Microsoft.Exchange.WebServices.Data.EventType.Copied" />. Para todos los demás eventos, esta propiedad es una referencia nula (Nothing en Visual Basic).</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2933c-106">
+              <para>The <see cref="P:Microsoft.Exchange.WebServices.Data.ItemEvent.OldItemId" /> property is only meaningful when the <see cref="P:Microsoft.Exchange.WebServices.Data.NotificationEvent.EventType" /> property is equal to <see cref="F:Microsoft.Exchange.WebServices.Data.EventType.Moved" /> or <see cref="F:Microsoft.Exchange.WebServices.Data.EventType.Copied" />. For all other events, this property is a null reference (Nothing in Visual Basic).</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
