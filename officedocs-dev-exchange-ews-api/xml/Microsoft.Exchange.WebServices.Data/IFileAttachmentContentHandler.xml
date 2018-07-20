@@ -1,0 +1,50 @@
+<Type Name="IFileAttachmentContentHandler" FullName="Microsoft.Exchange.WebServices.Data.IFileAttachmentContentHandler">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="fb8f51c1d46d175817990bb2b93727a08f70d642" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="es-ES" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20627514" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface IFileAttachmentContentHandler" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IFileAttachmentContentHandler" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.IFileAttachmentContentHandler" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IFileAttachmentContentHandler" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IFileAttachmentContentHandler" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>Define un controlador de contenido de datos adjuntos de archivo. Una aplicación puede implementar IFileAttachmentContentHandler para proporcionar la secuencia en que se debe escribir el contenido de un archivo adjunto.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="GetOutputStream">
+      <MemberSignature Language="C#" Value="public System.IO.Stream GetOutputStream (string attachmentId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.IO.Stream GetOutputStream(string attachmentId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.IFileAttachmentContentHandler.GetOutputStream(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetOutputStream (attachmentId As String) As Stream" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::IO::Stream ^ GetOutputStream(System::String ^ attachmentId);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IO.Stream</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="attachmentId" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="attachmentId">El identificador de los datos adjuntos que se va a cargar.</param>
+        <summary>Proporciona una secuencia en la que se debe escribir el contenido de los datos adjuntos con el identificador especificado.</summary>
+        <returns>Una secuencia a la que se escribirá el contenido de los datos adjuntos.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

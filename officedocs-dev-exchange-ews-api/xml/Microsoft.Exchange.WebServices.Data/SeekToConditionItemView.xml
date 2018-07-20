@@ -1,0 +1,177 @@
+<Type Name="SeekToConditionItemView" FullName="Microsoft.Exchange.WebServices.Data.SeekToConditionItemView">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="73a2185cf0fbf717f4260616c40a8225164d3174" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="es-ES" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20627516" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class SeekToConditionItemView : Microsoft.Exchange.WebServices.Data.ViewBase" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit SeekToConditionItemView extends Microsoft.Exchange.WebServices.Data.ViewBase" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.SeekToConditionItemView" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class SeekToConditionItemView&#xA;Inherits ViewBase" />
+  <TypeSignature Language="C++ CLI" Value="public ref class SeekToConditionItemView sealed : Microsoft::Exchange::WebServices::Data::ViewBase" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ViewBase</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Representa la configuración de la vista en una operación de búsqueda de la carpeta.             El <see cref="T:Microsoft.Exchange.WebServices.Data.SeekToConditionItemView" /> clase es aplicable para los clientes que estén destinados a Exchange Online y versiones de Exchange a partir de Exchange Server 2013.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SeekToConditionItemView (Microsoft.Exchange.WebServices.Data.SearchFilter condition, int pageSize);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Exchange.WebServices.Data.SearchFilter condition, int32 pageSize) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.SeekToConditionItemView.#ctor(Microsoft.Exchange.WebServices.Data.SearchFilter,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (condition As SearchFilter, pageSize As Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; SeekToConditionItemView(Microsoft::Exchange::WebServices::Data::SearchFilter ^ condition, int pageSize);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="condition" Type="Microsoft.Exchange.WebServices.Data.SearchFilter" />
+        <Parameter Name="pageSize" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="condition">La condición que se usará al solicitar.</param>
+        <param name="pageSize">El número máximo de elementos de que la operación de búsqueda debe devolver.</param>
+        <summary>Inicializa una nueva instancia de la <see cref="T:Microsoft.Exchange.WebServices.Data.SeekToConditionItemView" /> clase con un filtro de búsqueda y un tamaño de página.             El <see cref="M:Microsoft.Exchange.WebServices.Data.SeekToConditionItemView.#ctor(Microsoft.Exchange.WebServices.Data.SearchFilter,System.Int32)" /> constructor es aplicable para los clientes que estén destinados a Exchange Online y versiones de Exchange a partir de Exchange Server 2013.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SeekToConditionItemView (Microsoft.Exchange.WebServices.Data.SearchFilter condition, int pageSize, Microsoft.Exchange.WebServices.Data.OffsetBasePoint offsetBasePoint);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Exchange.WebServices.Data.SearchFilter condition, int32 pageSize, valuetype Microsoft.Exchange.WebServices.Data.OffsetBasePoint offsetBasePoint) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.SeekToConditionItemView.#ctor(Microsoft.Exchange.WebServices.Data.SearchFilter,System.Int32,Microsoft.Exchange.WebServices.Data.OffsetBasePoint)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; SeekToConditionItemView(Microsoft::Exchange::WebServices::Data::SearchFilter ^ condition, int pageSize, Microsoft::Exchange::WebServices::Data::OffsetBasePoint offsetBasePoint);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="condition" Type="Microsoft.Exchange.WebServices.Data.SearchFilter" />
+        <Parameter Name="pageSize" Type="System.Int32" />
+        <Parameter Name="offsetBasePoint" Type="Microsoft.Exchange.WebServices.Data.OffsetBasePoint" />
+      </Parameters>
+      <Docs>
+        <param name="condition">La condición que se usará al solicitar.</param>
+        <param name="pageSize">El número máximo de elementos de que la operación de búsqueda debe devolver.</param>
+        <param name="offsetBasePoint">La posición en la vista de elemento desde el que se va a medir el desplazamiento.</param>
+        <summary>Inicializa una nueva instancia de la <see cref="T:Microsoft.Exchange.WebServices.Data.SeekToConditionItemView" /> clase con un punto de partida para el desplazamiento, un tamaño de página y un filtro de búsqueda.             El <see cref="M:Microsoft.Exchange.WebServices.Data.SeekToConditionItemView.#ctor(Microsoft.Exchange.WebServices.Data.SearchFilter,System.Int32,Microsoft.Exchange.WebServices.Data.OffsetBasePoint)" /> constructor es aplicable para los clientes que estén destinados a Exchange Online y versiones de Exchange a partir de Exchange Server 2013.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Condition">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.SearchFilter Condition { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.SearchFilter Condition" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SeekToConditionItemView.Condition" />
+      <MemberSignature Language="VB.NET" Value="Public Property Condition As SearchFilter" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::SearchFilter ^ Condition { Microsoft::Exchange::WebServices::Data::SearchFilter ^ get(); void set(Microsoft::Exchange::WebServices::Data::SearchFilter ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.SearchFilter</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtiene o establece el filtro de búsqueda para seek. El <see cref="P:Microsoft.Exchange.WebServices.Data.SeekToConditionItemView.Condition" /> (propiedad) es aplicable para los clientes que estén destinados a Exchange Online y versiones de Exchange a partir de Exchange Server 2013.</summary>
+        <value>La condición de búsqueda.</value>
+        <remarks>
+          <para>Las clases de filtro de búsqueda disponibles son SearchFilter.IsEqualTo, SearchFilter.ContainsSubstring y SearchFilter.SearchFilterCollection. Si SearchFilter es una referencia nula (Nothing en Visual Basic), se aplica ningún filtro de búsqueda.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OffsetBasePoint">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.OffsetBasePoint OffsetBasePoint { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.OffsetBasePoint OffsetBasePoint" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SeekToConditionItemView.OffsetBasePoint" />
+      <MemberSignature Language="VB.NET" Value="Public Property OffsetBasePoint As OffsetBasePoint" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::OffsetBasePoint OffsetBasePoint { Microsoft::Exchange::WebServices::Data::OffsetBasePoint get(); void set(Microsoft::Exchange::WebServices::Data::OffsetBasePoint value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.OffsetBasePoint</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtiene o establece la posición en la vista de un elemento desde el que se va a medir un desplazamiento. Es el punto de partida al principio o al final de una vista del elemento.             El <see cref="P:Microsoft.Exchange.WebServices.Data.SeekToConditionItemView.OffsetBasePoint" /> (propiedad) es aplicable para los clientes que estén destinados a Exchange Online y versiones de Exchange a partir de Exchange Server 2013.</summary>
+        <value>El punto de base del desplazamiento.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OrderBy">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.OrderByCollection OrderBy { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.OrderByCollection OrderBy" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SeekToConditionItemView.OrderBy" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property OrderBy As OrderByCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::OrderByCollection ^ OrderBy { Microsoft::Exchange::WebServices::Data::OrderByCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.OrderByCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtiene las propiedades con el que deben estar ordenados de los elementos devueltos. El <see cref="P:Microsoft.Exchange.WebServices.Data.SeekToConditionItemView.OrderBy" /> (propiedad) es aplicable para los clientes que estén destinados a Exchange Online y versiones de Exchange a partir de Exchange Server 2013.</summary>
+        <value>Las propiedades con el que deben estar ordenados de los elementos devueltos.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PageSize">
+      <MemberSignature Language="C#" Value="public int PageSize { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 PageSize" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SeekToConditionItemView.PageSize" />
+      <MemberSignature Language="VB.NET" Value="Public Property PageSize As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int PageSize { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtiene o establece el número máximo de elementos o carpetas que debe devolver la operación de búsqueda.             El <see cref="P:Microsoft.Exchange.WebServices.Data.SeekToConditionItemView.PageSize" /> (propiedad) es aplicable para los clientes que estén destinados a Exchange Online y versiones de Exchange a partir de Exchange Server 2013.</summary>
+        <value>El número máximo de elementos o carpetas que debe devolver la operación de búsqueda.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Traversal">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ItemTraversal Traversal { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.ItemTraversal Traversal" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SeekToConditionItemView.Traversal" />
+      <MemberSignature Language="VB.NET" Value="Public Property Traversal As ItemTraversal" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ItemTraversal Traversal { Microsoft::Exchange::WebServices::Data::ItemTraversal get(); void set(Microsoft::Exchange::WebServices::Data::ItemTraversal value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ItemTraversal</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtiene o establece el modo de la exploración transversal de búsqueda. Valores predeterminados de <see cref="F:Microsoft.Exchange.WebServices.Data.ItemTraversal.Shallow" />.             El <see cref="P:Microsoft.Exchange.WebServices.Data.SeekToConditionItemView.Traversal" /> (propiedad) es aplicable para los clientes que estén destinados a Exchange Online y versiones de Exchange a partir de Exchange Server 2013.</summary>
+        <value>El modo de recorrido de búsqueda.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

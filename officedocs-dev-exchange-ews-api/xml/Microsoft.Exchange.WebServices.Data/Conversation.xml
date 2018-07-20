@@ -1,0 +1,1222 @@
+<Type Name="Conversation" FullName="Microsoft.Exchange.WebServices.Data.Conversation">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="22d5bd88ef39fe662d62391f299aa71ba81fdbca" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="es-ES" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20627599" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class Conversation : Microsoft.Exchange.WebServices.Data.ServiceObject" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Conversation extends Microsoft.Exchange.WebServices.Data.ServiceObject" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.Conversation" />
+  <TypeSignature Language="VB.NET" Value="Public Class Conversation&#xA;Inherits ServiceObject" />
+  <TypeSignature Language="C++ CLI" Value="public ref class Conversation : Microsoft::Exchange::WebServices::Data::ServiceObject" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ServiceObject</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Representa una conversación.</summary>
+    <remarks>
+      <para>Se devuelve una colección de objetos de conversación por la <see cref="M:Microsoft.Exchange.WebServices.Data.ExchangeService.FindConversation(Microsoft.Exchange.WebServices.Data.ViewBase,Microsoft.Exchange.WebServices.Data.FolderId)" /> método para el <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" /> clase. Las definiciones de propiedad para la clase de conversación se definen en el <see cref="T:Microsoft.Exchange.WebServices.Data.ConversationSchema" /> clase.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Categories">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.StringList Categories { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.StringList Categories" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Conversation.Categories" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Categories As StringList" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::StringList ^ Categories { Microsoft::Exchange::WebServices::Data::StringList ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtiene la lista de categorías de elementos de una conversación en la carpeta actual.</summary>
+        <value>Una lista de categorías.</value>
+        <remarks>
+          <para>Usar el <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalCategories" /> (propiedad) para obtener la lista de categorías para todos los elementos de una conversación de un buzón de correo.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ClearItemFlags">
+      <MemberSignature Language="C#" Value="public void ClearItemFlags (Microsoft.Exchange.WebServices.Data.FolderId contextFolderId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void ClearItemFlags(class Microsoft.Exchange.WebServices.Data.FolderId contextFolderId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Conversation.ClearItemFlags(Microsoft.Exchange.WebServices.Data.FolderId)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ClearItemFlags (contextFolderId As FolderId)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ClearItemFlags(Microsoft::Exchange::WebServices::Data::FolderId ^ contextFolderId);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="contextFolderId" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
+      </Parameters>
+      <Docs>
+        <param name="contextFolderId">El identificador de la carpeta cuyos elementos será sin marca. Si el valor de la <paramref name="contextFolderId" /> parámetro es una referencia nula (Nothing en Visual Basic), se borran los indicadores para los elementos de las conversaciones a través de todo el buzón.</param>
+        <summary>Borra el estado marcado en elementos de la conversación asociado.       El <see cref="M:Microsoft.Exchange.WebServices.Data.Conversation.ClearItemFlags(Microsoft.Exchange.WebServices.Data.FolderId)" /> método es aplicable para los clientes que estén destinados a Exchange Online y versiones de Exchange a partir de Exchange Server 2013.</summary>
+        <remarks>
+          <para>Llamar a este método se genera en una llamada a servicios Web de Exchange (EWS).</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CopyItemsInConversation">
+      <MemberSignature Language="C#" Value="public void CopyItemsInConversation (Microsoft.Exchange.WebServices.Data.FolderId contextFolderId, Microsoft.Exchange.WebServices.Data.FolderId destinationFolderId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void CopyItemsInConversation(class Microsoft.Exchange.WebServices.Data.FolderId contextFolderId, class Microsoft.Exchange.WebServices.Data.FolderId destinationFolderId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Conversation.CopyItemsInConversation(Microsoft.Exchange.WebServices.Data.FolderId,Microsoft.Exchange.WebServices.Data.FolderId)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub CopyItemsInConversation (contextFolderId As FolderId, destinationFolderId As FolderId)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void CopyItemsInConversation(Microsoft::Exchange::WebServices::Data::FolderId ^ contextFolderId, Microsoft::Exchange::WebServices::Data::FolderId ^ destinationFolderId);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="contextFolderId" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
+        <Parameter Name="destinationFolderId" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
+      </Parameters>
+      <Docs>
+        <param name="contextFolderId">El identificador de la carpeta de la carpeta que contiene los elementos de la conversación para copiar. Si este argumento se establece en una referencia nula (Nothing en Visual Basic), se copian todos los elementos de una conversación a través de todo el buzón en la carpeta de destino.</param>
+        <param name="destinationFolderId">El identificador de la carpeta de destino de la carpeta que contendrá los elementos copiados.</param>
+        <summary>Copia los elementos de la conversación a una carpeta especificada.</summary>
+        <remarks>
+          <para>Llamar a este método se genera en una llamada a servicios Web de Exchange (EWS).</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeleteItems">
+      <MemberSignature Language="C#" Value="public void DeleteItems (Microsoft.Exchange.WebServices.Data.FolderId contextFolderId, Microsoft.Exchange.WebServices.Data.DeleteMode deleteMode);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void DeleteItems(class Microsoft.Exchange.WebServices.Data.FolderId contextFolderId, valuetype Microsoft.Exchange.WebServices.Data.DeleteMode deleteMode) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Conversation.DeleteItems(Microsoft.Exchange.WebServices.Data.FolderId,Microsoft.Exchange.WebServices.Data.DeleteMode)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void DeleteItems(Microsoft::Exchange::WebServices::Data::FolderId ^ contextFolderId, Microsoft::Exchange::WebServices::Data::DeleteMode deleteMode);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="contextFolderId" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
+        <Parameter Name="deleteMode" Type="Microsoft.Exchange.WebServices.Data.DeleteMode" />
+      </Parameters>
+      <Docs>
+        <param name="contextFolderId">El identificador de la carpeta de la carpeta que contiene los elementos de la conversación para eliminar. Si este argumento se establece en una referencia nula (Nothing en Visual Basic), se eliminan todos los elementos de una conversación a través de todo el buzón.</param>
+        <param name="deleteMode">El modo de eliminación.</param>
+        <summary>Elimina los elementos de la conversación.</summary>
+        <remarks>
+          <para>Llamar a este método se genera en una llamada a servicios Web de Exchange (EWS).</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisableAlwaysCategorizeItems">
+      <MemberSignature Language="C#" Value="public void DisableAlwaysCategorizeItems (bool processSynchronously);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void DisableAlwaysCategorizeItems(bool processSynchronously) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Conversation.DisableAlwaysCategorizeItems(System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub DisableAlwaysCategorizeItems (processSynchronously As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void DisableAlwaysCategorizeItems(bool processSynchronously);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="processSynchronously" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="processSynchronously">
+          <b>true</b> para indicar si el método debe devolver una vez que haya completado la categorización de deshabilitar y quitar las categorías de los elementos existentes en la conversación; <b>false</b> si el método que se va a devolver inmediatamente.</param>
+        <summary>Deshabilita la categorización automática de los elementos en una conversación.</summary>
+        <remarks>
+          <para>Llamar a este método se genera en una llamada a servicios Web de Exchange (EWS).</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisableAlwaysDeleteItems">
+      <MemberSignature Language="C#" Value="public void DisableAlwaysDeleteItems (bool processSynchronously);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void DisableAlwaysDeleteItems(bool processSynchronously) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Conversation.DisableAlwaysDeleteItems(System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub DisableAlwaysDeleteItems (processSynchronously As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void DisableAlwaysDeleteItems(bool processSynchronously);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="processSynchronously" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="processSynchronously">
+          <b>true</b> para indicar si el método debe devolver una vez haya finalizado deshabilitar automática mover de elementos en una conversación a la carpeta Elementos eliminados y ha restaurado los elementos eliminados en sus carpetas originales; <b>false</b> si el método que se va a devolver inmediatamente.</param>
+        <summary>Deshabilita el desplazamiento automático de los elementos en una conversación a la carpeta Elementos eliminados.</summary>
+        <remarks>
+          <para>Llamar a este método se genera en una llamada a servicios Web de Exchange (EWS).</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisableAlwaysMoveItemsInConversation">
+      <MemberSignature Language="C#" Value="public void DisableAlwaysMoveItemsInConversation (bool processSynchronously);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void DisableAlwaysMoveItemsInConversation(bool processSynchronously) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Conversation.DisableAlwaysMoveItemsInConversation(System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub DisableAlwaysMoveItemsInConversation (processSynchronously As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void DisableAlwaysMoveItemsInConversation(bool processSynchronously);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="processSynchronously" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="processSynchronously">
+          <b>true</b> para indicar si el método debe devolver una vez haya finalizado deshabilitar automática mover de elementos en una conversación en la carpeta de destino; <b>false</b> si el método que se va a devolver inmediatamente.</param>
+        <summary>Deshabilita el desplazamiento automático de los elementos en una conversación en una carpeta de destino.</summary>
+        <remarks>
+          <para>Llamar a este método se genera en una llamada a servicios Web de Exchange (EWS).</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DraftItemIds">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ItemIdCollection DraftItemIds { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.ItemIdCollection DraftItemIds" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Conversation.DraftItemIds" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DraftItemIds As ItemIdCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ItemIdCollection ^ DraftItemIds { Microsoft::Exchange::WebServices::Data::ItemIdCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ItemIdCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtiene una colección de identificadores de elemento de borrador por los elementos que aún no se ha enviado.</summary>
+        <value>Devuelve una colección de identificadores de elemento de borrador.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EnableAlwaysCategorizeItems">
+      <MemberSignature Language="C#" Value="public void EnableAlwaysCategorizeItems (System.Collections.Generic.IEnumerable&lt;string&gt; categories, bool processSynchronously);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void EnableAlwaysCategorizeItems(class System.Collections.Generic.IEnumerable`1&lt;string&gt; categories, bool processSynchronously) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Conversation.EnableAlwaysCategorizeItems(System.Collections.Generic.IEnumerable{System.String},System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub EnableAlwaysCategorizeItems (categories As IEnumerable(Of String), processSynchronously As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void EnableAlwaysCategorizeItems(System::Collections::Generic::IEnumerable&lt;System::String ^&gt; ^ categories, bool processSynchronously);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="categories" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" />
+        <Parameter Name="processSynchronously" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="categories">Las categorías que se aplican automáticamente a los elementos en una conversación.</param>
+        <param name="processSynchronously">
+          <b>true</b> para indicar si el método debe devolver una vez que haya completado la categorización de habilitación y agregar las categorías a los elementos existentes en la conversación; <b>false</b> si el método que se va a devolver inmediatamente.</param>
+        <summary>Permite la categorización automática de los elementos en una conversación.</summary>
+        <remarks>
+          <para>Llamar a este método se genera en una llamada a servicios Web de Exchange (EWS).</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EnableAlwaysDeleteItems">
+      <MemberSignature Language="C#" Value="public void EnableAlwaysDeleteItems (bool processSynchronously);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void EnableAlwaysDeleteItems(bool processSynchronously) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Conversation.EnableAlwaysDeleteItems(System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub EnableAlwaysDeleteItems (processSynchronously As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void EnableAlwaysDeleteItems(bool processSynchronously);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="processSynchronously" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="processSynchronously">
+          <b>true</b> para indicar si el método debe devolver una vez ha finalizado habilitar el desplazamiento automático de los elementos en una conversación a la carpeta Elementos eliminados y ha movido los elementos existentes en una conversación a la carpeta Elementos eliminados; <b>false</b> si el método que se va a devolver inmediatamente.</param>
+        <summary>Permite el movimiento automático de los elementos en una conversación a la carpeta Elementos eliminados.</summary>
+        <remarks>
+          <para>Llamar a este método se genera en una llamada a servicios Web de Exchange (EWS).</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EnableAlwaysMoveItems">
+      <MemberSignature Language="C#" Value="public void EnableAlwaysMoveItems (Microsoft.Exchange.WebServices.Data.FolderId destinationFolderId, bool processSynchronously);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void EnableAlwaysMoveItems(class Microsoft.Exchange.WebServices.Data.FolderId destinationFolderId, bool processSynchronously) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Conversation.EnableAlwaysMoveItems(Microsoft.Exchange.WebServices.Data.FolderId,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub EnableAlwaysMoveItems (destinationFolderId As FolderId, processSynchronously As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void EnableAlwaysMoveItems(Microsoft::Exchange::WebServices::Data::FolderId ^ destinationFolderId, bool processSynchronously);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="destinationFolderId" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
+        <Parameter Name="processSynchronously" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="destinationFolderId">El identificador de la carpeta a qué conversación se mueven los elementos.</param>
+        <param name="processSynchronously">
+          <b>true</b> para indicar si el método debe devolver una vez ha finalizado habilitar el desplazamiento automático de los elementos en una conversación a la carpeta de destino y ha movido los elementos de una conversación existente en la carpeta de destino; <b>false</b> si el método que se va a devolver inmediatamente.</param>
+        <summary>Permite el movimiento automático de artículos nuevos y existentes en una conversación en una carpeta de destino.</summary>
+        <remarks>
+          <para>Llamar a este método se genera en una llamada a servicios Web de Exchange (EWS).</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FlagItems">
+      <MemberSignature Language="C#" Value="public void FlagItems (Microsoft.Exchange.WebServices.Data.FolderId contextFolderId, Nullable&lt;DateTime&gt; startDate, Nullable&lt;DateTime&gt; dueDate);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void FlagItems(class Microsoft.Exchange.WebServices.Data.FolderId contextFolderId, valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; startDate, valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; dueDate) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Conversation.FlagItems(Microsoft.Exchange.WebServices.Data.FolderId,System.Nullable{System.DateTime},System.Nullable{System.DateTime})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub FlagItems (contextFolderId As FolderId, startDate As Nullable(Of DateTime), dueDate As Nullable(Of DateTime))" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void FlagItems(Microsoft::Exchange::WebServices::Data::FolderId ^ contextFolderId, Nullable&lt;DateTime&gt; startDate, Nullable&lt;DateTime&gt; dueDate);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="contextFolderId" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
+        <Parameter Name="startDate" Type="System.Nullable&lt;System.DateTime&gt;" />
+        <Parameter Name="dueDate" Type="System.Nullable&lt;System.DateTime&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="contextFolderId">El identificador de la carpeta cuyos elementos se marcarán. Si el valor de la <paramref name="contextFolderId" /> parámetro es una referencia nula (Nothing en Visual Basic), se marcan los elementos de la conversación a través de todo el buzón asociado.</param>
+        <param name="startDate">La fecha de inicio (puede ser una referencia nula (Nothing en Visual Basic)).</param>
+        <param name="dueDate">La fecha de vencimiento (puede ser una referencia nula (Nothing en Visual Basic)).</param>
+        <summary>Establece el estado marcado en elementos de la conversación asociado.          El <see cref="M:Microsoft.Exchange.WebServices.Data.Conversation.FlagItems(Microsoft.Exchange.WebServices.Data.FolderId,System.Nullable{System.DateTime},System.Nullable{System.DateTime})" /> método es aplicable para los clientes que estén destinados a Exchange Online y versiones de Exchange a partir de Exchange Server 2013.</summary>
+        <remarks>
+          <para>Llamar a este método se genera en una llamada a servicios Web de Exchange (EWS).</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FlagItemsComplete">
+      <MemberSignature Language="C#" Value="public void FlagItemsComplete (Microsoft.Exchange.WebServices.Data.FolderId contextFolderId, Nullable&lt;DateTime&gt; completeDate);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void FlagItemsComplete(class Microsoft.Exchange.WebServices.Data.FolderId contextFolderId, valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; completeDate) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Conversation.FlagItemsComplete(Microsoft.Exchange.WebServices.Data.FolderId,System.Nullable{System.DateTime})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub FlagItemsComplete (contextFolderId As FolderId, completeDate As Nullable(Of DateTime))" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void FlagItemsComplete(Microsoft::Exchange::WebServices::Data::FolderId ^ contextFolderId, Nullable&lt;DateTime&gt; completeDate);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="contextFolderId" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
+        <Parameter Name="completeDate" Type="System.Nullable&lt;System.DateTime&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="contextFolderId">El identificador de la carpeta cuyos elementos se marcarán como completada. Si el valor de la <paramref name="contextFolderId" /> parámetro es una referencia nula (Nothing en Visual Basic), los elementos de la conversación a través de todo el buzón marcados como completados.</param>
+        <param name="completeDate">La fecha completa (puede ser una referencia nula (Nothing en Visual Basic)).</param>
+        <summary>Cambia el estado de los elementos de la conversación asociado para llevar a cabo marcado.            El <see cref="M:Microsoft.Exchange.WebServices.Data.Conversation.FlagItemsComplete(Microsoft.Exchange.WebServices.Data.FolderId,System.Nullable{System.DateTime})" /> método es aplicable para los clientes que estén destinados a Exchange Online y versiones de Exchange a partir de Exchange Server 2013.</summary>
+        <remarks>
+          <para>Llamar a este método se genera en una llamada a servicios Web de Exchange (EWS).</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FlagStatus">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ConversationFlagStatus FlagStatus { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.ConversationFlagStatus FlagStatus" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Conversation.FlagStatus" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FlagStatus As ConversationFlagStatus" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ConversationFlagStatus FlagStatus { Microsoft::Exchange::WebServices::Data::ConversationFlagStatus get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ConversationFlagStatus</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtiene el estado del indicador agregados para elementos de una conversación en la carpeta actual.</summary>
+        <value>Un estado de marca.</value>
+        <remarks>
+          <para>Usar el <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalFlagStatus" /> propiedad para obtener el estado del indicador agregados de todos los elementos de la conversación en un buzón de correo.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GlobalCategories">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.StringList GlobalCategories { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.StringList GlobalCategories" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalCategories" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GlobalCategories As StringList" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::StringList ^ GlobalCategories { Microsoft::Exchange::WebServices::Data::StringList ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtiene la lista de categorías para todos los elementos de la conversación en un buzón de correo.</summary>
+        <value>Una lista de categorías.</value>
+        <remarks>
+          <para>Usar el <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.Categories" /> propiedad para obtener la lista de categorías de elementos de una conversación en la carpeta actual.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GlobalFlagStatus">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ConversationFlagStatus GlobalFlagStatus { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.ConversationFlagStatus GlobalFlagStatus" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalFlagStatus" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GlobalFlagStatus As ConversationFlagStatus" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ConversationFlagStatus GlobalFlagStatus { Microsoft::Exchange::WebServices::Data::ConversationFlagStatus get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ConversationFlagStatus</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtiene el estado del indicador agregada para todos los elementos de una conversación en un buzón de correo.</summary>
+        <value>Un estado de marca.</value>
+        <remarks>
+          <para>Usar el <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.FlagStatus" /> propiedad para obtener el estado del indicador agregados de todos los elementos de una conversación en la carpeta actual.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GlobalHasAttachments">
+      <MemberSignature Language="C#" Value="public bool GlobalHasAttachments { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool GlobalHasAttachments" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalHasAttachments" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GlobalHasAttachments As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool GlobalHasAttachments { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtiene un valor que indica si el elemento de al menos una conversación en un buzón tiene datos adjuntos.</summary>
+        <value>
+          <b>true</b> si el elemento de al menos una conversación en un buzón tiene datos adjuntos; en caso contrario, <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GlobalHasIrm">
+      <MemberSignature Language="C#" Value="public bool GlobalHasIrm { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool GlobalHasIrm" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalHasIrm" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GlobalHasIrm As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool GlobalHasIrm { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtiene un valor que indica si el elemento de al menos una conversación en cualquier carpeta de un buzón de correo está protegido por Information Rights Management (IRM). El <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalHasIrm" /> (propiedad) es aplicable para los clientes que estén destinados a Exchange Online y versiones de Exchange a partir de 15.00.0847.032.</summary>
+        <value>
+          <b>true</b> si el elemento de al menos una conversación en un buzón de correo está protegido por IRM; en caso contrario, <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GlobalIconIndex">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.IconIndex GlobalIconIndex { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.IconIndex GlobalIconIndex" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalIconIndex" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GlobalIconIndex As IconIndex" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::IconIndex GlobalIconIndex { Microsoft::Exchange::WebServices::Data::IconIndex get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.IconIndex</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtiene el índice de icono global. El <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalIconIndex" /> (propiedad) es aplicable para los clientes que estén destinados a Exchange Online y versiones de Exchange a partir de Exchange Server 2013.</summary>
+        <value>El índice de icono global.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GlobalImportance">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.Importance GlobalImportance { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.Importance GlobalImportance" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalImportance" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GlobalImportance As Importance" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::Importance GlobalImportance { Microsoft::Exchange::WebServices::Data::Importance get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Importance</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtiene la importancia agregada para todos los elementos de la conversación en un buzón de correo.</summary>
+        <value>La importancia de la información global de una conversación.</value>
+        <remarks>
+          <para>Usar el <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.Importance" /> (propiedad) para obtener la importancia agregada para todos los elementos de una conversación en la carpeta actual.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GlobalItemClasses">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.StringList GlobalItemClasses { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.StringList GlobalItemClasses" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalItemClasses" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GlobalItemClasses As StringList" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::StringList ^ GlobalItemClasses { Microsoft::Exchange::WebServices::Data::StringList ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtiene una lista de las clases de elementos que representa todas las clases de elemento de los elementos de la conversación en un buzón de correo.</summary>
+        <value>Una lista de las clases de elementos.</value>
+        <remarks>
+          <para>Usar el <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.ItemClasses" /> (propiedad) para obtener las clases de elemento de todos los elementos de la conversación en la carpeta actual.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GlobalItemIds">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ItemIdCollection GlobalItemIds { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.ItemIdCollection GlobalItemIds" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalItemIds" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GlobalItemIds As ItemIdCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ItemIdCollection ^ GlobalItemIds { Microsoft::Exchange::WebServices::Data::ItemIdCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ItemIdCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtiene la colección de identificadores de elemento para todos los elementos de la conversación en un buzón de correo.</summary>
+        <value>Una colección de identificadores de elemento.</value>
+        <remarks>
+          <para>Usar el <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.ItemIds" /> (propiedad) para obtener los identificadores de elemento para todos los elementos de una conversación en la carpeta actual.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GlobalLastDeliveryTime">
+      <MemberSignature Language="C#" Value="public DateTime GlobalLastDeliveryTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime GlobalLastDeliveryTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalLastDeliveryTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GlobalLastDeliveryTime As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime GlobalLastDeliveryTime { DateTime get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtiene la hora de entrega del mensaje que se recibió por última vez en esta conversación a través de todas las carpetas del buzón de correo..</summary>
+        <value>El tiempo de envío del último elemento de conversación.</value>
+        <remarks>
+          <para>Usar el <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.LastDeliveryTime" /> (propiedad) para obtener la hora de entrega del elemento de conversación que última recibidos en la carpeta actual.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GlobalMessageCount">
+      <MemberSignature Language="C#" Value="public int GlobalMessageCount { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 GlobalMessageCount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalMessageCount" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GlobalMessageCount As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int GlobalMessageCount { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtiene el número total de elementos de la conversación en el buzón de correo.</summary>
+        <value>El número de elementos de la conversación.</value>
+        <remarks>
+          <para>Usar el <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.MessageCount" /> (propiedad) para obtener el número total de elementos de una conversación en la carpeta actual.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GlobalSize">
+      <MemberSignature Language="C#" Value="public int GlobalSize { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 GlobalSize" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalSize" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GlobalSize As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int GlobalSize { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtiene el tamaño de la conversación que se calcula a partir del tamaño de todos los elementos de la conversación en el buzón de correo.</summary>
+        <value>El tamaño de la conversación en KB.</value>
+        <remarks>
+          <para>Usar el <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.Size" /> (propiedad) para obtener el tamaño de la conversación se calcula desde el tamaño de todos los elementos de una conversación en la carpeta actual.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GlobalUniqueRecipients">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.StringList GlobalUniqueRecipients { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.StringList GlobalUniqueRecipients" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalUniqueRecipients" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GlobalUniqueRecipients As StringList" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::StringList ^ GlobalUniqueRecipients { Microsoft::Exchange::WebServices::Data::StringList ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtiene una lista de todas las personas que han recibido los mensajes en esta conversación a través de todas las carpetas del buzón de correo.</summary>
+        <value>Una lista de destinatarios.</value>
+        <remarks>
+          <para>Usar el <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.UniqueRecipients" /> (propiedad) para obtener la lista de todos los destinatarios de los elementos de una conversación en la carpeta actual.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GlobalUniqueSenders">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.StringList GlobalUniqueSenders { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.StringList GlobalUniqueSenders" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalUniqueSenders" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GlobalUniqueSenders As StringList" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::StringList ^ GlobalUniqueSenders { Microsoft::Exchange::WebServices::Data::StringList ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtiene una lista de todos los remitentes de los elementos de la conversación en el buzón de correo.</summary>
+        <value>Una lista de remitentes.</value>
+        <remarks>
+          <para>Usar el <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.UniqueSenders" /> (propiedad) para obtener la lista de todos los remitentes de los elementos de una conversación en la carpeta actual.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GlobalUniqueUnreadSenders">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.StringList GlobalUniqueUnreadSenders { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.StringList GlobalUniqueUnreadSenders" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalUniqueUnreadSenders" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GlobalUniqueUnreadSenders As StringList" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::StringList ^ GlobalUniqueUnreadSenders { Microsoft::Exchange::WebServices::Data::StringList ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtiene una lista de todas las personas que han enviado los mensajes que están actualmente no leídos en esta conversación a través de todas las carpetas del buzón de correo.</summary>
+        <value>Una lista de remitentes.</value>
+        <remarks>
+          <para>Usar el <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.UniqueUnreadSenders" /> (propiedad) para obtener la lista de todos los remitentes de los elementos no leídos de conversación en la carpeta actual.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GlobalUnreadCount">
+      <MemberSignature Language="C#" Value="public int GlobalUnreadCount { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 GlobalUnreadCount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalUnreadCount" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GlobalUnreadCount As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int GlobalUnreadCount { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtiene un recuento de todos los elementos no leídos de conversación en el buzón de correo.</summary>
+        <value>El recuento de elementos no leídos.</value>
+        <remarks>
+          <para>Usar el <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.UnreadCount" /> (propiedad) para obtener el recuento de todos los elementos no leídos conversación en la carpeta actual.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HasAttachments">
+      <MemberSignature Language="C#" Value="public bool HasAttachments { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool HasAttachments" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Conversation.HasAttachments" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HasAttachments As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool HasAttachments { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtiene un valor que indica si el elemento de al menos una conversación en la carpeta actual tiene datos adjuntos.</summary>
+        <value>
+          <b>true</b> si el elemento de al menos una conversación en la carpeta actual tiene datos adjuntos; en caso contrario, <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HasIrm">
+      <MemberSignature Language="C#" Value="public bool HasIrm { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool HasIrm" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Conversation.HasIrm" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HasIrm As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool HasIrm { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtiene un valor que indica si el elemento de al menos una conversación en la carpeta actual está protegido por Information Rights Management (IRM). El <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.HasIrm" /> (propiedad) es aplicable para los clientes que estén destinados a Exchange Online y versiones de Exchange a partir de 15.00.0847.032.</summary>
+        <value>
+          <b>true</b> si el elemento de al menos una conversación en la carpeta actual está protegido por IRM; en caso contrario, <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IconIndex">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.IconIndex IconIndex { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.IconIndex IconIndex" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Conversation.IconIndex" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IconIndex As IconIndex" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::IconIndex IconIndex { Microsoft::Exchange::WebServices::Data::IconIndex get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.IconIndex</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtiene el índice de icono. El <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.IconIndex" /> (propiedad) es aplicable para los clientes que estén destinados a Exchange Online y versiones de Exchange a partir de Exchange Server 2013.</summary>
+        <value>El índice de icono.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Id">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ConversationId Id { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.ConversationId Id" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Conversation.Id" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Id As ConversationId" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ConversationId ^ Id { Microsoft::Exchange::WebServices::Data::ConversationId ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ConversationId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtiene el identificador de conversación.</summary>
+        <value>Un identificador.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Importance">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.Importance Importance { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.Importance Importance" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Conversation.Importance" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Importance As Importance" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::Importance Importance { Microsoft::Exchange::WebServices::Data::Importance get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Importance</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtiene la importancia agregada para todos los elementos de una conversación en la carpeta actual.</summary>
+        <value>La importancia de una conversación.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InstanceKey">
+      <MemberSignature Language="C#" Value="public byte[] InstanceKey { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance unsigned int8[] InstanceKey" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Conversation.InstanceKey" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property InstanceKey As Byte()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;System::Byte&gt; ^ InstanceKey { cli::array &lt;System::Byte&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Byte[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtiene la clave de instancia de conversación.             El <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.InstanceKey" /> (propiedad) es aplicable para los clientes que estén destinados a Exchange Online y versiones de Exchange a partir de Exchange Server 2013.</summary>
+        <value>La clave de instancia de conversación.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ItemClasses">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.StringList ItemClasses { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.StringList ItemClasses" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Conversation.ItemClasses" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ItemClasses As StringList" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::StringList ^ ItemClasses { Microsoft::Exchange::WebServices::Data::StringList ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtiene una lista de las clases de elementos que representa todas las clases de elemento de los elementos de conversación en la carpeta actual.</summary>
+        <value>Una lista de las clases de elementos.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ItemIds">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ItemIdCollection ItemIds { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.ItemIdCollection ItemIds" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Conversation.ItemIds" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ItemIds As ItemIdCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ItemIdCollection ^ ItemIds { Microsoft::Exchange::WebServices::Data::ItemIdCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ItemIdCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtiene la colección de identificadores de elemento para todos los elementos de una conversación en la carpeta actual.</summary>
+        <value>Una colección de identificadores de elemento.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LastDeliveryTime">
+      <MemberSignature Language="C#" Value="public DateTime LastDeliveryTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime LastDeliveryTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Conversation.LastDeliveryTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LastDeliveryTime As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime LastDeliveryTime { DateTime get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtiene la hora de entrega del mensaje que se recibió por última vez en esta conversación en la carpeta actual.</summary>
+        <value>El tiempo de envío del último elemento de conversación.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LastModifiedTime">
+      <MemberSignature Language="C#" Value="public DateTime LastModifiedTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime LastModifiedTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Conversation.LastModifiedTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LastModifiedTime As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime LastModifiedTime { DateTime get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtiene la fecha y hora que se modificó por última vez esta conversación.             El <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.LastModifiedTime" /> (propiedad) es aplicable para los clientes que estén destinados a Exchange Online y versiones de Exchange a partir de Exchange Server 2013.</summary>
+        <value>La fecha y hora de que última modificación de esta conversación.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MessageCount">
+      <MemberSignature Language="C#" Value="public int MessageCount { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 MessageCount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Conversation.MessageCount" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MessageCount As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int MessageCount { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtiene el número total de elementos de una conversación en la carpeta actual.</summary>
+        <value>El número de elementos de la conversación.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MoveItemsInConversation">
+      <MemberSignature Language="C#" Value="public void MoveItemsInConversation (Microsoft.Exchange.WebServices.Data.FolderId contextFolderId, Microsoft.Exchange.WebServices.Data.FolderId destinationFolderId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void MoveItemsInConversation(class Microsoft.Exchange.WebServices.Data.FolderId contextFolderId, class Microsoft.Exchange.WebServices.Data.FolderId destinationFolderId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Conversation.MoveItemsInConversation(Microsoft.Exchange.WebServices.Data.FolderId,Microsoft.Exchange.WebServices.Data.FolderId)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub MoveItemsInConversation (contextFolderId As FolderId, destinationFolderId As FolderId)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void MoveItemsInConversation(Microsoft::Exchange::WebServices::Data::FolderId ^ contextFolderId, Microsoft::Exchange::WebServices::Data::FolderId ^ destinationFolderId);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="contextFolderId" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
+        <Parameter Name="destinationFolderId" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
+      </Parameters>
+      <Docs>
+        <param name="contextFolderId">El identificador de la carpeta de la carpeta que contiene los elementos de la conversación para mover. Si este argumento se establece en una referencia nula (Nothing en Visual Basic), todos los elementos de una conversación a través de todo el buzón se mueven a la carpeta de destino.</param>
+        <param name="destinationFolderId">El identificador de la carpeta de destino de la carpeta que contendrá los elementos que se ha movido.</param>
+        <summary>Mueve elementos en una conversación a una carpeta de destino.</summary>
+        <remarks>
+          <para>Llamar a este método se genera en una llamada a servicios Web de Exchange (EWS).</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Preview">
+      <MemberSignature Language="C#" Value="public string Preview { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Preview" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Conversation.Preview" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Preview As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Preview { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtiene la vista previa de la conversación.             El <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.Preview" /> (propiedad) es aplicable para los clientes que estén destinados a Exchange Online y versiones de Exchange a partir de Exchange Server 2013.</summary>
+        <value>La vista previa de la conversación.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetReadStateForItemsInConversation">
+      <MemberSignature Language="C#" Value="public void SetReadStateForItemsInConversation (Microsoft.Exchange.WebServices.Data.FolderId contextFolderId, bool isRead);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetReadStateForItemsInConversation(class Microsoft.Exchange.WebServices.Data.FolderId contextFolderId, bool isRead) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Conversation.SetReadStateForItemsInConversation(Microsoft.Exchange.WebServices.Data.FolderId,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetReadStateForItemsInConversation (contextFolderId As FolderId, isRead As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetReadStateForItemsInConversation(Microsoft::Exchange::WebServices::Data::FolderId ^ contextFolderId, bool isRead);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="contextFolderId" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
+        <Parameter Name="isRead" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="contextFolderId">El identificador de la carpeta cuyos elementos tendrá su lectura estado actualizado. Si el valor de la <paramref name="contextFolderId" /> parámetro es una referencia nula (Nothing en Visual Basic), se actualizará el estado de todos los elementos de la conversación a través de todo el buzón asociado.</param>
+        <param name="isRead">
+          <b>es true</b> si los elementos de la conversación se marcan como de lectura; en caso contrario, <b>false</b>.</param>
+        <summary>Establece el estado de lectura de elementos en una conversación. El <see cref="M:Microsoft.Exchange.WebServices.Data.Conversation.SetReadStateForItemsInConversation(Microsoft.Exchange.WebServices.Data.FolderId,System.Boolean)" /> método es aplicable para los clientes que estén destinados a Exchange Online y versiones de Exchange a partir de Exchange Server 2013.</summary>
+        <remarks>
+          <para>Llamar a este método se genera en una llamada a servicios Web de Exchange (EWS).</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetReadStateForItemsInConversation">
+      <MemberSignature Language="C#" Value="public void SetReadStateForItemsInConversation (Microsoft.Exchange.WebServices.Data.FolderId contextFolderId, bool isRead, bool suppressReadReceipts);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetReadStateForItemsInConversation(class Microsoft.Exchange.WebServices.Data.FolderId contextFolderId, bool isRead, bool suppressReadReceipts) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Conversation.SetReadStateForItemsInConversation(Microsoft.Exchange.WebServices.Data.FolderId,System.Boolean,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetReadStateForItemsInConversation (contextFolderId As FolderId, isRead As Boolean, suppressReadReceipts As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetReadStateForItemsInConversation(Microsoft::Exchange::WebServices::Data::FolderId ^ contextFolderId, bool isRead, bool suppressReadReceipts);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="contextFolderId" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
+        <Parameter Name="isRead" Type="System.Boolean" />
+        <Parameter Name="suppressReadReceipts" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="contextFolderId">El identificador de la carpeta cuyos elementos tendrá su lectura estado actualizado. Si el valor de la <paramref name="contextFolderId" /> parámetro es una referencia nula (Nothing en Visual Basic), se establecen los Estados de lectura de elementos a través de todo el buzón.</param>
+        <param name="isRead">
+          <b>true</b>si los elementos de la conversación se marcan como leídos; en caso contrario, <b>false</b>.</param>
+        <param name="suppressReadReceipts">
+          <b>true</b> si se suprimen confirmaciones; de lectura en caso contrario, <b>false</b>.</param>
+        <summary>Establece el estado de lectura de elementos de la conversación especificada.            El <see cref="M:Microsoft.Exchange.WebServices.Data.Conversation.SetReadStateForItemsInConversation(Microsoft.Exchange.WebServices.Data.FolderId,System.Boolean,System.Boolean)" /> método es aplicable para los clientes que estén destinados a Exchange Online y versiones de Exchange a partir de Exchange Server 2013.</summary>
+        <remarks>
+          <para>Llamar a este método se genera en una llamada a servicios Web de Exchange (EWS).</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetRetentionPolicyForItemsInConversation">
+      <MemberSignature Language="C#" Value="public void SetRetentionPolicyForItemsInConversation (Microsoft.Exchange.WebServices.Data.FolderId contextFolderId, Microsoft.Exchange.WebServices.Data.RetentionType retentionPolicyType, Nullable&lt;Guid&gt; retentionPolicyTagId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetRetentionPolicyForItemsInConversation(class Microsoft.Exchange.WebServices.Data.FolderId contextFolderId, valuetype Microsoft.Exchange.WebServices.Data.RetentionType retentionPolicyType, valuetype System.Nullable`1&lt;valuetype System.Guid&gt; retentionPolicyTagId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Conversation.SetRetentionPolicyForItemsInConversation(Microsoft.Exchange.WebServices.Data.FolderId,Microsoft.Exchange.WebServices.Data.RetentionType,System.Nullable{System.Guid})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetRetentionPolicyForItemsInConversation (contextFolderId As FolderId, retentionPolicyType As RetentionType, retentionPolicyTagId As Nullable(Of Guid))" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetRetentionPolicyForItemsInConversation(Microsoft::Exchange::WebServices::Data::FolderId ^ contextFolderId, Microsoft::Exchange::WebServices::Data::RetentionType retentionPolicyType, Nullable&lt;Guid&gt; retentionPolicyTagId);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="contextFolderId" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
+        <Parameter Name="retentionPolicyType" Type="Microsoft.Exchange.WebServices.Data.RetentionType" />
+        <Parameter Name="retentionPolicyTagId" Type="System.Nullable&lt;System.Guid&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="contextFolderId">El identificador de la carpeta cuyos elementos tendrán a su directiva de retención a establecer. Si el valor de la <paramref name="contextFolderId" /> parámetro es una referencia nula (Nothing en Visual Basic), se establecen la directiva de retención de elementos a través de todo el buzón.</param>
+        <param name="retentionPolicyType">Un valor que indica si el objeto con etiqueta se va a archivar o eliminar.</param>
+        <param name="retentionPolicyTagId">El identificador de etiqueta de directiva de retención. A un valor de referencia nula (Nothing en Visual Basic), borrará la directiva.</param>
+        <summary>Establece la directiva de retención de elementos en la conversación especificada.            El <see cref="M:Microsoft.Exchange.WebServices.Data.Conversation.SetRetentionPolicyForItemsInConversation(Microsoft.Exchange.WebServices.Data.FolderId,Microsoft.Exchange.WebServices.Data.RetentionType,System.Nullable{System.Guid})" /> método es aplicable para los clientes que estén destinados a Exchange Online y versiones de Exchange a partir de Exchange Server 2013.</summary>
+        <remarks>
+          <para>Llamar a este método se genera en una llamada a servicios Web de Exchange (EWS).</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Size">
+      <MemberSignature Language="C#" Value="public int Size { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Size" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Conversation.Size" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Size As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Size { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtiene el tamaño de la conversación que se calcula a partir del tamaño de todos los elementos de una conversación en la carpeta actual.</summary>
+        <value>El tamaño de la conversación en KB.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Topic">
+      <MemberSignature Language="C#" Value="public string Topic { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Topic" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Conversation.Topic" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Topic As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Topic { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtiene el tema de la conversación.</summary>
+        <value>Un tema de conversación.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UniqueRecipients">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.StringList UniqueRecipients { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.StringList UniqueRecipients" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Conversation.UniqueRecipients" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property UniqueRecipients As StringList" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::StringList ^ UniqueRecipients { Microsoft::Exchange::WebServices::Data::StringList ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtiene una lista de todas las personas que han recibido los mensajes en esta conversación para los mensajes en la carpeta actual.</summary>
+        <value>Una lista de destinatarios.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UniqueSenders">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.StringList UniqueSenders { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.StringList UniqueSenders" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Conversation.UniqueSenders" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property UniqueSenders As StringList" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::StringList ^ UniqueSenders { Microsoft::Exchange::WebServices::Data::StringList ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtiene una lista de todos los remitentes de los elementos de una conversación en la carpeta actual.</summary>
+        <value>Una lista de remitentes.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UniqueUnreadSenders">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.StringList UniqueUnreadSenders { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.StringList UniqueUnreadSenders" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Conversation.UniqueUnreadSenders" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property UniqueUnreadSenders As StringList" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::StringList ^ UniqueUnreadSenders { Microsoft::Exchange::WebServices::Data::StringList ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtiene una lista de todas las personas que han enviado los mensajes que están actualmente no leídos en esta conversación en la carpeta actual.</summary>
+        <value>Una lista de remitentes.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UnreadCount">
+      <MemberSignature Language="C#" Value="public int UnreadCount { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 UnreadCount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Conversation.UnreadCount" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property UnreadCount As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int UnreadCount { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtiene un recuento de todos los elementos no leídos de conversación en la carpeta actual.</summary>
+        <value>El recuento de elementos no leídos.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

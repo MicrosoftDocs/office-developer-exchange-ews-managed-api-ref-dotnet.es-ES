@@ -1,0 +1,89 @@
+<Type Name="PhoneEntity" FullName="Microsoft.Exchange.WebServices.Data.PhoneEntity">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="577bb940b9e70aa774bfaf6c255b5dcf749c40ee" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="es-ES" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20627547" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class PhoneEntity : Microsoft.Exchange.WebServices.Data.ExtractedEntity" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit PhoneEntity extends Microsoft.Exchange.WebServices.Data.ExtractedEntity" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.PhoneEntity" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class PhoneEntity&#xA;Inherits ExtractedEntity" />
+  <TypeSignature Language="C++ CLI" Value="public ref class PhoneEntity sealed : Microsoft::Exchange::WebServices::Data::ExtractedEntity" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ExtractedEntity</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Contiene un número de teléfono que se extraen de una parte del mensaje.             El <see cref="T:Microsoft.Exchange.WebServices.Data.PhoneEntity" /> clase es aplicable para los clientes que estén destinados a Exchange Online y versiones de Exchange a partir de Exchange Server 2013.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="OriginalPhoneString">
+      <MemberSignature Language="C#" Value="public string OriginalPhoneString { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string OriginalPhoneString" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PhoneEntity.OriginalPhoneString" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property OriginalPhoneString As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ OriginalPhoneString { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtiene el valor del número de teléfono tal como estaba en la parte del mensaje de origen.             El <see cref="P:Microsoft.Exchange.WebServices.Data.PhoneEntity.OriginalPhoneString" /> (propiedad) es aplicable para los clientes que estén destinados a Exchange Online y versiones de Exchange a partir de Exchange Server 2013.</summary>
+        <value>Teléfono entidad teléfono cadena original.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PhoneString">
+      <MemberSignature Language="C#" Value="public string PhoneString { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string PhoneString" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PhoneEntity.PhoneString" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PhoneString As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ PhoneString { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtiene el número de teléfono extraídos.             El <see cref="P:Microsoft.Exchange.WebServices.Data.PhoneEntity.PhoneString" /> (propiedad) es aplicable para los clientes que estén destinados a Exchange Online y versiones de Exchange a partir de Exchange Server 2013.</summary>
+        <value>La cadena de teléfono de entidad de teléfono.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Type">
+      <MemberSignature Language="C#" Value="public string Type { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Type" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PhoneEntity.Type" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Type As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Type { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtiene el tipo de teléfono extraídos. Por ejemplo, empresarial o principal.             El <see cref="P:Microsoft.Exchange.WebServices.Data.PhoneEntity.Type" /> (propiedad) es aplicable para los clientes que estén destinados a Exchange Online y versiones de Exchange a partir de Exchange Server 2013.</summary>
+        <value>El tipo de entidad del teléfono.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

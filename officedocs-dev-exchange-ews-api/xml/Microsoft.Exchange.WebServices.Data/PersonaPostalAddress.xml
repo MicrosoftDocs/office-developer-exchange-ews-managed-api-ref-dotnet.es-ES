@@ -1,0 +1,374 @@
+<Type Name="PersonaPostalAddress" FullName="Microsoft.Exchange.WebServices.Data.PersonaPostalAddress">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="08e648eb11e3ae569db5f4e7de6d02d06934081b" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="es-ES" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20627591" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class PersonaPostalAddress : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit PersonaPostalAddress extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class PersonaPostalAddress&#xA;Inherits ComplexProperty" />
+  <TypeSignature Language="C++ CLI" Value="public ref class PersonaPostalAddress sealed : Microsoft::Exchange::WebServices::Data::ComplexProperty" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ComplexProperty</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Contiene información de contacto dirección postal asociado con un rol. El <see cref="T:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress" /> clase es aplicable para los clientes que estén destinados a Exchange Online y versiones de Exchange a partir de Exchange Server 2013.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public PersonaPostalAddress (string street, string city, string state, string country, string postalCode, string postOfficeBox, Microsoft.Exchange.WebServices.Data.LocationSource locationSource, string locationUri, string formattedAddress, double latitude, double longitude, double accuracy, double altitude, double altitudeAccuracy);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string street, string city, string state, string country, string postalCode, string postOfficeBox, valuetype Microsoft.Exchange.WebServices.Data.LocationSource locationSource, string locationUri, string formattedAddress, float64 latitude, float64 longitude, float64 accuracy, float64 altitude, float64 altitudeAccuracy) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.#ctor(System.String,System.String,System.String,System.String,System.String,System.String,Microsoft.Exchange.WebServices.Data.LocationSource,System.String,System.String,System.Double,System.Double,System.Double,System.Double,System.Double)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; PersonaPostalAddress(System::String ^ street, System::String ^ city, System::String ^ state, System::String ^ country, System::String ^ postalCode, System::String ^ postOfficeBox, Microsoft::Exchange::WebServices::Data::LocationSource locationSource, System::String ^ locationUri, System::String ^ formattedAddress, double latitude, double longitude, double accuracy, double altitude, double altitudeAccuracy);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="street" Type="System.String" />
+        <Parameter Name="city" Type="System.String" />
+        <Parameter Name="state" Type="System.String" />
+        <Parameter Name="country" Type="System.String" />
+        <Parameter Name="postalCode" Type="System.String" />
+        <Parameter Name="postOfficeBox" Type="System.String" />
+        <Parameter Name="locationSource" Type="Microsoft.Exchange.WebServices.Data.LocationSource" />
+        <Parameter Name="locationUri" Type="System.String" />
+        <Parameter Name="formattedAddress" Type="System.String" />
+        <Parameter Name="latitude" Type="System.Double" />
+        <Parameter Name="longitude" Type="System.Double" />
+        <Parameter Name="accuracy" Type="System.Double" />
+        <Parameter Name="altitude" Type="System.Double" />
+        <Parameter Name="altitudeAccuracy" Type="System.Double" />
+      </Parameters>
+      <Docs>
+        <param name="street">La dirección postal.</param>
+        <param name="city">El valor de ciudad.</param>
+        <param name="state">El valor de estado.</param>
+        <param name="country">El valor de país o región.</param>
+        <param name="postalCode">El valor de código postal.</param>
+        <param name="postOfficeBox">El apartado de correos.</param>
+        <param name="locationSource">El origen de la ubicación.</param>
+        <param name="locationUri">Identificador uniforme de recursos (URI) de la ubicación.</param>
+        <param name="formattedAddress">La dirección que se mostrará.</param>
+        <param name="latitude">La latitud de la ubicación.</param>
+        <param name="longitude">La longitud de la ubicación.</param>
+        <param name="accuracy">La precisión de la ubicación.</param>
+        <param name="altitude">La altitud de ubicación.</param>
+        <param name="altitudeAccuracy">La precisión de altitud ubicación.</param>
+        <summary>Inicializa una nueva instancia de la <see cref="T:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress" /> clase.             El <see cref="M:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.#ctor(System.String,System.String,System.String,System.String,System.String,System.String,Microsoft.Exchange.WebServices.Data.LocationSource,System.String,System.String,System.Double,System.Double,System.Double,System.Double,System.Double)" /> constructor es aplicable para los clientes que estén destinados a Exchange Online y versiones de Exchange a partir de Exchange Server 2013.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Accuracy">
+      <MemberSignature Language="C#" Value="public Nullable&lt;double&gt; Accuracy { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;float64&gt; Accuracy" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Accuracy" />
+      <MemberSignature Language="VB.NET" Value="Public Property Accuracy As Nullable(Of Double)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;double&gt; Accuracy { Nullable&lt;double&gt; get(); void set(Nullable&lt;double&gt; value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Double&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtiene o establece un valor que especifica el grado de precisión de la latitud y longitud.             El <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Accuracy" /> (propiedad) es aplicable para los clientes que estén destinados a Exchange Online y versiones de Exchange a partir de Exchange Server 2013.</summary>
+        <value>La precisión de la ubicación.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Altitude">
+      <MemberSignature Language="C#" Value="public Nullable&lt;double&gt; Altitude { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;float64&gt; Altitude" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Altitude" />
+      <MemberSignature Language="VB.NET" Value="Public Property Altitude As Nullable(Of Double)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;double&gt; Altitude { Nullable&lt;double&gt; get(); void set(Nullable&lt;double&gt; value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Double&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtiene o establece la altitud de ubicación.             El <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Altitude" /> (propiedad) es aplicable para los clientes que estén destinados a Exchange Online y versiones de Exchange a partir de Exchange Server 2013.</summary>
+        <value>La altitud de ubicación.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AltitudeAccuracy">
+      <MemberSignature Language="C#" Value="public Nullable&lt;double&gt; AltitudeAccuracy { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;float64&gt; AltitudeAccuracy" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.AltitudeAccuracy" />
+      <MemberSignature Language="VB.NET" Value="Public Property AltitudeAccuracy As Nullable(Of Double)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;double&gt; AltitudeAccuracy { Nullable&lt;double&gt; get(); void set(Nullable&lt;double&gt; value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Double&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtiene o establece el valor que especifica el grado de precisión de la altitud.             El <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.AltitudeAccuracy" /> (propiedad) es aplicable para los clientes que estén destinados a Exchange Online y versiones de Exchange a partir de Exchange Server 2013.</summary>
+        <value>La precisión de altitud ubicación.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="City">
+      <MemberSignature Language="C#" Value="public string City { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string City" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.City" />
+      <MemberSignature Language="VB.NET" Value="Public Property City As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ City { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtiene o establece la ciudad.             El <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.City" /> (propiedad) es aplicable para los clientes que estén destinados a Exchange Online y versiones de Exchange a partir de Exchange Server 2013.</summary>
+        <value>El nombre de la ciudad.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Country">
+      <MemberSignature Language="C#" Value="public string Country { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Country" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Country" />
+      <MemberSignature Language="VB.NET" Value="Public Property Country As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Country { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtiene o establece el país o región.             El <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Country" /> (propiedad) es aplicable para los clientes que estén destinados a Exchange Online y versiones de Exchange a partir de Exchange Server 2013.</summary>
+        <value>El nombre del país o región.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FormattedAddress">
+      <MemberSignature Language="C#" Value="public string FormattedAddress { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string FormattedAddress" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.FormattedAddress" />
+      <MemberSignature Language="VB.NET" Value="Public Property FormattedAddress As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ FormattedAddress { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtiene o establece la dirección que se mostrará.             El <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.FormattedAddress" /> (propiedad) es aplicable para los clientes que estén destinados a Exchange Online y versiones de Exchange a partir de Exchange Server 2013.</summary>
+        <value>La dirección que se mostrará.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Latitude">
+      <MemberSignature Language="C#" Value="public Nullable&lt;double&gt; Latitude { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;float64&gt; Latitude" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Latitude" />
+      <MemberSignature Language="VB.NET" Value="Public Property Latitude As Nullable(Of Double)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;double&gt; Latitude { Nullable&lt;double&gt; get(); void set(Nullable&lt;double&gt; value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Double&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtiene o establece un valor que indica la latitud de la ubicación. El <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Latitude" /> (propiedad) es aplicable para los clientes que estén destinados a Exchange Online y versiones de Exchange a partir de Exchange Server 2013.</summary>
+        <value>Un valor que indica la latitud de la ubicación.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Longitude">
+      <MemberSignature Language="C#" Value="public Nullable&lt;double&gt; Longitude { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;float64&gt; Longitude" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Longitude" />
+      <MemberSignature Language="VB.NET" Value="Public Property Longitude As Nullable(Of Double)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;double&gt; Longitude { Nullable&lt;double&gt; get(); void set(Nullable&lt;double&gt; value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Double&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtiene o establece un valor que indica la longitud de la ubicación.             El <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Longitude" /> (propiedad) es aplicable para los clientes que estén destinados a Exchange Online y versiones de Exchange a partir de Exchange Server 2013.</summary>
+        <value>Un valor que indica la longitud de la ubicación.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PostalCode">
+      <MemberSignature Language="C#" Value="public string PostalCode { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string PostalCode" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.PostalCode" />
+      <MemberSignature Language="VB.NET" Value="Public Property PostalCode As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ PostalCode { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtiene o establece el código postal.             El <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.PostalCode" /> (propiedad) es aplicable para los clientes que estén destinados a Exchange Online y versiones de Exchange a partir de Exchange Server 2013.</summary>
+        <value>Código postal.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PostOfficeBox">
+      <MemberSignature Language="C#" Value="public string PostOfficeBox { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string PostOfficeBox" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.PostOfficeBox" />
+      <MemberSignature Language="VB.NET" Value="Public Property PostOfficeBox As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ PostOfficeBox { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtiene o establece el número de apartado de correos.             El <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.PostOfficeBox" /> (propiedad) es aplicable para los clientes que estén destinados a Exchange Online y versiones de Exchange a partir de Exchange Server 2013.</summary>
+        <value>El número de apartado de correos.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Source">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.LocationSource Source { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.LocationSource Source" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Source" />
+      <MemberSignature Language="VB.NET" Value="Public Property Source As LocationSource" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::LocationSource Source { Microsoft::Exchange::WebServices::Data::LocationSource get(); void set(Microsoft::Exchange::WebServices::Data::LocationSource value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.LocationSource</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtiene o establece el origen de la dirección postal del rol.             El <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Source" /> (propiedad) es aplicable para los clientes que estén destinados a Exchange Online y versiones de Exchange a partir de Exchange Server 2013.</summary>
+        <value>El origen de dirección postal de la persona.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="State">
+      <MemberSignature Language="C#" Value="public string State { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string State" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.State" />
+      <MemberSignature Language="VB.NET" Value="Public Property State As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ State { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtiene o establece el estado.             El <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.State" /> (propiedad) es aplicable para los clientes que estén destinados a Exchange Online y versiones de Exchange a partir de Exchange Server 2013.</summary>
+        <value>El nombre del estado.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Street">
+      <MemberSignature Language="C#" Value="public string Street { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Street" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Street" />
+      <MemberSignature Language="VB.NET" Value="Public Property Street As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Street { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtiene o establece el nombre de la calle.             El <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Street" /> (propiedad) es aplicable para los clientes que estén destinados a Exchange Online y versiones de Exchange a partir de Exchange Server 2013.</summary>
+        <value>El nombre de la calle.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Type">
+      <MemberSignature Language="C#" Value="public string Type { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Type" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Type" />
+      <MemberSignature Language="VB.NET" Value="Public Property Type As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Type { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtiene o establece el tipo de dirección postal. Por ejemplo, principal o empresariales.             El <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Type" /> (propiedad) es aplicable para los clientes que estén destinados a Exchange Online y versiones de Exchange a partir de Exchange Server 2013.</summary>
+        <value>El tipo de dirección postal.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Uri">
+      <MemberSignature Language="C#" Value="public string Uri { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Uri" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Uri" />
+      <MemberSignature Language="VB.NET" Value="Public Property Uri As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Uri { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtiene o establece la ubicación del identificador uniforme de recursos (URI).             El <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Uri" /> (propiedad) es aplicable para los clientes que estén destinados a Exchange Online y versiones de Exchange a partir de Exchange Server 2013.</summary>
+        <value>El URI de ubicación.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
