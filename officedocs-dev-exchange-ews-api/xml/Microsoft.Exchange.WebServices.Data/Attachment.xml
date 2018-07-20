@@ -1,0 +1,313 @@
+<Type Name="Attachment" FullName="Microsoft.Exchange.WebServices.Data.Attachment">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="7ea717ec62ce1f199fc5adb5a33e2a43a0f6d815" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="es-ES" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20628124" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public abstract class Attachment : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit Attachment extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.Attachment" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class Attachment&#xA;Inherits ComplexProperty" />
+  <TypeSignature Language="C++ CLI" Value="public ref class Attachment abstract : Microsoft::Exchange::WebServices::Data::ComplexProperty" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ComplexProperty</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="15084-101">Representa un archivo adjunto a un elemento.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="15084-101">Represents an attachment to an item.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ContentId">
+      <MemberSignature Language="C#" Value="public string ContentId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ContentId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Attachment.ContentId" />
+      <MemberSignature Language="VB.NET" Value="Public Property ContentId As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ContentId { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="15084-102">Obtiene o establece el identificador de contenido de los datos adjuntos.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="15084-102">Gets or sets the content identifier of the attachment.</span>
+          </span>
+          <span data-ttu-id="15084-103">ContentId puede usarse como una manera personalizada para identificar un archivo adjunto para poder hacer referencia a él desde el cuerpo del elemento que pertenece el archivo adjunto.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="15084-103">ContentId can be used as a custom way to identify an attachment in order to reference it from within the body of the item that the attachment belongs to.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="15084-104">El identificador de contenido de los datos adjuntos.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="15084-104">The content ID of the attachment.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContentLocation">
+      <MemberSignature Language="C#" Value="public string ContentLocation { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ContentLocation" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Attachment.ContentLocation" />
+      <MemberSignature Language="VB.NET" Value="Public Property ContentLocation As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ContentLocation { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="15084-105">Obtiene o establece la ubicación del contenido de los datos adjuntos.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="15084-105">Gets or sets the content location of the attachment.</span>
+          </span>
+          <span data-ttu-id="15084-106">ContentLocation puede utilizarse para asociar un archivo adjunto a una dirección URL que define su ubicación en la Web.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="15084-106">ContentLocation can be used to associate an attachment with a URL that defines its location on the Web.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="15084-107">La ubicación de los datos adjuntos.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="15084-107">The location of the attachment.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContentType">
+      <MemberSignature Language="C#" Value="public string ContentType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ContentType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Attachment.ContentType" />
+      <MemberSignature Language="VB.NET" Value="Public Property ContentType As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ContentType { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="15084-108">Obtiene o establece el tipo de contenido de los datos adjuntos.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="15084-108">Gets or sets the content type of the attachment.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="15084-109">El tipo de contenido de los datos adjuntos.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="15084-109">The content type of the attachment.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Id">
+      <MemberSignature Language="C#" Value="public string Id { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Id" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Attachment.Id" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Id As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Id { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="15084-110">Obtiene el identificador de los datos adjuntos.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="15084-110">Gets the identifier of the attachment.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="15084-111">El identificador de los datos adjuntos.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="15084-111">The identifier of the attachment.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsInline">
+      <MemberSignature Language="C#" Value="public bool IsInline { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsInline" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Attachment.IsInline" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsInline As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsInline { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="15084-112">Obtiene o establece un valor que indica si se trata de datos adjuntos en línea.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="15084-112">Gets or sets a value that indicates whether this is an inline attachment.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="15084-113">
+            <b>true</b> si los datos adjuntos son datos adjuntos en línea; en caso contrario, <b>false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="15084-113">
+              <b>true</b> if the attachment is an inline attachment; otherwise <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LastModifiedTime">
+      <MemberSignature Language="C#" Value="public DateTime LastModifiedTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime LastModifiedTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Attachment.LastModifiedTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LastModifiedTime As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime LastModifiedTime { DateTime get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="15084-114">Obtiene la fecha y hora cuando se modifican por última vez los datos adjuntos.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="15084-114">Gets the date and time when the attachment was last changed.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="15084-115">La fecha y la hora cuando se modifican por última vez los datos adjuntos.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="15084-115">The date and time when the attachment was last changed.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Load">
+      <MemberSignature Language="C#" Value="public void Load ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Load() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Attachment.Load" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Load ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Load();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="15084-116">Carga los datos adjuntos.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="15084-116">Loads the attachment.</span>
+          </span>
+          <span data-ttu-id="15084-117">Llamar a este método se genera en una llamada a servicios Web de Exchange (EWS).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="15084-117">Calling this method results in a call to Exchange Web Services (EWS).</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public string Name { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Attachment.Name" />
+      <MemberSignature Language="VB.NET" Value="Public Property Name As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Name { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="15084-118">Obtiene o establece el nombre de los datos adjuntos.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="15084-118">Gets or sets the name of the attachment.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="15084-119">El nombre de los datos adjuntos.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="15084-119">The name of the attachment.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Size">
+      <MemberSignature Language="C#" Value="public int Size { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Size" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Attachment.Size" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Size As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Size { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="15084-120">Obtiene el tamaño de los datos adjuntos.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="15084-120">Gets the size of the attachment.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="15084-121">El tamaño, en bytes, de los datos adjuntos.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="15084-121">The size, in bytes, of the attachment.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

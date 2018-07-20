@@ -1,0 +1,187 @@
+<Type Name="GetDomainSettingsResponse" FullName="Microsoft.Exchange.WebServices.Autodiscover.GetDomainSettingsResponse">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="7e22d40f4f51031e810a70aa651535ef11b420b7" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="es-ES" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20627987" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class GetDomainSettingsResponse : Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverResponse" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit GetDomainSettingsResponse extends Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverResponse" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Autodiscover.GetDomainSettingsResponse" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class GetDomainSettingsResponse&#xA;Inherits AutodiscoverResponse" />
+  <TypeSignature Language="C++ CLI" Value="public ref class GetDomainSettingsResponse sealed : Microsoft::Exchange::WebServices::Autodiscover::AutodiscoverResponse" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverResponse</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="c5253-101">Representa la respuesta a una llamada GetDomainSettings para un dominio individual.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="c5253-101">Represents the response to a GetDomainSettings call for an individual domain.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="c5253-102">
+        <para>Esta clase es devueltos por las llamadas a la <see cref="Overload:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService.GetDomainSettings" /> (método).</para>
+        <para />
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="c5253-102">
+          <para>This class is returned by calls to the <see cref="Overload:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService.GetDomainSettings" /> method.</para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public GetDomainSettingsResponse ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Autodiscover.GetDomainSettingsResponse.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; GetDomainSettingsResponse();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="c5253-103">Inicializa una nueva instancia de la clase GetDomainSettingsResponse.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c5253-103">Initializes a new instance of the GetDomainSettingsResponse class.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Domain">
+      <MemberSignature Language="C#" Value="public string Domain { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Domain" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Autodiscover.GetDomainSettingsResponse.Domain" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Domain As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Domain { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c5253-104">Obtiene el dominio al que se aplica esta respuesta.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c5253-104">Gets the domain to which this response applies.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="c5253-105">El nombre de dominio.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c5253-105">The domain name.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DomainSettingErrors">
+      <MemberSignature Language="C#" Value="public System.Collections.ObjectModel.Collection&lt;Microsoft.Exchange.WebServices.Autodiscover.DomainSettingError&gt; DomainSettingErrors { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.ObjectModel.Collection`1&lt;class Microsoft.Exchange.WebServices.Autodiscover.DomainSettingError&gt; DomainSettingErrors" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Autodiscover.GetDomainSettingsResponse.DomainSettingErrors" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DomainSettingErrors As Collection(Of DomainSettingError)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::ObjectModel::Collection&lt;Microsoft::Exchange::WebServices::Autodiscover::DomainSettingError ^&gt; ^ DomainSettingErrors { System::Collections::ObjectModel::Collection&lt;Microsoft::Exchange::WebServices::Autodiscover::DomainSettingError ^&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.ObjectModel.Collection&lt;Microsoft.Exchange.WebServices.Autodiscover.DomainSettingError&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c5253-106">Obtiene una colección de errores de configuración que no se pudo devolver.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c5253-106">Gets a collection of errors for settings that could not be returned.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="c5253-107">Una colección que contiene objetos DomainSettingError.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c5253-107">A collection that contains DomainSettingError objects.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RedirectTarget">
+      <MemberSignature Language="C#" Value="public string RedirectTarget { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string RedirectTarget" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Autodiscover.GetDomainSettingsResponse.RedirectTarget" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RedirectTarget As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ RedirectTarget { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c5253-108">Obtiene el destino de la redirección (dirección URL o de correo electrónico).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c5253-108">Gets the redirection target (URL or e-mail address).</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="c5253-109">La dirección de destino de la redirección de la dirección URL o el correo electrónico.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c5253-109">The redirection target URL or e-mail address.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Settings">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;Microsoft.Exchange.WebServices.Autodiscover.DomainSettingName,object&gt; Settings { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;valuetype Microsoft.Exchange.WebServices.Autodiscover.DomainSettingName, object&gt; Settings" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Autodiscover.GetDomainSettingsResponse.Settings" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Settings As IDictionary(Of DomainSettingName, Object)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IDictionary&lt;Microsoft::Exchange::WebServices::Autodiscover::DomainSettingName, System::Object ^&gt; ^ Settings { System::Collections::Generic::IDictionary&lt;Microsoft::Exchange::WebServices::Autodiscover::DomainSettingName, System::Object ^&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;Microsoft.Exchange.WebServices.Autodiscover.DomainSettingName,System.Object&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c5253-110">Obtiene la configuración para el dominio solicitada.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c5253-110">Gets the requested settings for the domain.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="c5253-111">Objeto IDictionary que contiene los nombres de dominio de configuración y la configuración de dominio como un par de clave y valor.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c5253-111">An IDictionary object that contains domain setting names and domain settings as a key/value pair.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

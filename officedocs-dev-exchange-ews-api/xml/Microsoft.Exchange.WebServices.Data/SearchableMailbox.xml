@@ -1,0 +1,385 @@
+<Type Name="SearchableMailbox" FullName="Microsoft.Exchange.WebServices.Data.SearchableMailbox">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="8162c32391574af0a59694adda4e65fc47453286" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="es-ES" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20628382" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class SearchableMailbox" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit SearchableMailbox extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.SearchableMailbox" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class SearchableMailbox" />
+  <TypeSignature Language="C++ CLI" Value="public ref class SearchableMailbox sealed" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="acfca-101">Representa un objeto de buzón de correo que admite búsquedas.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="acfca-101">Represents a searchable mailbox object.</span>
+      </span>
+      <span data-ttu-id="acfca-102">El <see cref="T:Microsoft.Exchange.WebServices.Data.SearchableMailbox" /> clase es aplicable para los clientes que estén destinados a Exchange Online y versiones de Exchange a partir de Exchange Server 2013.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="acfca-102">The <see cref="T:Microsoft.Exchange.WebServices.Data.SearchableMailbox" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SearchableMailbox ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.SearchableMailbox.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; SearchableMailbox();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="acfca-103">Inicializa una nueva instancia de la <see cref="T:Microsoft.Exchange.WebServices.Data.SearchableMailbox" /> clase.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="acfca-103">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.SearchableMailbox" /> class.</span>
+          </span>
+          <span data-ttu-id="acfca-104">El <see cref="M:Microsoft.Exchange.WebServices.Data.SearchableMailbox.#ctor" /> constructor es aplicable para los clientes que estén destinados a Exchange Online y versiones de Exchange a partir de Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="acfca-104">The <see cref="M:Microsoft.Exchange.WebServices.Data.SearchableMailbox.#ctor" /> constructor is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SearchableMailbox (Guid guid, string smtpAddress, bool isExternalMailbox, string externalEmailAddress, string displayName, bool isMembershipGroup, string referenceId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype System.Guid guid, string smtpAddress, bool isExternalMailbox, string externalEmailAddress, string displayName, bool isMembershipGroup, string referenceId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.SearchableMailbox.#ctor(System.Guid,System.String,System.Boolean,System.String,System.String,System.Boolean,System.String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; SearchableMailbox(Guid guid, System::String ^ smtpAddress, bool isExternalMailbox, System::String ^ externalEmailAddress, System::String ^ displayName, bool isMembershipGroup, System::String ^ referenceId);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="guid" Type="System.Guid" />
+        <Parameter Name="smtpAddress" Type="System.String" />
+        <Parameter Name="isExternalMailbox" Type="System.Boolean" />
+        <Parameter Name="externalEmailAddress" Type="System.String" />
+        <Parameter Name="displayName" Type="System.String" />
+        <Parameter Name="isMembershipGroup" Type="System.Boolean" />
+        <Parameter Name="referenceId" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="guid">
+          <span data-ttu-id="acfca-105">El identificador de buzón de correo.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="acfca-105">The mailbox identifier.</span>
+          </span>
+        </param>
+        <param name="smtpAddress">
+          <span data-ttu-id="acfca-106">La dirección de Protocolo Simple de transferencia de correo (SMTP) del buzón.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="acfca-106">The Simple Mail Transfer Protocol (SMTP) address of the mailbox.</span>
+          </span>
+        </param>
+        <param name="isExternalMailbox">
+          <span data-ttu-id="acfca-107">
+            <b>true</b> si el buzón de correo es un buzón de correo externo; en caso contrario, <b>false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="acfca-107">
+              <b>true</b> if the mailbox is an external mailbox; otherwise, <b>false</b>.</span>
+          </span>
+        </param>
+        <param name="externalEmailAddress">
+          <span data-ttu-id="acfca-108">La dirección de correo electrónico externa del buzón.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="acfca-108">The external email address of the mailbox.</span>
+          </span>
+        </param>
+        <param name="displayName">
+          <span data-ttu-id="acfca-109">El nombre del buzón.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="acfca-109">The name of the mailbox.</span>
+          </span>
+        </param>
+        <param name="isMembershipGroup">
+          <span data-ttu-id="acfca-110">
+            <b>es true</b> si esta es una lista de distribución; en caso contrario, <b>false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="acfca-110">
+              <b>true</b> if this is a distribution list; otherwise <b>false</b>.</span>
+          </span>
+        </param>
+        <param name="referenceId">
+          <span data-ttu-id="acfca-111">Identificador de la referencia del buzón.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="acfca-111">The reference identifier of the mailbox.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="acfca-112">Inicializa una nueva instancia de la <see cref="T:Microsoft.Exchange.WebServices.Data.SearchableMailbox" /> clase.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="acfca-112">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.SearchableMailbox" /> class.</span>
+          </span>
+          <span data-ttu-id="acfca-113">El <see cref="M:Microsoft.Exchange.WebServices.Data.SearchableMailbox.#ctor(System.Guid,System.String,System.Boolean,System.String,System.String,System.Boolean,System.String)" /> constructor es aplicable para los clientes que estén destinados a Exchange Online y versiones de Exchange a partir de Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="acfca-113">The <see cref="M:Microsoft.Exchange.WebServices.Data.SearchableMailbox.#ctor(System.Guid,System.String,System.Boolean,System.String,System.String,System.Boolean,System.String)" /> constructor is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayName">
+      <MemberSignature Language="C#" Value="public string DisplayName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DisplayName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchableMailbox.DisplayName" />
+      <MemberSignature Language="VB.NET" Value="Public Property DisplayName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ DisplayName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="acfca-114">Obtiene o establece el nombre para mostrar del buzón que se desea buscar.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="acfca-114">Gets or sets the display name of the mailbox to be searched.</span>
+          </span>
+          <span data-ttu-id="acfca-115">El <see cref="P:Microsoft.Exchange.WebServices.Data.SearchableMailbox.DisplayName" /> (propiedad) es aplicable para los clientes que estén destinados a Exchange Online y versiones de Exchange a partir de Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="acfca-115">The <see cref="P:Microsoft.Exchange.WebServices.Data.SearchableMailbox.DisplayName" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="acfca-116">El nombre para mostrar.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="acfca-116">The display name.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExternalEmailAddress">
+      <MemberSignature Language="C#" Value="public string ExternalEmailAddress { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ExternalEmailAddress" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchableMailbox.ExternalEmailAddress" />
+      <MemberSignature Language="VB.NET" Value="Public Property ExternalEmailAddress As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ExternalEmailAddress { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="acfca-117">Obtiene o establece la dirección de correo electrónico externa del buzón.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="acfca-117">Gets or sets the external email address of the mailbox.</span>
+          </span>
+          <span data-ttu-id="acfca-118">El <see cref="P:Microsoft.Exchange.WebServices.Data.SearchableMailbox.ExternalEmailAddress" /> (propiedad) es aplicable para los clientes que estén destinados a Exchange Online y versiones de Exchange a partir de Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="acfca-118">The <see cref="P:Microsoft.Exchange.WebServices.Data.SearchableMailbox.ExternalEmailAddress" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="acfca-119">La dirección de correo electrónico externa.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="acfca-119">The external email address.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Guid">
+      <MemberSignature Language="C#" Value="public Guid Guid { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Guid Guid" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchableMailbox.Guid" />
+      <MemberSignature Language="VB.NET" Value="Public Property Guid As Guid" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Guid Guid { Guid get(); void set(Guid value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Guid</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="acfca-120">Obtiene o establece el identificador de buzón de correo.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="acfca-120">Gets or sets the mailbox identifier.</span>
+          </span>
+          <span data-ttu-id="acfca-121">El <see cref="P:Microsoft.Exchange.WebServices.Data.SearchableMailbox.Guid" /> (propiedad) es aplicable para los clientes que estén destinados a Exchange Online y versiones de Exchange a partir de Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="acfca-121">The <see cref="P:Microsoft.Exchange.WebServices.Data.SearchableMailbox.Guid" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="acfca-122">El GUID.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="acfca-122">The GUID.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsExternalMailbox">
+      <MemberSignature Language="C#" Value="public bool IsExternalMailbox { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsExternalMailbox" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchableMailbox.IsExternalMailbox" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsExternalMailbox As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsExternalMailbox { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="acfca-123">Obtiene o establece un valor que indica si se trata de un buzón de correo externo.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="acfca-123">Gets or sets a value that indicates whether this is an external mailbox.</span>
+          </span>
+          <span data-ttu-id="acfca-124">El <see cref="P:Microsoft.Exchange.WebServices.Data.SearchableMailbox.IsExternalMailbox" /> (propiedad) es aplicable para los clientes que estén destinados a Exchange Online y versiones de Exchange a partir de Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="acfca-124">The <see cref="P:Microsoft.Exchange.WebServices.Data.SearchableMailbox.IsExternalMailbox" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="acfca-125">
+            <b>true</b> si un buzón de correo externo; en caso contrario, <b>false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="acfca-125">
+              <b>true</b> if an external mailbox; otherwise <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsMembershipGroup">
+      <MemberSignature Language="C#" Value="public bool IsMembershipGroup { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsMembershipGroup" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchableMailbox.IsMembershipGroup" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsMembershipGroup As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsMembershipGroup { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="acfca-126">Obtiene o establece si la dirección SMTP asociada es una buzón de correo o lista de distribución.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="acfca-126">Gets or sets whether the associated SMTP address is a mailbox or distribution list.</span>
+          </span>
+          <span data-ttu-id="acfca-127">El <see cref="P:Microsoft.Exchange.WebServices.Data.SearchableMailbox.IsMembershipGroup" /> (propiedad) es aplicable para los clientes que estén destinados a Exchange Online y versiones de Exchange a partir de Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="acfca-127">The <see cref="P:Microsoft.Exchange.WebServices.Data.SearchableMailbox.IsMembershipGroup" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="acfca-128">
+            <b>true</b> si la dirección SMTP asociada es una lista de distribución; en caso contrario, <b>false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="acfca-128">
+              <b>true</b> if the associated SMTP address is a distribution list; otherwise, <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReferenceId">
+      <MemberSignature Language="C#" Value="public string ReferenceId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ReferenceId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchableMailbox.ReferenceId" />
+      <MemberSignature Language="VB.NET" Value="Public Property ReferenceId As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ReferenceId { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="acfca-129">Obtiene o establece el identificador de la referencia de buzón de correo.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="acfca-129">Gets or sets the mailbox reference identifier.</span>
+          </span>
+          <span data-ttu-id="acfca-130">El <see cref="P:Microsoft.Exchange.WebServices.Data.SearchableMailbox.ReferenceId" /> (propiedad) es aplicable para los clientes que estén destinados a Exchange Online y versiones de Exchange a partir de Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="acfca-130">The <see cref="P:Microsoft.Exchange.WebServices.Data.SearchableMailbox.ReferenceId" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="acfca-131">Identificador de la referencia.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="acfca-131">The reference identifier.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SmtpAddress">
+      <MemberSignature Language="C#" Value="public string SmtpAddress { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SmtpAddress" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchableMailbox.SmtpAddress" />
+      <MemberSignature Language="VB.NET" Value="Public Property SmtpAddress As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ SmtpAddress { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="acfca-132">Obtiene o establece la dirección de Protocolo Simple de transferencia de correo (SMTP) del buzón que se desea buscar.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="acfca-132">Gets or sets the Simple Mail Transfer Protocol (SMTP) address of the mailbox to be searched.</span>
+          </span>
+          <span data-ttu-id="acfca-133">El <see cref="P:Microsoft.Exchange.WebServices.Data.SearchableMailbox.SmtpAddress" /> (propiedad) es aplicable para los clientes que estén destinados a Exchange Online y versiones de Exchange a partir de Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="acfca-133">The <see cref="P:Microsoft.Exchange.WebServices.Data.SearchableMailbox.SmtpAddress" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="acfca-134">La dirección SMTP.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="acfca-134">The SMTP address.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

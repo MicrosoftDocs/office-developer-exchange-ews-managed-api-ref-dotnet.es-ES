@@ -1,0 +1,144 @@
+<Type Name="TextBody" FullName="Microsoft.Exchange.WebServices.Data.TextBody">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="973b685ede9a3f83e640627181517ce3d14d408d" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="es-ES" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20628299" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class TextBody : Microsoft.Exchange.WebServices.Data.MessageBody" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit TextBody extends Microsoft.Exchange.WebServices.Data.MessageBody" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.TextBody" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class TextBody&#xA;Inherits MessageBody" />
+  <TypeSignature Language="C++ CLI" Value="public ref class TextBody sealed : Microsoft::Exchange::WebServices::Data::MessageBody" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.MessageBody</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="a03ea-101">Contiene el cuerpo de un mensaje.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="a03ea-101">Contains the body of a message.</span>
+      </span>
+      <span data-ttu-id="a03ea-102">El <see cref="T:Microsoft.Exchange.WebServices.Data.TextBody" /> clase es aplicable para los clientes que estén destinados a Exchange Online y versiones de Exchange a partir de Exchange Server 2013.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="a03ea-102">The <see cref="T:Microsoft.Exchange.WebServices.Data.TextBody" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public TextBody ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.TextBody.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; TextBody();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="a03ea-103">Inicializa una nueva instancia de la <see cref="T:Microsoft.Exchange.WebServices.Data.TextBody" /> clase.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a03ea-103">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.TextBody" /> class.</span>
+          </span>
+          <span data-ttu-id="a03ea-104">El <see cref="M:Microsoft.Exchange.WebServices.Data.TextBody.#ctor" /> constructor es aplicable para los clientes que estén destinados a Exchange Online y versiones de Exchange a partir de Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a03ea-104">The <see cref="M:Microsoft.Exchange.WebServices.Data.TextBody.#ctor" /> constructor is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public TextBody (string text);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string text) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.TextBody.#ctor(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (text As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; TextBody(System::String ^ text);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="text" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="text">
+          <span data-ttu-id="a03ea-105">El texto del cuerpo del mensaje.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a03ea-105">The text of the message body.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="a03ea-106">Inicializa una nueva instancia de la <see cref="T:Microsoft.Exchange.WebServices.Data.TextBody" /> clase con texto igual que el valor pasado.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a03ea-106">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.TextBody" /> class with text equal to the passed-in value.</span>
+          </span>
+          <span data-ttu-id="a03ea-107">El <see cref="M:Microsoft.Exchange.WebServices.Data.TextBody.#ctor(System.String)" /> constructor es aplicable para los clientes que estén destinados a Exchange Online y versiones de Exchange a partir de Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a03ea-107">The <see cref="M:Microsoft.Exchange.WebServices.Data.TextBody.#ctor(System.String)" /> constructor is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Implicit">
+      <MemberSignature Language="C#" Value="public static implicit operator Microsoft.Exchange.WebServices.Data.TextBody (string textBody);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname class Microsoft.Exchange.WebServices.Data.TextBody op_Implicit(string textBody) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.TextBody.op_Implicit(System.String)~Microsoft.Exchange.WebServices.Data.TextBody" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static operator Microsoft::Exchange::WebServices::Data::TextBody ^(System::String ^ textBody);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.TextBody</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="textBody" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="textBody">
+          <span data-ttu-id="a03ea-108">La cadena para convertir a un <see cref="T:Microsoft.Exchange.WebServices.Data.TextBody" /> objeto.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a03ea-108">The string to convert to a <see cref="T:Microsoft.Exchange.WebServices.Data.TextBody" /> object.</span>
+          </span>
+          <span data-ttu-id="a03ea-109">La cadena de origen se supone que es en formato HTML.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a03ea-109">The source string is assumed to be in HTML format.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="a03ea-110">Define una conversión implícita entre una cadena y el cuerpo de un mensaje.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a03ea-110">Defines an implicit conversion between a string and the body of a message.</span>
+          </span>
+          <span data-ttu-id="a03ea-111">El <see cref="M:Microsoft.Exchange.WebServices.Data.TextBody.op_Implicit(System.String)~Microsoft.Exchange.WebServices.Data.TextBody" /> operator es aplicable para los clientes que estén destinados a Exchange Online y versiones de Exchange a partir de Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a03ea-111">The <see cref="M:Microsoft.Exchange.WebServices.Data.TextBody.op_Implicit(System.String)~Microsoft.Exchange.WebServices.Data.TextBody" /> operator is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="a03ea-112">A <see cref="T:Microsoft.Exchange.WebServices.Data.TextBody" /> inicializado con la cadena especificada.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a03ea-112">A <see cref="T:Microsoft.Exchange.WebServices.Data.TextBody" /> initialized with the specified string.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

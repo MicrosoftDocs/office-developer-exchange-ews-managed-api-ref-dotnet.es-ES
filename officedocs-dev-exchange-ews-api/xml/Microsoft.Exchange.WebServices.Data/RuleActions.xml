@@ -1,0 +1,645 @@
+<Type Name="RuleActions" FullName="Microsoft.Exchange.WebServices.Data.RuleActions">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="1b5db106e68699c1aeda8568e4cf0e55b9e34c61" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="es-ES" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20627885" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class RuleActions : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit RuleActions extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.RuleActions" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class RuleActions&#xA;Inherits ComplexProperty" />
+  <TypeSignature Language="C++ CLI" Value="public ref class RuleActions sealed : Microsoft::Exchange::WebServices::Data::ComplexProperty" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ComplexProperty</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="86a6c-101">Representa el conjunto de acciones que están disponibles para una regla.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="86a6c-101">Represents the set of actions that are available to a rule.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="86a6c-102">
+        <para>Esta clase representa las posibles acciones que se realizan cuando las condiciones de una regla se evalúan como <b>true</b>.</para>
+        <para />
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="86a6c-102">
+          <para>This class represents the possible actions that are  taken when the conditions of a rule evaluate to <b>true</b>. </para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AssignCategories">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.StringList AssignCategories { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.StringList AssignCategories" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RuleActions.AssignCategories" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AssignCategories As StringList" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::StringList ^ AssignCategories { Microsoft::Exchange::WebServices::Data::StringList ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="86a6c-103">Obtiene las categorías que están marcadas en mensajes de correo electrónico.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="86a6c-103">Gets the categories that are stamped on e-mail messages.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="86a6c-104">Las categorías que están marcadas en mensajes de correo electrónico.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="86a6c-104">The categories that are stamped on e-mail messages.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="86a6c-105">
+            <para>El <see cref="P:Microsoft.Exchange.WebServices.Data.RuleActions.AssignCategories" /> propiedad representa una acción que asigna categorías a un mensaje.</para>
+            <para>El valor devuelto <see cref="T:Microsoft.Exchange.WebServices.Data.StringList" /> objeto contiene una lista separada por comas de cada <see cref="P:Microsoft.Exchange.WebServices.Data.RuleActions.AssignCategories" /> cadena que se ha agregado cuando se creó o se actualizó la regla.</para>
+            <para>El <see cref="P:Microsoft.Exchange.WebServices.Data.RuleActions.AssignCategories" /> (propiedad) se devuelve con el <see cref="T:Microsoft.Exchange.WebServices.Data.RuleActions" /> clase independientemente de si la regla que está asociada con el <see cref="T:Microsoft.Exchange.WebServices.Data.RuleActions" /> clase ha definido dicha acción de regla. Si la regla ha definido y habilitado dicha acción de regla, esta propiedad será null que no sean.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="86a6c-105">
+              <para>The <see cref="P:Microsoft.Exchange.WebServices.Data.RuleActions.AssignCategories" /> property represents an action that assigns categories to a message.</para>
+              <para>The returned <see cref="T:Microsoft.Exchange.WebServices.Data.StringList" /> object contains a comma separated list of each <see cref="P:Microsoft.Exchange.WebServices.Data.RuleActions.AssignCategories" /> string that was added when the rule was created or updated.</para>
+              <para>The <see cref="P:Microsoft.Exchange.WebServices.Data.RuleActions.AssignCategories" /> property is returned with the <see cref="T:Microsoft.Exchange.WebServices.Data.RuleActions" /> class regardless of whether the rule that is associated with the <see cref="T:Microsoft.Exchange.WebServices.Data.RuleActions" /> class has defined such a rule action. If the rule has defined and enabled such a rule action, this property will be non-null.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CopyToFolder">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.FolderId CopyToFolder { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.FolderId CopyToFolder" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RuleActions.CopyToFolder" />
+      <MemberSignature Language="VB.NET" Value="Public Property CopyToFolder As FolderId" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::FolderId ^ CopyToFolder { Microsoft::Exchange::WebServices::Data::FolderId ^ get(); void set(Microsoft::Exchange::WebServices::Data::FolderId ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FolderId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="86a6c-106">Obtiene o establece el identificador de la carpeta que se copiarán los elementos de correo electrónico a.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="86a6c-106">Gets or sets the ID of the folder that e-mail items will be copied to.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="86a6c-107">Un identificador que identifica la carpeta en la que deben copiarse en el elemento de correo electrónico.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="86a6c-107">An ID that identifies the folder that the e-mail item will be copied to.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="86a6c-108">
+            <para>El <see cref="P:Microsoft.Exchange.WebServices.Data.RuleActions.CopyToFolder" /> representa una acción que se copia un mensaje en la carpeta especificada.</para>
+            <para>El <see cref="P:Microsoft.Exchange.WebServices.Data.RuleActions.CopyToFolder" /> (propiedad) se devuelve con el <see cref="T:Microsoft.Exchange.WebServices.Data.RuleActions" /> clase independientemente de si la regla que está asociada con este <see cref="T:Microsoft.Exchange.WebServices.Data.RuleActions" /> clase ha definido dicha acción de regla. Si la regla ha definido y habilitado dicha acción de regla, esta propiedad será null que no sean.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="86a6c-108">
+              <para>The <see cref="P:Microsoft.Exchange.WebServices.Data.RuleActions.CopyToFolder" /> represents an action that copies a message to the specified folder.</para>
+              <para>The <see cref="P:Microsoft.Exchange.WebServices.Data.RuleActions.CopyToFolder" /> property is returned with the <see cref="T:Microsoft.Exchange.WebServices.Data.RuleActions" /> class regardless of whether the rule that is associated with this <see cref="T:Microsoft.Exchange.WebServices.Data.RuleActions" /> class has defined such a rule action. If the rule has defined and enabled such a rule action, this property will be non-null.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Delete">
+      <MemberSignature Language="C#" Value="public bool Delete { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Delete" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RuleActions.Delete" />
+      <MemberSignature Language="VB.NET" Value="Public Property Delete As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Delete { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="86a6c-109">Obtiene o establece un valor que indica si se va a mover mensajes a la carpeta Elementos eliminados.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="86a6c-109">Gets or sets a value that indicates whether messages should be moved to the Deleted Items folder.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="86a6c-110">
+            <b>true</b> si el mensaje de correo electrónico se va a mover a la carpeta Elementos eliminados; en caso contrario, <b>false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="86a6c-110">
+              <b>true</b> if the e-mail message is to be moved to the Deleted Items folder; otherwise, <b>false</b>.</span>
+          </span>
+          <span data-ttu-id="86a6c-111">El valor predeterminado es <b>false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="86a6c-111">The default value is <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="86a6c-112">
+            <para>El <see cref="P:Microsoft.Exchange.WebServices.Data.RuleActions.Delete" /> propiedad representa una acción que mueve un mensaje a la carpeta Elementos eliminados. Para eliminar un mensaje sin guardar en la carpeta Elementos eliminados, use el <see cref="P:Microsoft.Exchange.WebServices.Data.RuleActions.PermanentDelete" /> (propiedad).</para>
+            <para />
+            <para>El <see cref="P:Microsoft.Exchange.WebServices.Data.RuleActions.Delete" /> (propiedad) se devuelve con el <see cref="T:Microsoft.Exchange.WebServices.Data.RuleActions" /> clase independientemente de si la regla que está asociada con este <see cref="T:Microsoft.Exchange.WebServices.Data.RuleActions" /> clase ha definido dicha acción de regla. Si la regla ha definido y habilitado dicha acción de regla, esta propiedad será <b>true</b>. </para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="86a6c-112">
+              <para>The <see cref="P:Microsoft.Exchange.WebServices.Data.RuleActions.Delete" /> property represents an action that moves a message to the Deleted Items folder. To delete a message without saving it to the Deleted Items folder, use the <see cref="P:Microsoft.Exchange.WebServices.Data.RuleActions.PermanentDelete" /> property.</para>
+              <para />
+              <para>The <see cref="P:Microsoft.Exchange.WebServices.Data.RuleActions.Delete" /> property is returned with the <see cref="T:Microsoft.Exchange.WebServices.Data.RuleActions" /> class regardless of whether the rule that is associated with this <see cref="T:Microsoft.Exchange.WebServices.Data.RuleActions" /> class has defined such a rule action. If the rule has defined and enabled such a rule action, this property will be <b>true</b>. </para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ForwardAsAttachmentToRecipients">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.EmailAddressCollection ForwardAsAttachmentToRecipients { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.EmailAddressCollection ForwardAsAttachmentToRecipients" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RuleActions.ForwardAsAttachmentToRecipients" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ForwardAsAttachmentToRecipients As EmailAddressCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::EmailAddressCollection ^ ForwardAsAttachmentToRecipients { Microsoft::Exchange::WebServices::Data::EmailAddressCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.EmailAddressCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="86a6c-113">Obtiene las direcciones de correo electrónico a la que deben reenviarse los mensajes como datos adjuntos.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="86a6c-113">Gets the e-mail addresses to which messages should be forwarded as attachments.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="86a6c-114">Una colección de dirección de correo electrónico.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="86a6c-114">A collection of e-mail address.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="86a6c-115">
+            <para>El <see cref="P:Microsoft.Exchange.WebServices.Data.RuleActions.ForwardAsAttachmentToRecipients" /> propiedad representa una acción que se va a reenviar un mensaje como datos adjuntos incrustado al destinatario especificado.</para>
+            <para>Para deshabilitar el reenvío de mensajes entrantes, vacíe el <see cref="P:Microsoft.Exchange.WebServices.Data.RuleActions.ForwardAsAttachmentToRecipients" /> (propiedad).</para>
+            <para>El <see cref="P:Microsoft.Exchange.WebServices.Data.RuleActions.ForwardAsAttachmentToRecipients" /> (propiedad) se devuelve con el <see cref="T:Microsoft.Exchange.WebServices.Data.RuleActions" /> clase independientemente de si la regla que está asociada con este <see cref="T:Microsoft.Exchange.WebServices.Data.RuleActions" /> clase ha definido dicha acción de regla. Si la regla ha definido y habilitado dicha acción de regla, esta propiedad será una no vacía <see cref="T:Microsoft.Exchange.WebServices.Data.EmailAddressCollection" /> objeto.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="86a6c-115">
+              <para>The <see cref="P:Microsoft.Exchange.WebServices.Data.RuleActions.ForwardAsAttachmentToRecipients" /> property represents an action that forwards a message as an embedded attachment to the specified recipient.</para>
+              <para>To disable forwarding incoming messages, empty the <see cref="P:Microsoft.Exchange.WebServices.Data.RuleActions.ForwardAsAttachmentToRecipients" /> property.</para>
+              <para>The <see cref="P:Microsoft.Exchange.WebServices.Data.RuleActions.ForwardAsAttachmentToRecipients" /> property is returned with the <see cref="T:Microsoft.Exchange.WebServices.Data.RuleActions" /> class regardless of whether the rule that is associated with this <see cref="T:Microsoft.Exchange.WebServices.Data.RuleActions" /> class has defined such a rule action. If the rule has defined and enabled such a rule action, this property will be a non-empty <see cref="T:Microsoft.Exchange.WebServices.Data.EmailAddressCollection" /> object.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ForwardToRecipients">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.EmailAddressCollection ForwardToRecipients { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.EmailAddressCollection ForwardToRecipients" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RuleActions.ForwardToRecipients" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ForwardToRecipients As EmailAddressCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::EmailAddressCollection ^ ForwardToRecipients { Microsoft::Exchange::WebServices::Data::EmailAddressCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.EmailAddressCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="86a6c-116">Obtiene las direcciones de correo electrónico a la que deben reenviarse los mensajes.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="86a6c-116">Gets the e-mail addresses to which messages should be forwarded.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="86a6c-117">Una colección de direcciones de correo electrónico.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="86a6c-117">A collection of e-mail addresses.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="86a6c-118">
+            <para>El <see cref="P:Microsoft.Exchange.WebServices.Data.RuleActions.ForwardToRecipients" /> propiedad representa una acción que se va a reenviar un mensaje a los destinatarios especificados.</para>
+            <para>Para deshabilitar el reenvío de mensajes, vacíe el <see cref="P:Microsoft.Exchange.WebServices.Data.RuleActions.ForwardToRecipients" /> (propiedad).</para>
+            <para>El <see cref="P:Microsoft.Exchange.WebServices.Data.RuleActions.ForwardToRecipients" /> (propiedad) se devuelve con el <see cref="T:Microsoft.Exchange.WebServices.Data.RuleActions" /> clase independientemente de si la regla que está asociada con este <see cref="T:Microsoft.Exchange.WebServices.Data.RuleActions" /> clase ha definido dicha acción de regla. Si la regla ha definido y habilitado dicha acción de regla, esta propiedad será una no vacía <see cref="T:Microsoft.Exchange.WebServices.Data.EmailAddressCollection" /> objeto.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="86a6c-118">
+              <para>The <see cref="P:Microsoft.Exchange.WebServices.Data.RuleActions.ForwardToRecipients" /> property represents an action that forwards a message to the specified recipients.</para>
+              <para>To disable forwarding messages, empty the <see cref="P:Microsoft.Exchange.WebServices.Data.RuleActions.ForwardToRecipients" /> property.</para>
+              <para>The <see cref="P:Microsoft.Exchange.WebServices.Data.RuleActions.ForwardToRecipients" /> property is returned with the <see cref="T:Microsoft.Exchange.WebServices.Data.RuleActions" /> class regardless of whether the rule that is associated with this <see cref="T:Microsoft.Exchange.WebServices.Data.RuleActions" /> class has defined such a rule action. If the rule has defined and enabled such a rule action, this property will be a non-empty <see cref="T:Microsoft.Exchange.WebServices.Data.EmailAddressCollection" /> object.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MarkAsRead">
+      <MemberSignature Language="C#" Value="public bool MarkAsRead { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool MarkAsRead" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RuleActions.MarkAsRead" />
+      <MemberSignature Language="VB.NET" Value="Public Property MarkAsRead As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool MarkAsRead { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="86a6c-119">Obtiene o establece un valor que indica si los mensajes deben estar marcados como lectura.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="86a6c-119">Gets or sets a value that indicates whether messages should be marked as read.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="86a6c-120">
+            <b>true</b> si el mensaje de correo electrónico se va a marcar como de lectura; en caso contrario, <b>false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="86a6c-120">
+              <b>true</b> if the e-mail message is to be marked as read; otherwise, <b>false</b>.</span>
+          </span>
+          <span data-ttu-id="86a6c-121">El valor predeterminado es <b>false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="86a6c-121">The default value is <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="86a6c-122">
+            <para>El <see cref="P:Microsoft.Exchange.WebServices.Data.RuleActions.MarkAsRead" /> propiedad representa una acción que marca el mensaje como lectura.</para>
+            <para>El <see cref="P:Microsoft.Exchange.WebServices.Data.RuleActions.MarkAsRead" /> (propiedad) se devuelve con el <see cref="T:Microsoft.Exchange.WebServices.Data.RuleActions" /> clase independientemente de si la regla que está asociada con este <see cref="T:Microsoft.Exchange.WebServices.Data.RuleActions" /> clase ha definido dicha acción de regla. Si la regla ha definido y habilitado dicha acción de regla, esta propiedad será <b>true</b>.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="86a6c-122">
+              <para>The <see cref="P:Microsoft.Exchange.WebServices.Data.RuleActions.MarkAsRead" /> property represents an action that marks the message as read.</para>
+              <para>The <see cref="P:Microsoft.Exchange.WebServices.Data.RuleActions.MarkAsRead" />  property is returned with the <see cref="T:Microsoft.Exchange.WebServices.Data.RuleActions" /> class regardless of whether the rule that is associated with this <see cref="T:Microsoft.Exchange.WebServices.Data.RuleActions" /> class has defined such a rule action. If the rule has defined and enabled such a rule action, this property will be <b>true</b>.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MarkImportance">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Exchange.WebServices.Data.Importance&gt; MarkImportance { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Exchange.WebServices.Data.Importance&gt; MarkImportance" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RuleActions.MarkImportance" />
+      <MemberSignature Language="VB.NET" Value="Public Property MarkImportance As Nullable(Of Importance)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;Microsoft::Exchange::WebServices::Data::Importance&gt; MarkImportance { Nullable&lt;Microsoft::Exchange::WebServices::Data::Importance&gt; get(); void set(Nullable&lt;Microsoft::Exchange::WebServices::Data::Importance&gt; value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.Exchange.WebServices.Data.Importance&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="86a6c-123">Obtiene o establece la importancia debe estar marcados en los mensajes.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="86a6c-123">Gets or sets the importance that should be stamped on messages.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="86a6c-124">Uno de los valores de enumeración de importancia que representan la importancia del mensaje.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="86a6c-124">One of the Importance enumeration values that represent the importance of the message.</span>
+          </span>
+          <span data-ttu-id="86a6c-125">El valor predeterminado es una referencia nula (Nothing en Visual Basic).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="86a6c-125">The default value is a null reference (Nothing in Visual Basic).</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="86a6c-126">
+            <para>El <see cref="P:Microsoft.Exchange.WebServices.Data.RuleActions.MarkImportance" /> propiedad representa una acción que asigna la importancia especificada para el mensaje. Para deshabilitar la marca de un mensaje con un <see cref="P:Microsoft.Exchange.WebServices.Data.RuleActions.MarkImportance" /> valor, establezca esta propiedad en una referencia nula (Nothing en Visual Basic).</para>
+            <para>El <see cref="P:Microsoft.Exchange.WebServices.Data.RuleActions.MarkImportance" /> (propiedad) se devuelve con el <see cref="T:Microsoft.Exchange.WebServices.Data.RuleActions" /> clase independientemente de si la regla que está asociada con este <see cref="T:Microsoft.Exchange.WebServices.Data.RuleActions" /> clase ha definido dicha acción de regla. Si la regla ha definido y habilitado dicha acción de regla, esta propiedad será una <see cref="T:Microsoft.Exchange.WebServices.Data.Importance" /> valor enumerado.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="86a6c-126">
+              <para>The <see cref="P:Microsoft.Exchange.WebServices.Data.RuleActions.MarkImportance" /> property represents an action that assigned the specified importance to the message. To disable the stamping of a message with an <see cref="P:Microsoft.Exchange.WebServices.Data.RuleActions.MarkImportance" /> value, set this property to a null reference (Nothing in Visual Basic).</para>
+              <para>The <see cref="P:Microsoft.Exchange.WebServices.Data.RuleActions.MarkImportance" /> property is returned with the <see cref="T:Microsoft.Exchange.WebServices.Data.RuleActions" /> class regardless of whether the rule that is associated with this <see cref="T:Microsoft.Exchange.WebServices.Data.RuleActions" /> class has defined such a rule action. If the rule has defined and enabled such a rule action, this property will be an <see cref="T:Microsoft.Exchange.WebServices.Data.Importance" /> enumerated value.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MoveToFolder">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.FolderId MoveToFolder { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.FolderId MoveToFolder" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RuleActions.MoveToFolder" />
+      <MemberSignature Language="VB.NET" Value="Public Property MoveToFolder As FolderId" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::FolderId ^ MoveToFolder { Microsoft::Exchange::WebServices::Data::FolderId ^ get(); void set(Microsoft::Exchange::WebServices::Data::FolderId ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FolderId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="86a6c-127">Obtiene o establece el identificador de la carpeta que se moverán los elementos de correo electrónico a.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="86a6c-127">Gets or sets the ID of the folder that e-mail items will be moved to.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="86a6c-128">Un identificador que identifica el correo electrónico se moverán a la carpeta.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="86a6c-128">An ID that identifies the folder that the e-mail will be moved to.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="86a6c-129">
+            <para>El <see cref="P:Microsoft.Exchange.WebServices.Data.RuleActions.MoveToFolder" /> propiedad representa una acción que mueve un mensaje a la carpeta especificada.</para>
+            <para>El <see cref="P:Microsoft.Exchange.WebServices.Data.RuleActions.MoveToFolder" /> (propiedad) se devuelve con el <see cref="T:Microsoft.Exchange.WebServices.Data.RuleActions" /> clase independientemente de si la regla que está asociada con este <see cref="T:Microsoft.Exchange.WebServices.Data.RuleActions" /> clase ha definido dicha acción de regla. Si la regla ha definido y habilitado dicha acción de regla, esta propiedad será null que no sean.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="86a6c-129">
+              <para>The <see cref="P:Microsoft.Exchange.WebServices.Data.RuleActions.MoveToFolder" /> property represents an action that moves a message to the specified folder.</para>
+              <para>The <see cref="P:Microsoft.Exchange.WebServices.Data.RuleActions.MoveToFolder" /> property is returned with the <see cref="T:Microsoft.Exchange.WebServices.Data.RuleActions" /> class regardless of whether the rule that is associated with this <see cref="T:Microsoft.Exchange.WebServices.Data.RuleActions" /> class has defined such a rule action. If the rule has defined and enabled such a rule action, this property will be non-null.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PermanentDelete">
+      <MemberSignature Language="C#" Value="public bool PermanentDelete { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool PermanentDelete" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RuleActions.PermanentDelete" />
+      <MemberSignature Language="VB.NET" Value="Public Property PermanentDelete As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool PermanentDelete { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="86a6c-130">Obtiene o establece un valor que indica si los mensajes deben eliminarse permanentemente y no se ha guardado en la carpeta Elementos eliminados.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="86a6c-130">Gets or sets a value that indicates whether messages should be permanently deleted and not saved to the Deleted Items folder.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="86a6c-131">
+            <b>true</b> si el mensaje de correo electrónico se eliminarán permanentemente; en caso contrario, <b>false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="86a6c-131">
+              <b>true</b> if the e-mail message is to be permanently deleted; otherwise, <b>false</b>.</span>
+          </span>
+          <span data-ttu-id="86a6c-132">El valor predeterminado es <b>false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="86a6c-132">The default value is <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="86a6c-133">
+            <para>El <see cref="P:Microsoft.Exchange.WebServices.Data.RuleActions.PermanentDelete" /> propiedad representa una acción que elimina un mensaje de forma permanente. Para eliminar un mensaje después de se ha guardado en el buzón del destinatario, use la <see cref="F:Microsoft.Exchange.WebServices.Data.RuleProperty.ActionDelete" /> acción.</para>
+            <para>El <see cref="P:Microsoft.Exchange.WebServices.Data.RuleActions.PermanentDelete" /> (propiedad) se devuelve con el <see cref="T:Microsoft.Exchange.WebServices.Data.RuleActions" /> clase independientemente de si la regla que está asociada con este <see cref="T:Microsoft.Exchange.WebServices.Data.RuleActions" /> clase ha definido dicha acción de regla. Si la regla ha definido y habilitado dicha acción de regla, esta propiedad será <b>true</b>.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="86a6c-133">
+              <para>The <see cref="P:Microsoft.Exchange.WebServices.Data.RuleActions.PermanentDelete" /> property represents an action that permanently deletes a message. To delete a message after it has been saved to the recipient's mailbox, use the <see cref="F:Microsoft.Exchange.WebServices.Data.RuleProperty.ActionDelete" /> action.</para>
+              <para>The <see cref="P:Microsoft.Exchange.WebServices.Data.RuleActions.PermanentDelete" /> property is returned with the <see cref="T:Microsoft.Exchange.WebServices.Data.RuleActions" /> class regardless of whether the rule that is associated with this <see cref="T:Microsoft.Exchange.WebServices.Data.RuleActions" /> class has defined such a rule action. If the rule has defined and enabled such a rule action, this property will be <b>true</b>.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RedirectToRecipients">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.EmailAddressCollection RedirectToRecipients { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.EmailAddressCollection RedirectToRecipients" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RuleActions.RedirectToRecipients" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RedirectToRecipients As EmailAddressCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::EmailAddressCollection ^ RedirectToRecipients { Microsoft::Exchange::WebServices::Data::EmailAddressCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.EmailAddressCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="86a6c-134">Obtiene las direcciones de correo electrónico a la que se deben redirigir los mensajes.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="86a6c-134">Gets the e-mail addresses to which messages should be redirected.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="86a6c-135">Una colección de dirección de correo electrónico.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="86a6c-135">A collection of e-mail address.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="86a6c-136">
+            <para>El <see cref="P:Microsoft.Exchange.WebServices.Data.RuleActions.RedirectToRecipients" /> propiedad representa una acción que se redirige un mensaje a los destinatarios especificados. Correo redirigida mantiene el remitente y los destinatarios originales.</para>
+            <para>Para deshabilitar los mensajes de redirección, vacíe el <see cref="P:Microsoft.Exchange.WebServices.Data.RuleActions.RedirectToRecipients" /> (propiedad).</para>
+            <para>El <see cref="P:Microsoft.Exchange.WebServices.Data.RuleActions.RedirectToRecipients" /> (propiedad) se devuelve con el <see cref="T:Microsoft.Exchange.WebServices.Data.RuleActions" /> clase independientemente de si la regla que está asociada con este <see cref="T:Microsoft.Exchange.WebServices.Data.RuleActions" /> clase ha definido dicha acción de regla. Si la regla ha definido y habilitado dicha acción de regla, esta propiedad será una no vacía <see cref="T:Microsoft.Exchange.WebServices.Data.EmailAddressCollection" /> objeto.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="86a6c-136">
+              <para>The <see cref="P:Microsoft.Exchange.WebServices.Data.RuleActions.RedirectToRecipients" /> property represents an action that redirects a message to the specified recipients. Redirected mail maintains the original sender and recipients.</para>
+              <para>To disable redirecting messages, empty the <see cref="P:Microsoft.Exchange.WebServices.Data.RuleActions.RedirectToRecipients" /> property.</para>
+              <para>The <see cref="P:Microsoft.Exchange.WebServices.Data.RuleActions.RedirectToRecipients" /> property is returned with the <see cref="T:Microsoft.Exchange.WebServices.Data.RuleActions" /> class regardless of whether the rule that is associated with this <see cref="T:Microsoft.Exchange.WebServices.Data.RuleActions" /> class has defined such a rule action. If the rule has defined and enabled such a rule action, this property will be a non-empty <see cref="T:Microsoft.Exchange.WebServices.Data.EmailAddressCollection" /> object.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SendSMSAlertToRecipients">
+      <MemberSignature Language="C#" Value="public System.Collections.ObjectModel.Collection&lt;Microsoft.Exchange.WebServices.Data.MobilePhone&gt; SendSMSAlertToRecipients { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.ObjectModel.Collection`1&lt;class Microsoft.Exchange.WebServices.Data.MobilePhone&gt; SendSMSAlertToRecipients" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RuleActions.SendSMSAlertToRecipients" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SendSMSAlertToRecipients As Collection(Of MobilePhone)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::ObjectModel::Collection&lt;Microsoft::Exchange::WebServices::Data::MobilePhone ^&gt; ^ SendSMSAlertToRecipients { System::Collections::ObjectModel::Collection&lt;Microsoft::Exchange::WebServices::Data::MobilePhone ^&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.ObjectModel.Collection&lt;Microsoft.Exchange.WebServices.Data.MobilePhone&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="86a6c-137">Obtiene los números de teléfono móvil a los que se debe enviar una alerta de servicio de mensajes cortos (SMS).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="86a6c-137">Gets the mobile phone numbers to which a Short Message Service (SMS) alert should be sent.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="86a6c-138">Una colección de números de teléfono móvil.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="86a6c-138">A collection of mobile phone numbers.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="86a6c-139">
+            <para>El <see cref="P:Microsoft.Exchange.WebServices.Data.RuleActions.SendSMSAlertToRecipients" /> propiedad representa una acción que envía una alerta a los destinatarios especificados.</para>
+            <para>Para deshabilitar el envío de las alertas SMS para los mensajes entrantes, vaciar la <see cref="P:Microsoft.Exchange.WebServices.Data.RuleActions.SendSMSAlertToRecipients" /> lista.</para>
+            <para>El <see cref="P:Microsoft.Exchange.WebServices.Data.RuleActions.SendSMSAlertToRecipients" /> (propiedad) se devuelve con el <see cref="T:Microsoft.Exchange.WebServices.Data.RuleActions" /> clase independientemente de si la regla que está asociada con este <see cref="T:Microsoft.Exchange.WebServices.Data.RuleActions" /> clase ha definido dicha acción de regla. Si la regla ha definido y habilitado dicha acción de regla, esta propiedad será una colección vacía que no sean de números de teléfono móvil.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="86a6c-139">
+              <para>The <see cref="P:Microsoft.Exchange.WebServices.Data.RuleActions.SendSMSAlertToRecipients" /> property represents an action that sends an alert to the specified recipients.</para>
+              <para>To disable sending SMS alerts for incoming messages, empty the <see cref="P:Microsoft.Exchange.WebServices.Data.RuleActions.SendSMSAlertToRecipients" /> list.</para>
+              <para>The <see cref="P:Microsoft.Exchange.WebServices.Data.RuleActions.SendSMSAlertToRecipients" /> property is returned with the <see cref="T:Microsoft.Exchange.WebServices.Data.RuleActions" /> class regardless of whether the rule that is associated with this <see cref="T:Microsoft.Exchange.WebServices.Data.RuleActions" /> class has defined such a rule action. If the rule has defined and enabled such a rule action, this property will be a non-empty collection of mobile phone numbers.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ServerReplyWithMessage">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ItemId ServerReplyWithMessage { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.ItemId ServerReplyWithMessage" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RuleActions.ServerReplyWithMessage" />
+      <MemberSignature Language="VB.NET" Value="Public Property ServerReplyWithMessage As ItemId" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ItemId ^ ServerReplyWithMessage { Microsoft::Exchange::WebServices::Data::ItemId ^ get(); void set(Microsoft::Exchange::WebServices::Data::ItemId ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ItemId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="86a6c-140">Obtiene o establece el identificador del mensaje de plantilla que se debe enviar como respuesta a los mensajes entrantes.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="86a6c-140">Gets or sets the ID of the template message that should be sent as a reply to incoming messages.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="86a6c-141">Un identificador que se usará para el mensaje de respuesta.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="86a6c-141">An identifier to be used for the reply message.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="86a6c-142">
+            <para>El <see cref="P:Microsoft.Exchange.WebServices.Data.RuleActions.ServerReplyWithMessage" /> propiedad representa una acción que responde a un mensaje.</para> Se utiliza 
+          <para>al responder a un mensaje, la plantilla de mensaje de respuesta. El <see cref="P:Microsoft.Exchange.WebServices.Data.RuleActions.ServerReplyWithMessage" /> (propiedad) devuelve el identificador único para la plantilla.</para><para>El <see cref="P:Microsoft.Exchange.WebServices.Data.RuleActions.ServerReplyWithMessage" /> (propiedad) se devuelve con el <see cref="T:Microsoft.Exchange.WebServices.Data.RuleActions" /> clase independientemente de si la regla que está asociada con este <see cref="T:Microsoft.Exchange.WebServices.Data.RuleActions" /> clase ha definido dicha acción de regla. Si la regla ha definido y habilitado dicha acción de regla, esta propiedad será null que no sean.</para><para /></span>
+          <span class="sxs-lookup">
+            <span data-stu-id="86a6c-142">
+              <para>The <see cref="P:Microsoft.Exchange.WebServices.Data.RuleActions.ServerReplyWithMessage" /> property represents an action that replies to a message.</para>
+              <para>When you reply to a message, the reply message template is used. The <see cref="P:Microsoft.Exchange.WebServices.Data.RuleActions.ServerReplyWithMessage" /> property returns the unique identifier for the template.</para>
+              <para>The <see cref="P:Microsoft.Exchange.WebServices.Data.RuleActions.ServerReplyWithMessage" /> property is returned with the <see cref="T:Microsoft.Exchange.WebServices.Data.RuleActions" /> class regardless of whether the rule that is associated with this <see cref="T:Microsoft.Exchange.WebServices.Data.RuleActions" /> class has defined such a rule action. If the rule has defined and enabled such a rule action, this property will be non-null.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StopProcessingRules">
+      <MemberSignature Language="C#" Value="public bool StopProcessingRules { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool StopProcessingRules" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RuleActions.StopProcessingRules" />
+      <MemberSignature Language="VB.NET" Value="Public Property StopProcessingRules As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool StopProcessingRules { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="86a6c-143">Obtiene o establece un valor que indica si se deben evaluar reglas posteriores.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="86a6c-143">Gets or sets a value that indicates whether subsequent rules should be evaluated.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="86a6c-144">
+            <b>true</b> si el procesamiento de reglas de mensaje de correo electrónico se puede detener; en caso contrario, <b>false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="86a6c-144">
+              <b>true</b> if the e-mail message rule processing is to be stopped; otherwise, <b>false</b>.</span>
+          </span>
+          <span data-ttu-id="86a6c-145">El valor predeterminado es <b>false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="86a6c-145">The default value is <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="86a6c-146">
+            <para>El <see cref="P:Microsoft.Exchange.WebServices.Data.RuleActions.StopProcessingRules" /> propiedad representa una acción que se detiene el procesamiento de reglas.</para>
+            <para>Agregar esta acción para cada regla para evitar que las reglas posteriores de procesamiento de los mensajes que se procesan por la regla. Si desea que más de una regla para procesar los mensajes, no agregue esta propiedad para las reglas anteriores. </para>
+            <para>El <see cref="P:Microsoft.Exchange.WebServices.Data.RuleActions.StopProcessingRules" /> (propiedad) se devuelve con el <see cref="T:Microsoft.Exchange.WebServices.Data.RuleActions" /> clase independientemente de si la regla que está asociada con este <see cref="T:Microsoft.Exchange.WebServices.Data.RuleActions" /> clase ha definido dicha acción de regla. Si la regla ha definido y habilitado dicha acción de regla, esta propiedad será <b>true</b>.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="86a6c-146">
+              <para>The <see cref="P:Microsoft.Exchange.WebServices.Data.RuleActions.StopProcessingRules" /> property represents an action that stops the rules processing.</para>
+              <para>Add this action to each rule to prevent subsequent rules from processing messages that are processed by the rule. If you want more than one rule to process messages, do not add this property to earlier rules. </para>
+              <para>The <see cref="P:Microsoft.Exchange.WebServices.Data.RuleActions.StopProcessingRules" /> property is returned with the <see cref="T:Microsoft.Exchange.WebServices.Data.RuleActions" /> class regardless of whether the rule that is associated with this <see cref="T:Microsoft.Exchange.WebServices.Data.RuleActions" /> class has defined such a rule action. If the rule has defined and enabled such a rule action, this property will be <b>true</b>.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,198 @@
+<Type Name="RuleError" FullName="Microsoft.Exchange.WebServices.Data.RuleError">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="9964aeae30d9d54aa4f965bb260a447e0f36aed7" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="es-ES" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20628359" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class RuleError : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit RuleError extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.RuleError" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class RuleError&#xA;Inherits ComplexProperty" />
+  <TypeSignature Language="C++ CLI" Value="public ref class RuleError sealed : Microsoft::Exchange::WebServices::Data::ComplexProperty" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ComplexProperty</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="f2178-101">Representa un error que se produjo como resultado de ejecutar una operación de regla.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="f2178-101">Represents an error that occurred as a result of executing a rule operation.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="f2178-102">
+        <para>Esta clase representa un error para una regla que ha fallado la validación de regla.</para>
+        <para />
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="f2178-102">
+          <para>This class represents an error for a rule  that has failed  rule validation.</para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ErrorCode">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.RuleErrorCode ErrorCode { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.RuleErrorCode ErrorCode" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RuleError.ErrorCode" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ErrorCode As RuleErrorCode" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::RuleErrorCode ErrorCode { Microsoft::Exchange::WebServices::Data::RuleErrorCode get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleErrorCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f2178-103">Obtiene el código de error de validación.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f2178-103">Gets the validation error code.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="f2178-104">El valor de la enumeración RuleErrorCode que está asociado con el error.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f2178-104">The RuleErrorCode enumeration value that is associated with the error.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="f2178-105">
+            <para>El <see cref="P:Microsoft.Exchange.WebServices.Data.RuleError.ErrorCode" /> (propiedad) indica el error de validación de la regla de código cuándo un <see cref="T:Microsoft.Exchange.WebServices.Data.RuleOperation" /> método se produce un error de validación.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f2178-105">
+              <para>The <see cref="P:Microsoft.Exchange.WebServices.Data.RuleError.ErrorCode" /> property indicates the rule validation error code when a <see cref="T:Microsoft.Exchange.WebServices.Data.RuleOperation" /> method fails validation. </para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ErrorMessage">
+      <MemberSignature Language="C#" Value="public string ErrorMessage { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ErrorMessage" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RuleError.ErrorMessage" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ErrorMessage As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ErrorMessage { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f2178-106">Obtiene el mensaje de error que está asociado el error.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f2178-106">Gets the error message that is associated with the error.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="f2178-107">El mensaje de error que está asociado el error.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f2178-107">The error message that is associated with the error.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="f2178-108">
+            <para>El <see cref="P:Microsoft.Exchange.WebServices.Data.RuleError.ErrorMessage" /> (propiedad) indica el error de validación de la regla de mensajes cuando un <see cref="T:Microsoft.Exchange.WebServices.Data.RuleOperation" /> método se produce un error de validación.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f2178-108">
+              <para>The <see cref="P:Microsoft.Exchange.WebServices.Data.RuleError.ErrorMessage" /> property indicates the rule validation error message when a <see cref="T:Microsoft.Exchange.WebServices.Data.RuleOperation" /> method fails validation.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RuleProperty">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.RuleProperty RuleProperty { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.RuleProperty RuleProperty" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RuleError.RuleProperty" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RuleProperty As RuleProperty" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::RuleProperty RuleProperty { Microsoft::Exchange::WebServices::Data::RuleProperty get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f2178-109">Obtiene la propiedad que no pasaron la validación.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f2178-109">Gets the property that failed validation.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="f2178-110">Un valor de enumeración RuleProperty la especifica la propiedad que ha provocado el error.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f2178-110">A RuleProperty enumeration value the specifies the property that caused the error.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Value">
+      <MemberSignature Language="C#" Value="public string Value { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Value" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RuleError.Value" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Value As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Value { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f2178-111">Obtiene el valor de la propiedad que no pasaron la validación.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f2178-111">Gets the value of the property that failed validation.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="f2178-112">El valor de la propiedad que no pasaron la validación.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f2178-112">The value of the property that failed validation.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="f2178-113">
+            <para>El <see cref="P:Microsoft.Exchange.WebServices.Data.RuleError.Value" /> (propiedad) no puede ser null.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f2178-113">
+              <para>The <see cref="P:Microsoft.Exchange.WebServices.Data.RuleError.Value" /> property cannot be null.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

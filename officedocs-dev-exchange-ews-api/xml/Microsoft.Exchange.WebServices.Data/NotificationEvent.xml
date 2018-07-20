@@ -1,0 +1,165 @@
+<Type Name="NotificationEvent" FullName="Microsoft.Exchange.WebServices.Data.NotificationEvent">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="45e1276875ebddfc45db7ea891e6ac8cba8bbf13" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="es-ES" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20627868" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public abstract class NotificationEvent" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit NotificationEvent extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.NotificationEvent" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class NotificationEvent" />
+  <TypeSignature Language="C++ CLI" Value="public ref class NotificationEvent abstract" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="3c5ff-101">Representa un evento expuestos por las notificaciones de inserción y extracción.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="3c5ff-101">Represents an event that is exposed by push and pull notifications.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="EventType">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.EventType EventType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.EventType EventType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.NotificationEvent.EventType" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EventType As EventType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::EventType EventType { Microsoft::Exchange::WebServices::Data::EventType get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.EventType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="3c5ff-102">Obtiene el tipo del evento.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3c5ff-102">Gets the type of the event.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="3c5ff-103">Uno de los valores de enumeración EventType.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3c5ff-103">One of the EventType enumeration values.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OldParentFolderId">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.FolderId OldParentFolderId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.FolderId OldParentFolderId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.NotificationEvent.OldParentFolderId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property OldParentFolderId As FolderId" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::FolderId ^ OldParentFolderId { Microsoft::Exchange::WebServices::Data::FolderId ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FolderId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="3c5ff-104">Obtiene el identificador de la antigua carpeta principal del elemento o la carpeta que se aplica este evento.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3c5ff-104">Gets the identifier of the old parent folder of the item or folder that this event applies to.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="3c5ff-105">Un objeto FolderId que identifica la antigua carpeta principal del elemento o la carpeta que se aplica este evento.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3c5ff-105">A FolderId object that identifies the old parent folder of the item or folder that this event applies to.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="3c5ff-106">
+            <para>El <see cref="P:Microsoft.Exchange.WebServices.Data.NotificationEvent.OldParentFolderId" /> propiedad sólo es significativa cuando el <see cref="P:Microsoft.Exchange.WebServices.Data.NotificationEvent.EventType" /> (propiedad) se establece en <see cref="F:Microsoft.Exchange.WebServices.Data.EventType.Moved" /> o <see cref="F:Microsoft.Exchange.WebServices.Data.EventType.Copied" />. Para todos los tipos de eventos, esta propiedad es una referencia nula (Nothing en Visual Basic).</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3c5ff-106">
+              <para>The <see cref="P:Microsoft.Exchange.WebServices.Data.NotificationEvent.OldParentFolderId" /> property is only meaningful when the <see cref="P:Microsoft.Exchange.WebServices.Data.NotificationEvent.EventType" /> property is set to either <see cref="F:Microsoft.Exchange.WebServices.Data.EventType.Moved" /> or <see cref="F:Microsoft.Exchange.WebServices.Data.EventType.Copied" />. For all other event types, this property is a null reference (Nothing in Visual Basic).</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ParentFolderId">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.FolderId ParentFolderId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.FolderId ParentFolderId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.NotificationEvent.ParentFolderId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ParentFolderId As FolderId" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::FolderId ^ ParentFolderId { Microsoft::Exchange::WebServices::Data::FolderId ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FolderId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="3c5ff-107">Obtiene al elemento primario identificador de carpeta de la carpeta principal del elemento o la carpeta que este evento se aplica a.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3c5ff-107">Gets the parent folder identifier for the parent folder of the item or folder that this event applies to.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="3c5ff-108">Un objeto FolderId que contiene el identificador de la carpeta principal para la carpeta principal del elemento o la carpeta que se aplica este evento.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3c5ff-108">A FolderId object that contains the parent folder identifier for the parent folder of the item or folder that this event applies to.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TimeStamp">
+      <MemberSignature Language="C#" Value="public DateTime TimeStamp { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime TimeStamp" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.NotificationEvent.TimeStamp" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TimeStamp As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime TimeStamp { DateTime get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="3c5ff-109">Obtiene una marca de tiempo para el evento.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3c5ff-109">Gets a time stamp for the event.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="3c5ff-110">Un valor DateTime que contiene la fecha y hora en que se produjo el evento.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3c5ff-110">A DateTime value that contains the date and time that the event occurred.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,251 @@
+<Type Name="CalendarView" FullName="Microsoft.Exchange.WebServices.Data.CalendarView">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="4d9ab340fbd953b5898b0880ff099c4c4172dbca" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="es-ES" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20627920" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class CalendarView : Microsoft.Exchange.WebServices.Data.ViewBase" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit CalendarView extends Microsoft.Exchange.WebServices.Data.ViewBase" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.CalendarView" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class CalendarView&#xA;Inherits ViewBase" />
+  <TypeSignature Language="C++ CLI" Value="public ref class CalendarView sealed : Microsoft::Exchange::WebServices::Data::ViewBase" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ViewBase</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="d5c01-101">Representa una vista de intervalo de fecha de citas en las operaciones de búsqueda de carpeta de calendario.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="d5c01-101">Represents a date range view of appointments in calendar folder search operations.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CalendarView (DateTime startDate, DateTime endDate);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype System.DateTime startDate, valuetype System.DateTime endDate) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.CalendarView.#ctor(System.DateTime,System.DateTime)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (startDate As DateTime, endDate As DateTime)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; CalendarView(DateTime startDate, DateTime endDate);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="startDate" Type="System.DateTime" />
+        <Parameter Name="endDate" Type="System.DateTime" />
+      </Parameters>
+      <Docs>
+        <param name="startDate">
+          <span data-ttu-id="d5c01-102">La fecha de inicio.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d5c01-102">The start date.</span>
+          </span>
+        </param>
+        <param name="endDate">
+          <span data-ttu-id="d5c01-103">La fecha de finalización.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d5c01-103">The end date.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="d5c01-104">Inicializa una nueva instancia de la clase CalendarView con las fechas de inicio y finalización especificadas.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d5c01-104">Initializes a new instance of the CalendarView class with the specified start and end dates.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CalendarView (DateTime startDate, DateTime endDate, int maxItemsReturned);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype System.DateTime startDate, valuetype System.DateTime endDate, int32 maxItemsReturned) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.CalendarView.#ctor(System.DateTime,System.DateTime,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (startDate As DateTime, endDate As DateTime, maxItemsReturned As Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; CalendarView(DateTime startDate, DateTime endDate, int maxItemsReturned);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="startDate" Type="System.DateTime" />
+        <Parameter Name="endDate" Type="System.DateTime" />
+        <Parameter Name="maxItemsReturned" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="startDate">
+          <span data-ttu-id="d5c01-105">La fecha de inicio.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d5c01-105">The start date.</span>
+          </span>
+        </param>
+        <param name="endDate">
+          <span data-ttu-id="d5c01-106">La fecha de finalización.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d5c01-106">The end date.</span>
+          </span>
+        </param>
+        <param name="maxItemsReturned">
+          <span data-ttu-id="d5c01-107">El número máximo de elementos que devuelve la operación de búsqueda.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d5c01-107">The maximum number of items that the search operation returns.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="d5c01-108">Inicializa una nueva instancia de la clase CalendarView con las fechas de inicio y finalización especificadas y contendrá el número máximo especificado de elementos o menos.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d5c01-108">Initializes a new instance of the CalendarView class with the specified start and end dates and that will contain the specified maximum number of items or less.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndDate">
+      <MemberSignature Language="C#" Value="public DateTime EndDate { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime EndDate" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.CalendarView.EndDate" />
+      <MemberSignature Language="VB.NET" Value="Public Property EndDate As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime EndDate { DateTime get(); void set(DateTime value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d5c01-109">Obtiene o establece la fecha de finalización.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d5c01-109">Gets or sets the end date.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="d5c01-110">Un objeto DateTime.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d5c01-110">A DateTime object.</span>
+          </span>
+          <span data-ttu-id="d5c01-111">La fecha de finalización.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d5c01-111">The end date.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MaxItemsReturned">
+      <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; MaxItemsReturned { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; MaxItemsReturned" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.CalendarView.MaxItemsReturned" />
+      <MemberSignature Language="VB.NET" Value="Public Property MaxItemsReturned As Nullable(Of Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;int&gt; MaxItemsReturned { Nullable&lt;int&gt; get(); void set(Nullable&lt;int&gt; value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d5c01-112">Obtiene o establece el número máximo de elementos que devuelve la operación de búsqueda.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d5c01-112">Gets or sets the maximum number of items that the search operation returns.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="d5c01-113">Un objeto <b>que acepta valores NULL</b> .</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d5c01-113">A <b>nullable</b> object.</span>
+          </span>
+          <span data-ttu-id="d5c01-114">Tthe el número máximo de elementos.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d5c01-114">Tthe maximum number of items.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StartDate">
+      <MemberSignature Language="C#" Value="public DateTime StartDate { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime StartDate" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.CalendarView.StartDate" />
+      <MemberSignature Language="VB.NET" Value="Public Property StartDate As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime StartDate { DateTime get(); void set(DateTime value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d5c01-115">Obtiene o establece la fecha de inicio.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d5c01-115">Gets or sets the start date.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="d5c01-116">Un objeto DateTime.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d5c01-116">A DateTime object.</span>
+          </span>
+          <span data-ttu-id="d5c01-117">La fecha de inicio.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d5c01-117">The start date.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Traversal">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ItemTraversal Traversal { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.ItemTraversal Traversal" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.CalendarView.Traversal" />
+      <MemberSignature Language="VB.NET" Value="Public Property Traversal As ItemTraversal" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ItemTraversal Traversal { Microsoft::Exchange::WebServices::Data::ItemTraversal get(); void set(Microsoft::Exchange::WebServices::Data::ItemTraversal value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ItemTraversal</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d5c01-118">Obtiene o establece el modo de recorrido de búsqueda.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d5c01-118">Gets or sets the search traversal mode.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="d5c01-119">Un objeto ItemTraversal.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d5c01-119">An ItemTraversal object.</span>
+          </span>
+          <span data-ttu-id="d5c01-120">El valor predeterminado es ItemTraversal.Shallow.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d5c01-120">The default value is ItemTraversal.Shallow.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

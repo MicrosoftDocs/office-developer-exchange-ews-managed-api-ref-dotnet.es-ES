@@ -1,0 +1,1030 @@
+<Type Name="PropertySet" FullName="Microsoft.Exchange.WebServices.Data.PropertySet">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="a66eac0127ccc25e96b2f298bdaf6b5b1bac5dc7" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="es-ES" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20627935" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class PropertySet : System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit PropertySet extends System.Object implements class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase&gt;, class System.Collections.IEnumerable" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.PropertySet" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class PropertySet&#xA;Implements IEnumerable(Of PropertyDefinitionBase)" />
+  <TypeSignature Language="C++ CLI" Value="public ref class PropertySet sealed : System::Collections::Generic::IEnumerable&lt;Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase ^&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase&gt;</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>
+      <span data-ttu-id="4ad60-101">Representa un conjunto de propiedades de elemento o carpeta.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="4ad60-101">Represents a set of item or folder properties.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="4ad60-102">
+        <para>Conjuntos de propiedades se utilizan para indicar qué propiedades de una carpeta o elemento se deben cargar al enlazar a una carpeta o un elemento existente o al cargar las propiedades de carpeta o de un elemento.</para>
+        <para />
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="4ad60-102">
+          <para>Property sets are used to indicate what properties of an item or folder should be loaded when binding to an existing item or folder or when loading an item or folder's properties.            </para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public PropertySet ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.PropertySet.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; PropertySet();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="4ad60-103">Inicializa una nueva instancia de la clase PropertySet según el identificador.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4ad60-103">Initializes a new instance of the PropertySet class based on the ID.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public PropertySet (Microsoft.Exchange.WebServices.Data.BasePropertySet basePropertySet);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Microsoft.Exchange.WebServices.Data.BasePropertySet basePropertySet) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.PropertySet.#ctor(Microsoft.Exchange.WebServices.Data.BasePropertySet)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; PropertySet(Microsoft::Exchange::WebServices::Data::BasePropertySet basePropertySet);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="basePropertySet" Type="Microsoft.Exchange.WebServices.Data.BasePropertySet" />
+      </Parameters>
+      <Docs>
+        <param name="basePropertySet">
+          <span data-ttu-id="4ad60-104">La propiedad base establecida para basar la propiedad establecida en.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4ad60-104">The base property set to base the property set on.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="4ad60-105">Inicializa una nueva instancia de la clase PropertySet basada en el conjunto de propiedades de base especificado.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4ad60-105">Initializes a new instance of the PropertySet class based on the specified base property set.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public PropertySet (params Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase[] additionalProperties);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase[] additionalProperties) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.PropertySet.#ctor(Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase[])" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (ParamArray additionalProperties As PropertyDefinitionBase())" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; PropertySet(... cli::array &lt;Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase ^&gt; ^ additionalProperties);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="additionalProperties" Type="Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="additionalProperties">
+          <span data-ttu-id="4ad60-106">Las propiedades adicionales que deben incluirse en el conjunto de propiedades.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4ad60-106">The additional properties to include in the property set.</span>
+          </span>
+          <span data-ttu-id="4ad60-107">Definiciones de propiedades están disponibles como miembros estáticos de clases de esquema (por ejemplo, EmailMessageSchema.Subject, AppointmentSchema.Start, ContactSchema.GivenName y así sucesivamente).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4ad60-107">Property definitions are available as static members from schema classes (for example,  EmailMessageSchema.Subject,  AppointmentSchema.Start,  ContactSchema.GivenName, and so on).</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="4ad60-108">Inicializa una nueva instancia de la clase PropertySet según el identificador y las propiedades adicionales especificadas.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4ad60-108">Initializes a new instance of the PropertySet class based on the ID and the specified additional properties.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public PropertySet (System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase&gt; additionalProperties);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase&gt; additionalProperties) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.PropertySet.#ctor(System.Collections.Generic.IEnumerable{Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (additionalProperties As IEnumerable(Of PropertyDefinitionBase))" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; PropertySet(System::Collections::Generic::IEnumerable&lt;Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase ^&gt; ^ additionalProperties);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="additionalProperties" Type="System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="additionalProperties">
+          <span data-ttu-id="4ad60-109">Las propiedades adicionales que deben incluirse en el conjunto de propiedades.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4ad60-109">The additional properties to include in the property set.</span>
+          </span>
+          <span data-ttu-id="4ad60-110">Definiciones de propiedades están disponibles como miembros estáticos de clases de esquema (por ejemplo, EmailMessageSchema.Subject, AppointmentSchema.Start, ContactSchema.GivenName y así sucesivamente).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4ad60-110">Property definitions are available as static members from schema classes (for example,  EmailMessageSchema.Subject,  AppointmentSchema.Start,  ContactSchema.GivenName, and so on).</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="4ad60-111">Inicializa una nueva instancia de la clase PropertySet según el identificador y la colección especificada de propiedades adicionales.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4ad60-111">Initializes a new instance of the PropertySet class based on the ID and the specified collection of additional properties.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public PropertySet (Microsoft.Exchange.WebServices.Data.BasePropertySet basePropertySet, params Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase[] additionalProperties);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Microsoft.Exchange.WebServices.Data.BasePropertySet basePropertySet, class Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase[] additionalProperties) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.PropertySet.#ctor(Microsoft.Exchange.WebServices.Data.BasePropertySet,Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase[])" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; PropertySet(Microsoft::Exchange::WebServices::Data::BasePropertySet basePropertySet, ... cli::array &lt;Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase ^&gt; ^ additionalProperties);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="basePropertySet" Type="Microsoft.Exchange.WebServices.Data.BasePropertySet" />
+        <Parameter Name="additionalProperties" Type="Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="basePropertySet">
+          <span data-ttu-id="4ad60-112">La propiedad base establecida para basar la propiedad establecida en.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4ad60-112">The base property set to base the property set on.</span>
+          </span>
+        </param>
+        <param name="additionalProperties">
+          <span data-ttu-id="4ad60-113">Propiedades adicionales que deben incluirse en el conjunto de propiedades.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4ad60-113">Additional properties to include in the property set.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="4ad60-114">Inicializa una nueva instancia de la clase PropertySet con el conjunto de propiedades base especificado y propiedades adicionales.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4ad60-114">Initializes a new instance of the PropertySet class with the specified base property set and additional properties.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="4ad60-115">
+            <para>Definiciones de propiedades están disponibles como miembros estáticos de clases de esquema (por ejemplo, EmailMessageSchema.Subject, AppointmentSchema.Start, ContactSchema.GivenName y así sucesivamente)</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4ad60-115">
+              <para>Property definitions are available as static members from schema classes (for example, EmailMessageSchema.Subject, AppointmentSchema.Start, ContactSchema.GivenName, and so on)</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public PropertySet (Microsoft.Exchange.WebServices.Data.BasePropertySet basePropertySet, System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase&gt; additionalProperties);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Microsoft.Exchange.WebServices.Data.BasePropertySet basePropertySet, class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase&gt; additionalProperties) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.PropertySet.#ctor(Microsoft.Exchange.WebServices.Data.BasePropertySet,System.Collections.Generic.IEnumerable{Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase})" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; PropertySet(Microsoft::Exchange::WebServices::Data::BasePropertySet basePropertySet, System::Collections::Generic::IEnumerable&lt;Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase ^&gt; ^ additionalProperties);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="basePropertySet" Type="Microsoft.Exchange.WebServices.Data.BasePropertySet" />
+        <Parameter Name="additionalProperties" Type="System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="basePropertySet">
+          <span data-ttu-id="4ad60-116">La propiedad base establecida para basar la propiedad establecida en.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4ad60-116">The base property set to base the property set on.</span>
+          </span>
+        </param>
+        <param name="additionalProperties">
+          <span data-ttu-id="4ad60-117">Propiedades adicionales que deben incluirse en el conjunto de propiedades.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4ad60-117">Additional properties to include in the property set.</span>
+          </span>
+          <span data-ttu-id="4ad60-118">Definiciones de propiedades están disponibles como miembros estáticos de clases de esquema (por ejemplo, EmailMessageSchema.Subject, AppointmentSchema.Start, ContactSchema.GivenName y así sucesivamente.)</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4ad60-118">Property definitions are available as static members from schema classes (for example, EmailMessageSchema.Subject,  AppointmentSchema.Start,  ContactSchema.GivenName, and so on.)</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="4ad60-119">Inicializa una nueva instancia de la clase PropertySet con el conjunto de propiedades base especificado y la colección de propiedades adicionales.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4ad60-119">Initializes a new instance of the PropertySet class with the specified base property set and collection of additional properties.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Add">
+      <MemberSignature Language="C#" Value="public void Add (Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase property);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Add(class Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase property) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.PropertySet.Add(Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Add (property As PropertyDefinitionBase)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Add(Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase ^ property);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="property" Type="Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase" />
+      </Parameters>
+      <Docs>
+        <param name="property">
+          <span data-ttu-id="4ad60-120">Para agregar la propiedad.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4ad60-120">The property to add.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="4ad60-121">Agrega la propiedad especificada para el conjunto de propiedades.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4ad60-121">Adds the specified property to the property set.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddBlankTargetToLinks">
+      <MemberSignature Language="C#" Value="public Nullable&lt;bool&gt; AddBlankTargetToLinks { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; AddBlankTargetToLinks" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PropertySet.AddBlankTargetToLinks" />
+      <MemberSignature Language="VB.NET" Value="Public Property AddBlankTargetToLinks As Nullable(Of Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;bool&gt; AddBlankTargetToLinks { Nullable&lt;bool&gt; get(); void set(Nullable&lt;bool&gt; value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="4ad60-122">Obtiene o establece el valor que indica si se debe agregar un atributo de destino en blanco a los vínculos de delimitador.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4ad60-122">Gets or sets value indicating whether to add a blank target attribute to anchor links.</span>
+          </span>
+          <span data-ttu-id="4ad60-123">El <see cref="P:Microsoft.Exchange.WebServices.Data.PropertySet.AddBlankTargetToLinks" /> (propiedad) es aplicable para los clientes que estén destinados a Exchange Online y versiones de Exchange a partir de Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4ad60-123">The <see cref="P:Microsoft.Exchange.WebServices.Data.PropertySet.AddBlankTargetToLinks" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="4ad60-124">
+            <b>true</b> para agregar un atributo de destino en blanco a vínculos de delimitador; en caso contrario, <b>false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4ad60-124">
+              <b>true</b> to add a blank target attribute to anchor links; otherwise, <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddRange">
+      <MemberSignature Language="C#" Value="public void AddRange (System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase&gt; properties);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void AddRange(class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase&gt; properties) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.PropertySet.AddRange(System.Collections.Generic.IEnumerable{Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub AddRange (properties As IEnumerable(Of PropertyDefinitionBase))" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void AddRange(System::Collections::Generic::IEnumerable&lt;Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase ^&gt; ^ properties);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="properties" Type="System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="properties">
+          <span data-ttu-id="4ad60-125">Las propiedades para agregar.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4ad60-125">The properties to add.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="4ad60-126">Agrega las propiedades especificadas para el conjunto de propiedades.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4ad60-126">Adds the specified properties to the property set.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BasePropertySet">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.BasePropertySet BasePropertySet { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.BasePropertySet BasePropertySet" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PropertySet.BasePropertySet" />
+      <MemberSignature Language="VB.NET" Value="Public Property BasePropertySet As BasePropertySet" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::BasePropertySet BasePropertySet { Microsoft::Exchange::WebServices::Data::BasePropertySet get(); void set(Microsoft::Exchange::WebServices::Data::BasePropertySet value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.BasePropertySet</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="4ad60-127">Obtiene o establece el conjunto de propiedades de base que se basa el conjunto de propiedades.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4ad60-127">Gets or sets the base property set that the property set is based on.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="4ad60-128">El conjunto de propiedades de base que se basa el conjunto de propiedades.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4ad60-128">The base property set that the property set is based on.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BlockExternalImages">
+      <MemberSignature Language="C#" Value="public Nullable&lt;bool&gt; BlockExternalImages { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; BlockExternalImages" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PropertySet.BlockExternalImages" />
+      <MemberSignature Language="VB.NET" Value="Public Property BlockExternalImages As Nullable(Of Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;bool&gt; BlockExternalImages { Nullable&lt;bool&gt; get(); void set(Nullable&lt;bool&gt; value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="4ad60-129">Obtiene o establece el valor que indica si se va a convertir direcciones URL que apuntan a los archivos de imagen a imágenes en línea.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4ad60-129">Gets or sets value indicating whether to convert URLs that point to image files to inline images.</span>
+          </span>
+          <span data-ttu-id="4ad60-130">El <see cref="P:Microsoft.Exchange.WebServices.Data.PropertySet.BlockExternalImages" /> (propiedad) es aplicable para los clientes que estén destinados a Exchange Online y versiones de Exchange a partir de Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4ad60-130">The <see cref="P:Microsoft.Exchange.WebServices.Data.PropertySet.BlockExternalImages" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="4ad60-131">
+            <b>true</b> si las direcciones URL que apuntan a los archivos de imagen se debe convertir a imágenes en línea; en caso contrario, <b>false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4ad60-131">
+              <b>true</b> if URLs that point to image files should be converted to inline images; otherwise, <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Clear">
+      <MemberSignature Language="C#" Value="public void Clear ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Clear() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.PropertySet.Clear" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Clear ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Clear();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="4ad60-132">Quita todas las propiedades se agregó explícitamente el conjunto de propiedades.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4ad60-132">Removes all explicitly added properties from the property set.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Contains">
+      <MemberSignature Language="C#" Value="public bool Contains (Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase property);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool Contains(class Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase property) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.PropertySet.Contains(Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Contains (property As PropertyDefinitionBase) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool Contains(Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase ^ property);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="property" Type="Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase" />
+      </Parameters>
+      <Docs>
+        <param name="property">
+          <span data-ttu-id="4ad60-133">La propiedad.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4ad60-133">The property.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="4ad60-134">Determina si la propiedad especificada se ha agregado explícitamente a esta propiedad establecida mediante el uso de los métodos Add o AddRange.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4ad60-134">Determines whether the specified property has been explicitly added to this property set by using the Add or AddRange methods.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="4ad60-135">
+            <b>es true</b> si se establece esta propiedad contiene la propiedad especificada; en caso contrario, <b>false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4ad60-135">
+              <b>true</b> if this property set contains the specified property; otherwise, <b>false</b>.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConvertHtmlCodePageToUTF8">
+      <MemberSignature Language="C#" Value="public Nullable&lt;bool&gt; ConvertHtmlCodePageToUTF8 { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; ConvertHtmlCodePageToUTF8" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PropertySet.ConvertHtmlCodePageToUTF8" />
+      <MemberSignature Language="VB.NET" Value="Public Property ConvertHtmlCodePageToUTF8 As Nullable(Of Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;bool&gt; ConvertHtmlCodePageToUTF8 { Nullable&lt;bool&gt; get(); void set(Nullable&lt;bool&gt; value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="4ad60-136">Obtiene o establece un valor que indica si el servidor debe convertir la página de código HTML para la codificación UTF8.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4ad60-136">Gets or sets a value that indicates whether the server should convert the HTML code page to UTF8 encoding.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="4ad60-137">
+            <b>true</b> si el servidor debe convertir la página de código HTML a UTF9; en caso contrario, <b>false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4ad60-137">
+              <b>true</b> if the server should convert the HTML code page to UTF9; otherwise, <b>false</b>.</span>
+          </span>
+          <span data-ttu-id="4ad60-138">Esta propiedad puede ser una referencia nula (Nothing en Visual Basic).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4ad60-138">This property may be a null reference (Nothing in Visual Basic).</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Count">
+      <MemberSignature Language="C#" Value="public int Count { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Count" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PropertySet.Count" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Count As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Count { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="4ad60-139">Obtiene el número de propiedades agregadas explícitamente en este conjunto.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4ad60-139">Gets the number of explicitly added properties in this set.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="4ad60-140">El número de propiedades agregadas explícitamente en el conjunto de propiedades especificado.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4ad60-140">The number of explicitly added properties in the specified property set.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FilterHtmlContent">
+      <MemberSignature Language="C#" Value="public Nullable&lt;bool&gt; FilterHtmlContent { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; FilterHtmlContent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PropertySet.FilterHtmlContent" />
+      <MemberSignature Language="VB.NET" Value="Public Property FilterHtmlContent As Nullable(Of Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;bool&gt; FilterHtmlContent { Nullable&lt;bool&gt; get(); void set(Nullable&lt;bool&gt; value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="4ad60-141">Obtiene o establece el valor que indica si se debe filtrar HTML potencialmente peligrosas contenido de cuerpos de mensaje.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4ad60-141">Gets or sets value that indicates whether to filter potentially unsafe HTML content from message bodies.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="4ad60-142">
+            <b>true</b> para filtrar contenido HTML potencialmente peligrosas; en caso contrario, <b>false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4ad60-142">
+              <b>true</b> to filter potentially unsafe HTML content; otherwise, <b>false</b>.</span>
+          </span>
+          <span data-ttu-id="4ad60-143">Esta propiedad puede ser una referencia nula (Nothing en Visual Basic).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4ad60-143">This property can be a null reference (Nothing in Visual Basic).</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FirstClassProperties">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertySet FirstClassProperties;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertySet FirstClassProperties" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.PropertySet.FirstClassProperties" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly FirstClassProperties As PropertySet " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertySet ^ FirstClassProperties;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertySet</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="4ad60-144">Un conjunto de propiedades predefinidas que incluye las propiedades de primera clase de un elemento o carpeta.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4ad60-144">A predefined property set that includes the first-class properties of an item or folder.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetEnumerator">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerator&lt;Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase&gt; GetEnumerator ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.Generic.IEnumerator`1&lt;class Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase&gt; GetEnumerator() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.PropertySet.GetEnumerator" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetEnumerator () As IEnumerator(Of PropertyDefinitionBase)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Collections::Generic::IEnumerator&lt;Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase ^&gt; ^ GetEnumerator();" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Collections.Generic.IEnumerable`1.GetEnumerator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IEnumerator&lt;Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="4ad60-145">Devuelve un enumerador que recorre en iteración la colección.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4ad60-145">Returns an enumerator that iterates through the collection.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="4ad60-146">Objeto IEnumerator que puede usarse para recorrer en iteración la colección.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4ad60-146">An IEnumerator object that can be used to iterate through the collection.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IdOnly">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertySet IdOnly;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertySet IdOnly" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.PropertySet.IdOnly" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IdOnly As PropertySet " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertySet ^ IdOnly;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertySet</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="4ad60-147">Un conjunto de propiedades predefinidas que incluya sólo la propiedad ID.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4ad60-147">A predefined property set that only includes the ID property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InlineImageUrlTemplate">
+      <MemberSignature Language="C#" Value="public string InlineImageUrlTemplate { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string InlineImageUrlTemplate" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PropertySet.InlineImageUrlTemplate" />
+      <MemberSignature Language="VB.NET" Value="Public Property InlineImageUrlTemplate As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ InlineImageUrlTemplate { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="4ad60-148">Obtiene o establece la dirección URL de la plantilla que se usará para imágenes en línea.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4ad60-148">Gets or sets the URL of the template to use for inline images.</span>
+          </span>
+          <span data-ttu-id="4ad60-149">El <see cref="P:Microsoft.Exchange.WebServices.Data.PropertySet.InlineImageUrlTemplate" /> (propiedad) es aplicable para los clientes que estén destinados a Exchange Online y versiones de Exchange a partir de Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4ad60-149">The <see cref="P:Microsoft.Exchange.WebServices.Data.PropertySet.InlineImageUrlTemplate" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="4ad60-150">La dirección URL de la plantilla que se usará para imágenes en línea.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4ad60-150">The URL of the template to use for inline images.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase this[int index] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase Item(int32)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PropertySet.Item(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property Item(index As Integer) As PropertyDefinitionBase" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase ^ default[int] { Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase ^ get(int index); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="index" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="index">
+          <span data-ttu-id="4ad60-151">El índice de la propiedad solicitada en el conjunto de propiedades.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4ad60-151">The index of the requested property in the property set.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="4ad60-152">Obtiene el elemento en el índice especificado.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4ad60-152">Gets the item at the specified index.</span>
+          </span>
+          <span data-ttu-id="4ad60-153">El <see cref="P:Microsoft.Exchange.WebServices.Data.PropertySet.Item(System.Int32)" /> (propiedad) es aplicable para los clientes que estén destinados a Exchange Online y versiones de Exchange a partir de Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4ad60-153">The <see cref="P:Microsoft.Exchange.WebServices.Data.PropertySet.Item(System.Int32)" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="4ad60-154">El elemento en el índice especificado.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4ad60-154">The item at the specified index.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MaximumBodySize">
+      <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; MaximumBodySize { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; MaximumBodySize" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PropertySet.MaximumBodySize" />
+      <MemberSignature Language="VB.NET" Value="Public Property MaximumBodySize As Nullable(Of Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;int&gt; MaximumBodySize { Nullable&lt;int&gt; get(); void set(Nullable&lt;int&gt; value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="4ad60-155">Obtiene o establece el tamaño máximo del cuerpo de la que se va a recuperar.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4ad60-155">Gets or sets the maximum size of the body to be retrieved.</span>
+          </span>
+          <span data-ttu-id="4ad60-156">El <see cref="P:Microsoft.Exchange.WebServices.Data.PropertySet.MaximumBodySize" /> (propiedad) es aplicable para los clientes que estén destinados a Exchange Online y versiones de Exchange a partir de Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4ad60-156">The <see cref="P:Microsoft.Exchange.WebServices.Data.PropertySet.MaximumBodySize" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="4ad60-157">El tamaño máximo del cuerpo de la que se va a recuperar.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4ad60-157">The maximum size of the body to be retrieved.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Implicit">
+      <MemberSignature Language="C#" Value="public static implicit operator Microsoft.Exchange.WebServices.Data.PropertySet (Microsoft.Exchange.WebServices.Data.BasePropertySet basePropertySet);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname class Microsoft.Exchange.WebServices.Data.PropertySet op_Implicit(valuetype Microsoft.Exchange.WebServices.Data.BasePropertySet basePropertySet) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.PropertySet.op_Implicit(Microsoft.Exchange.WebServices.Data.BasePropertySet)~Microsoft.Exchange.WebServices.Data.PropertySet" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static operator Microsoft::Exchange::WebServices::Data::PropertySet ^(Microsoft::Exchange::WebServices::Data::BasePropertySet basePropertySet);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertySet</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="basePropertySet" Type="Microsoft.Exchange.WebServices.Data.BasePropertySet" />
+      </Parameters>
+      <Docs>
+        <param name="basePropertySet">
+          <span data-ttu-id="4ad60-158">El valor BasePropertySet para convertir archivos.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4ad60-158">The BasePropertySet value to convert from.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="4ad60-159">Implementa una conversión implícita entre la clase PropertySet y la clase BasePropertySet.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4ad60-159">Implements an implicit conversion between the PropertySet class and the BasePropertySet class.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="4ad60-160">Una instancia de PropertySet que se basa en el conjunto de propiedades de base especificado.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4ad60-160">A PropertySet instance that is based on the specified base property set.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Remove">
+      <MemberSignature Language="C#" Value="public bool Remove (Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase property);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool Remove(class Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase property) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.PropertySet.Remove(Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Remove (property As PropertyDefinitionBase) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool Remove(Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase ^ property);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="property" Type="Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase" />
+      </Parameters>
+      <Docs>
+        <param name="property">
+          <span data-ttu-id="4ad60-161">Propiedad que se va a quitar.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4ad60-161">The property to remove.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="4ad60-162">Quita la propiedad especificada del conjunto.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4ad60-162">Removes the specified property from the set.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="4ad60-163">
+            <b>true</b> si la propiedad se quitó correctamente; en caso contrario, <b>false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4ad60-163">
+              <b>true</b> if the property was successfully removed; otherwise, <b>false</b>.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RequestedBodyType">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Exchange.WebServices.Data.BodyType&gt; RequestedBodyType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Exchange.WebServices.Data.BodyType&gt; RequestedBodyType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PropertySet.RequestedBodyType" />
+      <MemberSignature Language="VB.NET" Value="Public Property RequestedBodyType As Nullable(Of BodyType)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;Microsoft::Exchange::WebServices::Data::BodyType&gt; RequestedBodyType { Nullable&lt;Microsoft::Exchange::WebServices::Data::BodyType&gt; get(); void set(Nullable&lt;Microsoft::Exchange::WebServices::Data::BodyType&gt; value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.Exchange.WebServices.Data.BodyType&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="4ad60-164">Obtiene o establece el tipo de texto que se debe cargar en los elementos.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4ad60-164">Gets or sets type of body that should be loaded on items.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="4ad60-165">Uno de los valores de enumeración BodyType.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4ad60-165">One of the BodyType enumeration values.</span>
+          </span>
+          <span data-ttu-id="4ad60-166">Esta propiedad puede ser una referencia nula (Nothing en Visual Basic).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4ad60-166">This property can be a null reference (Nothing in Visual Basic).</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="4ad60-167">
+            <para>Si el <see cref="P:Microsoft.Exchange.WebServices.Data.PropertySet.RequestedBodyType" /> (propiedad) es una referencia nula (Nothing en Visual Basic), cuerpo del elemento se devuelve como HTML si está disponible; de lo contrario, se devuelve el cuerpo como texto sin formato.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4ad60-167">
+              <para>If the <see cref="P:Microsoft.Exchange.WebServices.Data.PropertySet.RequestedBodyType" /> property is a null reference (Nothing in Visual Basic), the item's body is returned as HTML if available; otherwise, the body is returned as plain text.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RequestedNormalizedBodyType">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Exchange.WebServices.Data.BodyType&gt; RequestedNormalizedBodyType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Exchange.WebServices.Data.BodyType&gt; RequestedNormalizedBodyType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PropertySet.RequestedNormalizedBodyType" />
+      <MemberSignature Language="VB.NET" Value="Public Property RequestedNormalizedBodyType As Nullable(Of BodyType)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;Microsoft::Exchange::WebServices::Data::BodyType&gt; RequestedNormalizedBodyType { Nullable&lt;Microsoft::Exchange::WebServices::Data::BodyType&gt; get(); void set(Nullable&lt;Microsoft::Exchange::WebServices::Data::BodyType&gt; value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.Exchange.WebServices.Data.BodyType&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="4ad60-168">Obtiene o establece el tipo de texto que se debe cargar para el <see cref="P:Microsoft.Exchange.WebServices.Data.Item.NormalizedBody" /> (propiedad) en los elementos.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4ad60-168">Gets or sets type of body that should be loaded for the <see cref="P:Microsoft.Exchange.WebServices.Data.Item.NormalizedBody" /> property on items.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="4ad60-169">
+            <para>Si es nulo, el <see cref="P:Microsoft.Exchange.WebServices.Data.Item.NormalizedBody" /> propiedad tendrá el mismo tipo que el <see cref="P:Microsoft.Exchange.WebServices.Data.Item.Body" /> (propiedad).</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4ad60-169">
+              <para>If null, the <see cref="P:Microsoft.Exchange.WebServices.Data.Item.NormalizedBody" /> property will have the same type as the <see cref="P:Microsoft.Exchange.WebServices.Data.Item.Body" /> property.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RequestedUniqueBodyType">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Exchange.WebServices.Data.BodyType&gt; RequestedUniqueBodyType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Exchange.WebServices.Data.BodyType&gt; RequestedUniqueBodyType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PropertySet.RequestedUniqueBodyType" />
+      <MemberSignature Language="VB.NET" Value="Public Property RequestedUniqueBodyType As Nullable(Of BodyType)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;Microsoft::Exchange::WebServices::Data::BodyType&gt; RequestedUniqueBodyType { Nullable&lt;Microsoft::Exchange::WebServices::Data::BodyType&gt; get(); void set(Nullable&lt;Microsoft::Exchange::WebServices::Data::BodyType&gt; value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.Exchange.WebServices.Data.BodyType&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="4ad60-170">Obtiene o establece el tipo de texto que se debe cargar para el <see cref="P:Microsoft.Exchange.WebServices.Data.Item.UniqueBody" /> (propiedad) en los elementos.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4ad60-170">Gets or sets type of body that should be loaded for the <see cref="P:Microsoft.Exchange.WebServices.Data.Item.UniqueBody" /> property on items.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="4ad60-171">
+            <para>Si es nulo, el <see cref="P:Microsoft.Exchange.WebServices.Data.Item.UniqueBody" /> propiedad tendrá el mismo tipo que el <see cref="P:Microsoft.Exchange.WebServices.Data.Item.Body" /> (propiedad).</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4ad60-171">
+              <para>If null, the <see cref="P:Microsoft.Exchange.WebServices.Data.Item.UniqueBody" /> property will have the same type as the <see cref="P:Microsoft.Exchange.WebServices.Data.Item.Body" /> property.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="System.Collections.IEnumerable.GetEnumerator">
+      <MemberSignature Language="C#" Value="System.Collections.IEnumerator IEnumerable.GetEnumerator ();" />
+      <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance class System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.PropertySet.System#Collections#IEnumerable#GetEnumerator" />
+      <MemberSignature Language="VB.NET" Value="Function GetEnumerator () As IEnumerator Implements IEnumerable.GetEnumerator" />
+      <MemberSignature Language="C++ CLI" Value=" virtual System::Collections::IEnumerator ^ System.Collections.IEnumerable.GetEnumerator() = System::Collections::IEnumerable::GetEnumerator;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Collections.IEnumerable.GetEnumerator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.IEnumerator</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="4ad60-172">Devuelve un enumerador que recorre en iteración una colección.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4ad60-172">Returns an enumerator that iterates through a collection.</span>
+          </span>
+          <span data-ttu-id="4ad60-173">El <see cref="M:Microsoft.Exchange.WebServices.Data.PropertySet.System#Collections#IEnumerable#GetEnumerator" /> método es aplicable para los clientes que estén destinados a Exchange Online y versiones de Exchange a partir de Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4ad60-173">The <see cref="M:Microsoft.Exchange.WebServices.Data.PropertySet.System#Collections#IEnumerable#GetEnumerator" /> method is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="4ad60-174">Enumerador que recorre en iteración los elementos de la colección.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4ad60-174">An enumerator that iterates through the elements of the collection.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

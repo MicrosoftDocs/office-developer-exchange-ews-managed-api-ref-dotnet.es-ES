@@ -1,0 +1,329 @@
+<Type Name="DocumentSharingLocation" FullName="Microsoft.Exchange.WebServices.Autodiscover.DocumentSharingLocation">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="c25254c8371336f418073386c200a37d7f4fd84a" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="es-ES" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20628331" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class DocumentSharingLocation" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit DocumentSharingLocation extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Autodiscover.DocumentSharingLocation" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class DocumentSharingLocation" />
+  <TypeSignature Language="C++ CLI" Value="public ref class DocumentSharingLocation sealed" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="ed90e-101">Contiene la ubicación (dirección URL) y los metadatos asociados con un documento de uso compartido de servicio web.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="ed90e-101">Contains the location (URL) and metadata associated with a document sharing web service.</span>
+      </span>
+      <span data-ttu-id="ed90e-102">El <see cref="T:Microsoft.Exchange.WebServices.Autodiscover.DocumentSharingLocation" /> clase es aplicable para los clientes que estén destinados a Exchange Online y versiones de Exchange a partir de Exchange Server 2013.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="ed90e-102">The <see cref="T:Microsoft.Exchange.WebServices.Autodiscover.DocumentSharingLocation" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AnonymousAccessAllowed">
+      <MemberSignature Language="C#" Value="public bool AnonymousAccessAllowed { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AnonymousAccessAllowed" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Autodiscover.DocumentSharingLocation.AnonymousAccessAllowed" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AnonymousAccessAllowed As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool AnonymousAccessAllowed { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ed90e-103">Obtiene si los usuarios anónimos pueden tener acceso a los documentos compartidos.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed90e-103">Gets whether anonymous users can access shared documents.</span>
+          </span>
+          <span data-ttu-id="ed90e-104">El <see cref="P:Microsoft.Exchange.WebServices.Autodiscover.DocumentSharingLocation.AnonymousAccessAllowed" /> (propiedad) es aplicable para los clientes que estén destinados a Exchange Online y versiones de Exchange a partir de Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed90e-104">The <see cref="P:Microsoft.Exchange.WebServices.Autodiscover.DocumentSharingLocation.AnonymousAccessAllowed" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="ed90e-105">
+            <b>true</b> si pueden obtener acceso los usuarios anónimos shared documentos; en caso contrario, <b>false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed90e-105">
+              <b>true</b> if anonymous users can access shared documents; otherwise, <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CanModifyPermissions">
+      <MemberSignature Language="C#" Value="public bool CanModifyPermissions { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool CanModifyPermissions" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Autodiscover.DocumentSharingLocation.CanModifyPermissions" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CanModifyPermissions As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool CanModifyPermissions { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ed90e-106">Obtiene si un usuario puede cambiar los permisos para el documento en la ubicación de uso compartido.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed90e-106">Gets whether a user can change permissions for the document sharing location.</span>
+          </span>
+          <span data-ttu-id="ed90e-107">El <see cref="P:Microsoft.Exchange.WebServices.Autodiscover.DocumentSharingLocation.CanModifyPermissions" /> (propiedad) es aplicable para los clientes que estén destinados a Exchange Online y versiones de Exchange a partir de Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed90e-107">The <see cref="P:Microsoft.Exchange.WebServices.Autodiscover.DocumentSharingLocation.CanModifyPermissions" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="ed90e-108">
+            <b>true</b> si un usuario puede cambiar la configuración de permisos; en caso contrario, <b>false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed90e-108">
+              <b>true</b> if a user can change permission settings; otherwise, <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayName">
+      <MemberSignature Language="C#" Value="public string DisplayName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DisplayName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Autodiscover.DocumentSharingLocation.DisplayName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DisplayName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ DisplayName { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ed90e-109">Obtiene el nombre del documento que se muestra a un usuario de ubicación de uso compartido.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed90e-109">Gets the name of the document sharing location displayed to a user.</span>
+          </span>
+          <span data-ttu-id="ed90e-110">El <see cref="P:Microsoft.Exchange.WebServices.Autodiscover.DocumentSharingLocation.DisplayName" /> (propiedad) es aplicable para los clientes que estén destinados a Exchange Online y versiones de Exchange a partir de Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed90e-110">The <see cref="P:Microsoft.Exchange.WebServices.Autodiscover.DocumentSharingLocation.DisplayName" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="ed90e-111">El nombre de la ubicación de uso compartido de documentos.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed90e-111">The name of the document sharing location.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExternalAccessAllowed">
+      <MemberSignature Language="C#" Value="public bool ExternalAccessAllowed { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ExternalAccessAllowed" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Autodiscover.DocumentSharingLocation.ExternalAccessAllowed" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ExternalAccessAllowed As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ExternalAccessAllowed { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ed90e-112">Obtiene si los usuarios fuera de la organización pueden ver los documentos compartidos.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed90e-112">Gets whether users outside of the organization can view shared documents.</span>
+          </span>
+          <span data-ttu-id="ed90e-113">El <see cref="P:Microsoft.Exchange.WebServices.Autodiscover.DocumentSharingLocation.ExternalAccessAllowed" /> (propiedad) es aplicable para los clientes que estén destinados a Exchange Online y versiones de Exchange a partir de Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed90e-113">The <see cref="P:Microsoft.Exchange.WebServices.Autodiscover.DocumentSharingLocation.ExternalAccessAllowed" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="ed90e-114">
+            <b>true</b> si los usuarios externos pueden ver documentos; en caso contrario, <b>false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed90e-114">
+              <b>true</b> if external users can view documents; otherwise, <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsDefault">
+      <MemberSignature Language="C#" Value="public bool IsDefault { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsDefault" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Autodiscover.DocumentSharingLocation.IsDefault" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsDefault As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsDefault { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ed90e-115">Obtiene si esta ubicación de uso compartido de documentos es la ubicación predeterminada del usuario.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed90e-115">Gets whether this document sharing location is the user's default location.</span>
+          </span>
+          <span data-ttu-id="ed90e-116">El <see cref="P:Microsoft.Exchange.WebServices.Autodiscover.DocumentSharingLocation.IsDefault" /> (propiedad) es aplicable para los clientes que estén destinados a Exchange Online y versiones de Exchange a partir de Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed90e-116">The <see cref="P:Microsoft.Exchange.WebServices.Autodiscover.DocumentSharingLocation.IsDefault" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="ed90e-117">
+            <b>es true</b> si este sitio es la predeterminada del usuario; en caso contrario, <b>false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed90e-117">
+              <b>true</b> if this site is the user's default; otherwise, <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LocationUrl">
+      <MemberSignature Language="C#" Value="public string LocationUrl { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string LocationUrl" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Autodiscover.DocumentSharingLocation.LocationUrl" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LocationUrl As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ LocationUrl { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ed90e-118">Obtiene la dirección URL de la ubicación de uso compartido de documentos.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed90e-118">Gets the URL of the document sharing location.</span>
+          </span>
+          <span data-ttu-id="ed90e-119">El <see cref="P:Microsoft.Exchange.WebServices.Autodiscover.DocumentSharingLocation.LocationUrl" /> (propiedad) es aplicable para los clientes que estén destinados a Exchange Online y versiones de Exchange a partir de Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed90e-119">The <see cref="P:Microsoft.Exchange.WebServices.Autodiscover.DocumentSharingLocation.LocationUrl" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="ed90e-120">La dirección URL del sitio.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed90e-120">The site URL.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ServiceUrl">
+      <MemberSignature Language="C#" Value="public string ServiceUrl { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ServiceUrl" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Autodiscover.DocumentSharingLocation.ServiceUrl" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ServiceUrl As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ServiceUrl { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ed90e-121">Obtiene la dirección URL del servicio web que administra documentos compartidos.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed90e-121">Gets the URL of the web service that manages shared documents.</span>
+          </span>
+          <span data-ttu-id="ed90e-122">El <see cref="P:Microsoft.Exchange.WebServices.Autodiscover.DocumentSharingLocation.ServiceUrl" /> (propiedad) es aplicable para los clientes que estén destinados a Exchange Online y versiones de Exchange a partir de Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed90e-122">The <see cref="P:Microsoft.Exchange.WebServices.Autodiscover.DocumentSharingLocation.ServiceUrl" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="ed90e-123">La dirección URL del servicio web.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed90e-123">The URL of the web service.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SupportedFileExtensions">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerable&lt;string&gt; SupportedFileExtensions { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IEnumerable`1&lt;string&gt; SupportedFileExtensions" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Autodiscover.DocumentSharingLocation.SupportedFileExtensions" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SupportedFileExtensions As IEnumerable(Of String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IEnumerable&lt;System::String ^&gt; ^ SupportedFileExtensions { System::Collections::Generic::IEnumerable&lt;System::String ^&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IEnumerable&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ed90e-124">Obtiene la lista de extensiones de archivo que determina qué tipos de archivo que se pueden almacenar en la ubicación de uso compartido de documentos.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed90e-124">Gets the list of file extensions that determines which file types may be stored at the document sharing location.</span>
+          </span>
+          <span data-ttu-id="ed90e-125">El <see cref="P:Microsoft.Exchange.WebServices.Autodiscover.DocumentSharingLocation.SupportedFileExtensions" /> (propiedad) es aplicable para los clientes que estén destinados a Exchange Online y versiones de Exchange a partir de Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed90e-125">The <see cref="P:Microsoft.Exchange.WebServices.Autodiscover.DocumentSharingLocation.SupportedFileExtensions" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="ed90e-126">La lista de extensiones de archivo admitidas.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed90e-126">The list of supported file extensions.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="ed90e-127">
+            <para>Ejemplo de la lista de tipos de documento compatibles: "docx pptx xlsx".</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed90e-127">
+              <para>             Example of the list of supported document types: "docx pptx xlsx". </para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

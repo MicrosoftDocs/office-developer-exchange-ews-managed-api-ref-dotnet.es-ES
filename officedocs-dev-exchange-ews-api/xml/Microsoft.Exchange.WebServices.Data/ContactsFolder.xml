@@ -1,0 +1,264 @@
+<Type Name="ContactsFolder" FullName="Microsoft.Exchange.WebServices.Data.ContactsFolder">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="08af22f9142da28034e1007356113e3bf7d8b84f" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="es-ES" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20628117" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class ContactsFolder : Microsoft.Exchange.WebServices.Data.Folder" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ContactsFolder extends Microsoft.Exchange.WebServices.Data.Folder" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ContactsFolder" />
+  <TypeSignature Language="VB.NET" Value="Public Class ContactsFolder&#xA;Inherits Folder" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ContactsFolder : Microsoft::Exchange::WebServices::Data::Folder" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.Folder</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="1e272-101">Representa una carpeta que contiene los contactos.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="1e272-101">Represents a folder that contains contacts.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ContactsFolder (Microsoft.Exchange.WebServices.Data.ExchangeService service);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Exchange.WebServices.Data.ExchangeService service) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ContactsFolder.#ctor(Microsoft.Exchange.WebServices.Data.ExchangeService)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (service As ExchangeService)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ContactsFolder(Microsoft::Exchange::WebServices::Data::ExchangeService ^ service);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
+      </Parameters>
+      <Docs>
+        <param name="service">
+          <span data-ttu-id="1e272-102">El objeto ExchangeService a la que se va a enlazar la carpeta Contactos.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1e272-102">The ExchangeService object to which the contacts folder will be bound.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="1e272-103">Inicializa una instancia local no guardada de la clase ContactsFolder.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1e272-103">Initializes an unsaved local instance of the ContactsFolder class.</span>
+          </span>
+          <span data-ttu-id="1e272-104">Para enlazar a una carpeta de contactos existentes, utilice ContactsFolder.Bind() en su lugar.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1e272-104">To bind to an existing contacts folder, use ContactsFolder.Bind() instead.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Bind">
+      <MemberSignature Language="C#" Value="public static Microsoft.Exchange.WebServices.Data.ContactsFolder Bind (Microsoft.Exchange.WebServices.Data.ExchangeService service, Microsoft.Exchange.WebServices.Data.FolderId id);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Exchange.WebServices.Data.ContactsFolder Bind(class Microsoft.Exchange.WebServices.Data.ExchangeService service, class Microsoft.Exchange.WebServices.Data.FolderId id) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ContactsFolder.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.FolderId)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Bind (service As ExchangeService, id As FolderId) As ContactsFolder" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Exchange::WebServices::Data::ContactsFolder ^ Bind(Microsoft::Exchange::WebServices::Data::ExchangeService ^ service, Microsoft::Exchange::WebServices::Data::FolderId ^ id);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ContactsFolder</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
+        <Parameter Name="id" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
+      </Parameters>
+      <Docs>
+        <param name="service">
+          <span data-ttu-id="1e272-105">El servicio a usar para enlazar a la carpeta Contactos.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1e272-105">The service to use to bind to the contacts folder.</span>
+          </span>
+        </param>
+        <param name="id">
+          <span data-ttu-id="1e272-106">El identificador de la carpeta Contactos que desea enlazar.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1e272-106">The ID of the contacts folder to bind to.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="1e272-107">Enlaza con una carpeta de contactos existentes y carga de sus propiedades de primera clases.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1e272-107">Binds to an existing contacts folder and loads its first class properties.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="1e272-108">Una instancia de ContactsFolder que representa la carpeta Contactos que corresponde al identificador especificado.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1e272-108">A ContactsFolder instance that represents the contacts folder that corresponds to the specified ID.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Bind">
+      <MemberSignature Language="C#" Value="public static Microsoft.Exchange.WebServices.Data.ContactsFolder Bind (Microsoft.Exchange.WebServices.Data.ExchangeService service, Microsoft.Exchange.WebServices.Data.WellKnownFolderName name);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Exchange.WebServices.Data.ContactsFolder Bind(class Microsoft.Exchange.WebServices.Data.ExchangeService service, valuetype Microsoft.Exchange.WebServices.Data.WellKnownFolderName name) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ContactsFolder.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.WellKnownFolderName)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Bind (service As ExchangeService, name As WellKnownFolderName) As ContactsFolder" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Exchange::WebServices::Data::ContactsFolder ^ Bind(Microsoft::Exchange::WebServices::Data::ExchangeService ^ service, Microsoft::Exchange::WebServices::Data::WellKnownFolderName name);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ContactsFolder</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
+        <Parameter Name="name" Type="Microsoft.Exchange.WebServices.Data.WellKnownFolderName" />
+      </Parameters>
+      <Docs>
+        <param name="service">
+          <span data-ttu-id="1e272-109">El servicio a usar para enlazar a la carpeta Contactos.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1e272-109">The service to use to bind to the contacts folder.</span>
+          </span>
+        </param>
+        <param name="name">
+          <span data-ttu-id="1e272-110">El nombre de la carpeta de contactos que desea enlazar.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1e272-110">The name of the contacts folder to bind to.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="1e272-111">Enlaza con una carpeta de contactos existentes y carga de sus propiedades de primera clases.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1e272-111">Binds to an existing contacts folder and loads its first class properties.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="1e272-112">Una instancia de ContactsFolder que representa la carpeta de contactos con el nombre especificado.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1e272-112">A ContactsFolder instance that represents the contacts folder with the specified name.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Bind">
+      <MemberSignature Language="C#" Value="public static Microsoft.Exchange.WebServices.Data.ContactsFolder Bind (Microsoft.Exchange.WebServices.Data.ExchangeService service, Microsoft.Exchange.WebServices.Data.FolderId id, Microsoft.Exchange.WebServices.Data.PropertySet propertySet);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Exchange.WebServices.Data.ContactsFolder Bind(class Microsoft.Exchange.WebServices.Data.ExchangeService service, class Microsoft.Exchange.WebServices.Data.FolderId id, class Microsoft.Exchange.WebServices.Data.PropertySet propertySet) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ContactsFolder.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.FolderId,Microsoft.Exchange.WebServices.Data.PropertySet)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Exchange::WebServices::Data::ContactsFolder ^ Bind(Microsoft::Exchange::WebServices::Data::ExchangeService ^ service, Microsoft::Exchange::WebServices::Data::FolderId ^ id, Microsoft::Exchange::WebServices::Data::PropertySet ^ propertySet);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ContactsFolder</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
+        <Parameter Name="id" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
+        <Parameter Name="propertySet" Type="Microsoft.Exchange.WebServices.Data.PropertySet" />
+      </Parameters>
+      <Docs>
+        <param name="service">
+          <span data-ttu-id="1e272-113">El servicio a usar para enlazar a la carpeta Contactos.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1e272-113">The service to use to bind to the contacts folder.</span>
+          </span>
+        </param>
+        <param name="id">
+          <span data-ttu-id="1e272-114">El identificador de la carpeta Contactos que desea enlazar.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1e272-114">The ID of the contacts folder to bind to.</span>
+          </span>
+        </param>
+        <param name="propertySet">
+          <span data-ttu-id="1e272-115">El conjunto de propiedades para cargar.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1e272-115">The set of properties to load.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="1e272-116">Enlaza con una carpeta de contactos existentes y carga el conjunto de propiedades especificado.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1e272-116">Binds to an existing contacts folder and loads the specified set of properties.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="1e272-117">Una instancia de ContactsFolder que representa la carpeta Contactos que corresponde al identificador especificado.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1e272-117">A ContactsFolder instance that represents the contacts folder that corresponds to the specified ID.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Bind">
+      <MemberSignature Language="C#" Value="public static Microsoft.Exchange.WebServices.Data.ContactsFolder Bind (Microsoft.Exchange.WebServices.Data.ExchangeService service, Microsoft.Exchange.WebServices.Data.WellKnownFolderName name, Microsoft.Exchange.WebServices.Data.PropertySet propertySet);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Exchange.WebServices.Data.ContactsFolder Bind(class Microsoft.Exchange.WebServices.Data.ExchangeService service, valuetype Microsoft.Exchange.WebServices.Data.WellKnownFolderName name, class Microsoft.Exchange.WebServices.Data.PropertySet propertySet) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ContactsFolder.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.WellKnownFolderName,Microsoft.Exchange.WebServices.Data.PropertySet)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Exchange::WebServices::Data::ContactsFolder ^ Bind(Microsoft::Exchange::WebServices::Data::ExchangeService ^ service, Microsoft::Exchange::WebServices::Data::WellKnownFolderName name, Microsoft::Exchange::WebServices::Data::PropertySet ^ propertySet);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ContactsFolder</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
+        <Parameter Name="name" Type="Microsoft.Exchange.WebServices.Data.WellKnownFolderName" />
+        <Parameter Name="propertySet" Type="Microsoft.Exchange.WebServices.Data.PropertySet" />
+      </Parameters>
+      <Docs>
+        <param name="service">
+          <span data-ttu-id="1e272-118">El servicio a usar para enlazar a la carpeta Contactos.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1e272-118">The service to use to bind to the contacts folder.</span>
+          </span>
+        </param>
+        <param name="name">
+          <span data-ttu-id="1e272-119">El nombre de la carpeta de contactos que desea enlazar.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1e272-119">The name of the contacts folder to bind to.</span>
+          </span>
+        </param>
+        <param name="propertySet">
+          <span data-ttu-id="1e272-120">El conjunto de propiedades para cargar.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1e272-120">The set of properties to load.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="1e272-121">Enlaza con una carpeta de contactos existentes y carga el conjunto de propiedades especificado.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1e272-121">Binds to an existing contacts folder and loads the specified set of properties.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="1e272-122">Una instancia de ContactsFolder que representa la carpeta de contactos con el nombre especificado.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1e272-122">A ContactsFolder instance that represents the contacts folder with the specified name.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
