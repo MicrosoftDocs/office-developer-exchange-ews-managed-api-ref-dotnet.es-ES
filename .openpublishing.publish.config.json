@@ -4,7 +4,7 @@
       "docset_name": "officedocs-dev-exchange-ews-api",
       "build_source_folder": "officedocs-dev-exchange-ews-api",
       "build_output_subfolder": "officedocs-dev-exchange-ews-api",
-      "locale": "de-DE",
+      "locale": "es-es",
       "monikers": [
         "exchange-ews-api"
       ],
@@ -62,7 +62,7 @@
   "dependent_repositories": [
     {
       "path_to_root": "_themes",
-      "url": "https://github.com/Microsoft/templates.docs.msft.de-DE",
+      "url": "https://github.com/Microsoft/templates.docs.msft.es-es",
       "branch": "master",
       "branch_mapping": {}
     },
